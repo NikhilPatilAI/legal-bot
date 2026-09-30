@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "legal-bot-temporal-registry-v1",
+  "act": "The Companies Act, 2013",
+  "reviewStatus": "unverified_curated",
+  "reviewNote": "Curated temporal intervals for a small, illustrative subset of the Companies Act, 2013, drawn from public commencement notifications (Section 1 in force 30 Aug 2013; 98 sections from 12 Sep 2013; the bulk, including Section 135, from 1 Apr 2014). Intervals are half-open [effectiveFrom, effectiveTo). This subset is for demonstrating version-aware retrieval and boundary tests; it is not a lawyer-certified commencement/amendment record, and amendment intervals after 2014 are deliberately left open where not verified.",
+  "provisions": [
+    {
+      "section": "135",
+      "heading": "Corporate Social Responsibility",
+      "inForceFrom": "2013-08-30",
+      "versions": [
+        {
+          "versionId": "sec-135-pre-commencement",
+          "effectiveFrom": "2013-08-30",
+          "effectiveTo": "2014-04-01",
+          "legalStatus": "historical",
+          "summary": "Section 135 was enacted but not yet notified; the mandatory CSR-spend regime under the 2013 Act was not in force before 1 April 2014.",
+          "amendedBy": null,
+          "officialSourceUrl": "https://www.mca.gov.in/",
+          "sourceNote": "MCA commencement notifications brought most operative sections into force from 1 April 2014."
+        },
+        {
+          "versionId": "sec-135-2014",
+          "effectiveFrom": "2014-04-01",
+          "effectiveTo": null,
+          "legalStatus": "current",
+          "summary": "From 1 April 2014, companies meeting the net worth (Rs 500 crore), turnover (Rs 1000 crore), or net profit (Rs 5 crore) thresholds must constitute a CSR Committee and spend at least 2% of the average net profits of the three immediately preceding financial years on CSR.",
+          "amendedBy": "Later Companies (Amendment) Acts refined unspent-CSR treatment; those changes are not modelled in this curated subset.",
+          "officialSourceUrl": "https://www.mca.gov.in/",
+          "sourceNote": "Threshold and 2% figures verified against the bundled Section 135 source text."
+        }
+      ]
+    },
+    {
+      "section": "149",
+      "heading": "Company to have Board of Directors",
+      "inForceFrom": "2014-04-01",
+      "versions": [
+        {
+          "versionId": "sec-149-2014",
+          "effectiveFrom": "2014-04-01",
+          "effectiveTo": null,
+          "legalStatus": "current",
+          "summary": "Board composition requirements: minimum three directors (public), two (private), one (OPC); maximum fifteen without a special resolution; independent-director and woman-director requirements for prescribed classes.",
+          "amendedBy": null,
+          "officialSourceUrl": "https://www.mca.gov.in/",
+          "sourceNote": "Composition rules verified against the bundled Section 149 source text; independent-director provisions were notified from 1 April 2014."
+        }
+      ]
+    }
+  ]
+}

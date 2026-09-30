@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-09-29T17:07:48.492Z",
+  "evidenceClass": "deterministic claim verifier on perturbed and paraphrased sentences from the indexed Companies Act, 2013 reproduction; labels follow from construction (perturbation) or AI-written paraphrase review, not legal review",
+  "corpusSha256": "11328873415eaf7fae4fd5ae99a7a0ae9f9c448f8b92c482fda754edb310d3c1",
+  "paraphrasesSha256": "98826332155da6b0396952ea0bd310cc0279ba2ee74fa53039db91f8fa92757f",
+  "devSections": ["2", "135", "149", "173", "174", "188"],
+  "unseenSha256": "a9ef507e8edededc350a0f993b7b7dd5cb6f83bc36f437e67f55576fd98b555f",
+  "unseenParaphrasesSha256": "d701fc99b20d0040a8784ba426260db8d8f55854c566d5bb4d99d4cb012b83f7",
+  "unseenItemsSha256": "1a36a66f77644347869962e87d94c39193f50fe4d9ee216fa5ae6aa027bf1d7b",
+  "summary": {
+    "dev": {
+      "byKind": [
+        {
+          "kind": "verbatim",
+          "label": "supported",
+          "n": 5,
+          "accepted": 5,
+          "acceptRate": 1,
+          "ci": [0.565508505247919, 1]
+        },
+        {
+          "kind": "cited",
+          "label": "supported",
+          "n": 5,
+          "accepted": 5,
+          "acceptRate": 1,
+          "ci": [0.565508505247919, 1]
+        },
+        {
+          "kind": "negation",
+          "label": "not_supported",
+          "n": 5,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.43449149475208104]
+        },
+        {
+          "kind": "modality",
+          "label": "not_supported",
+          "n": 5,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.43449149475208104]
+        },
+        {
+          "kind": "wrong_section",
+          "label": "not_supported",
+          "n": 5,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.43449149475208104]
+        },
+        {
+          "kind": "fabricated_section",
+          "label": "not_supported",
+          "n": 5,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.43449149475208104]
+        },
+        {
+          "kind": "denies_exception",
+          "label": "not_supported",
+          "n": 5,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.43449149475208104]
+        },
+        {
+          "kind": "number",
+          "label": "not_supported",
+          "n": 3,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.5615060804490177]
+        },
+        {
+          "kind": "paraphrase",
+          "label": "supported",
+          "n": 3,
+          "accepted": 3,
+          "acceptRate": 1,
+          "ci": [0.4384939195509822, 1]
+        }
+      ],
+      "falseAcceptanceRate": {
+        "n": 28,
+        "count": 0,
+        "rate": 0,
+        "ci": [0, 0.12064720365810762]
+      },
+      "falseRejectionRate": {
+        "n": 13,
+        "count": 0,
+        "rate": 0,
+        "ci": [0, 0.22810184305529166]
+      }
+    },
+    "test": {
+      "byKind": [
+        {
+          "kind": "verbatim",
+          "label": "supported",
+          "n": 236,
+          "accepted": 236,
+          "acceptRate": 1,
+          "ci": [0.9839827619562242, 0.9999999999999998]
+        },
+        {
+          "kind": "cited",
+          "label": "supported",
+          "n": 236,
+          "accepted": 236,
+          "acceptRate": 1,
+          "ci": [0.9839827619562242, 0.9999999999999998]
+        },
+        {
+          "kind": "negation",
+          "label": "not_supported",
+          "n": 202,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.018662894186597848]
+        },
+        {
+          "kind": "wrong_section",
+          "label": "not_supported",
+          "n": 236,
+          "accepted": 4,
+          "acceptRate": 0.01694915254237288,
+          "ci": [0.006610324922223368, 0.042762260984475046]
+        },
+        {
+          "kind": "fabricated_section",
+          "label": "not_supported",
+          "n": 236,
+          "accepted": 1,
+          "acceptRate": 0.00423728813559322,
+          "ci": [0.000748358156783415, 0.023607716852722855]
+        },
+        {
+          "kind": "denies_exception",
+          "label": "not_supported",
+          "n": 144,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.025984567266588023]
+        },
+        {
+          "kind": "modality",
+          "label": "not_supported",
+          "n": 164,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.022888247013851153]
+        },
+        {
+          "kind": "number",
+          "label": "not_supported",
+          "n": 40,
+          "accepted": 1,
+          "acceptRate": 0.025,
+          "ci": [0.004426717407794919, 0.1288165948800778]
+        },
+        {
+          "kind": "paraphrase",
+          "label": "supported",
+          "n": 16,
+          "accepted": 14,
+          "acceptRate": 0.875,
+          "ci": [0.6397666856325172, 0.9650232506629429]
+        }
+      ],
+      "falseAcceptanceRate": {
+        "n": 1022,
+        "count": 6,
+        "rate": 0.005870841487279843,
+        "ci": [0.0026933178375809605, 0.012749222219285518]
+      },
+      "falseRejectionRate": {
+        "n": 488,
+        "count": 2,
+        "rate": 0.004098360655737705,
+        "ci": [0.0011246152030474539, 0.014818729158226584]
+      }
+    },
+    "unseen": {
+      "byKind": [
+        {
+          "kind": "verbatim",
+          "label": "supported",
+          "n": 169,
+          "accepted": 167,
+          "acceptRate": 0.9881656804733728,
+          "ci": [0.957882643850041, 0.9967486486165876]
+        },
+        {
+          "kind": "cited",
+          "label": "supported",
+          "n": 169,
+          "accepted": 168,
+          "acceptRate": 0.9940828402366864,
+          "ci": [0.967247842726743, 0.9989547381334202]
+        },
+        {
+          "kind": "negation",
+          "label": "not_supported",
+          "n": 148,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.02530004952529478]
+        },
+        {
+          "kind": "modality",
+          "label": "not_supported",
+          "n": 103,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.03595603210734395]
+        },
+        {
+          "kind": "wrong_section",
+          "label": "not_supported",
+          "n": 169,
+          "accepted": 5,
+          "acceptRate": 0.029585798816568046,
+          "ci": [0.012701935834832458, 0.0673806368791438]
+        },
+        {
+          "kind": "fabricated_section",
+          "label": "not_supported",
+          "n": 169,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.022226130746301812]
+        },
+        {
+          "kind": "denies_exception",
+          "label": "not_supported",
+          "n": 92,
+          "accepted": 0,
+          "acceptRate": 0,
+          "ci": [0, 0.04008280329209862]
+        },
+        {
+          "kind": "number",
+          "label": "not_supported",
+          "n": 25,
+          "accepted": 1,
+          "acceptRate": 0.04,
+          "ci": [0.007096050386699169, 0.19544472405022525]
+        },
+        {
+          "kind": "paraphrase",
+          "label": "supported",
+          "n": 24,
+          "accepted": 21,
+          "acceptRate": 0.875,
+          "ci": [0.6899571185214244, 0.9565574496068442]
+        }
+      ],
+      "falseAcceptanceRate": {
+        "n": 706,
+        "count": 6,
+        "rate": 0.0084985835694051,
+        "ci": [0.003900577630692194, 0.018416513957064846]
+      },
+      "falseRejectionRate": {
+        "n": 362,
+        "count": 6,
+        "rate": 0.016574585635359115,
+        "ci": [0.007617749567074996, 0.03568405099360481]
+      }
+    }
+  },
+  "note": "Summary. The unseen partition was scored once, after tuning on the Companies Act partitions only; its item hash matches verifier-unseen-freeze.json. Regenerate the per-item file with: pnpm eval:verifier -- --partitions dev,test,unseen --out <file>"
+}

@@ -1,0 +1,277 @@
+:root {
+  --ink: #1b2420;
+  --muted: #5d6862;
+  --line: #dfe5e1;
+  --paper: #ffffff;
+  --wash: #f5f7f6;
+  --brand: #0f6b47;
+  --brand-dark: #0d5c3c;
+  --warn-bg: #fff6e5;
+  --warn-ink: #7a4b00;
+  --radius: 10px;
+  color-scheme: light;
+  font-family:
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  color: var(--ink);
+  background: var(--wash);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.mark {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+.brand p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.settings {
+  font-size: 14px;
+}
+.settings summary {
+  cursor: pointer;
+  color: var(--brand-dark);
+  font-weight: 600;
+}
+.settings label {
+  display: block;
+  margin: 10px 0 4px;
+  color: var(--muted);
+}
+.settings input {
+  width: 260px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font: inherit;
+}
+
+main {
+  flex: 1;
+  width: min(820px, 100%);
+  margin: 0 auto;
+  padding: 16px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.corpus {
+  color: var(--muted);
+  font-size: 13px;
+}
+.conversation {
+  flex: 1;
+  display: grid;
+  align-content: start;
+  gap: 18px;
+}
+.welcome {
+  padding: 32px 0 8px;
+}
+.welcome h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+.welcome p {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+.examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+}
+.example {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+.example:hover {
+  border-color: var(--brand);
+}
+
+.turn {
+  display: grid;
+  gap: 10px;
+}
+.question {
+  justify-self: end;
+  max-width: 85%;
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: var(--brand);
+  color: #fff;
+  white-space: pre-wrap;
+}
+.progress {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+}
+.answer {
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+}
+.answer.declined {
+  background: var(--warn-bg);
+}
+.badge {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--brand-dark);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.declined .badge {
+  color: var(--warn-ink);
+}
+.answer-text h3 {
+  margin: 14px 0 6px;
+  font-size: 16px;
+}
+.answer-text p,
+.answer-text li {
+  line-height: 1.6;
+}
+.answer-text blockquote {
+  margin: 8px 0;
+  padding: 6px 12px;
+  border-left: 3px solid var(--brand);
+  color: var(--muted);
+}
+.answer h4 {
+  margin: 14px 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.sources {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.sources a {
+  color: var(--brand-dark);
+}
+.notes {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.notes summary {
+  cursor: pointer;
+}
+.error {
+  margin: 0;
+  color: #992d23;
+}
+
+.ask {
+  display: flex;
+  gap: 10px;
+  position: sticky;
+  bottom: 12px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.06);
+}
+.ask textarea {
+  flex: 1;
+  resize: vertical;
+  border: 0;
+  outline: none;
+  font: inherit;
+  font-size: 15px;
+}
+.ask button {
+  padding: 0 20px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--brand);
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.ask button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.disclaimer {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+}
+:focus-visible {
+  outline: 3px solid var(--brand-dark);
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .top {
+    flex-direction: column;
+  }
+  .settings input {
+    width: 100%;
+  }
+}

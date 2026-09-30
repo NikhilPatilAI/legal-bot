@@ -1,0 +1,295 @@
+{
+  "schemaVersion": "legal-bot-provision-history-v1",
+  "act": "The Companies Act, 2013",
+  "documentId": "legal_6764a91179ecd937cbf15946",
+  "reviewNote": "Historical text for a deliberately narrow set of Section 135 fragments. Text and interval dates were checked by an AI coding assistant against the sources listed here on 2026-09-28; this is source-verified engineering data, not a lawyer-reviewed statement of law. Only fragments are recorded: other parts of Section 135 changed on other dates (for example Act 1 of 2018 amended sub-section (1) with effect from 19-9-2018) and are intentionally absent, so questions about them must not be answered from this file. An open-ended interval means no later version is recorded in the consulted sources (latest consolidation consulted: last update 29-7-2022), not that the text is verified as current.",
+  "sources": [
+    {
+      "sourceId": "tdb-companies-act-2013",
+      "title": "The Companies Act, 2013 (reproduction hosted by the Technology Development Board)",
+      "publisher": "Technology Development Board, Department of Science and Technology, Government of India",
+      "kind": "official_reproduction",
+      "official": true,
+      "url": "https://www.tdb.gov.in/sites/default/files/2024-05/companiesact2013.pdf",
+      "retrievedAt": "2026-09-01T12:54:17.027Z",
+      "sha256": "325a7d09574541cd2cd48f558c42d8a8f9109830a271007c46196caa6675a832",
+      "note": "Government-hosted reproduction already indexed by the corpus. PDF metadata last modified 2017-01-06; Section 135 text predates the 2018 and 2021 amendments. Not the primary corporate-law publisher."
+    },
+    {
+      "sourceId": "gazette-act-22-of-2019",
+      "title": "The Companies (Amendment) Act, 2019 (No. 22 of 2019), Gazette of India, Extraordinary, Part II, Section 1, No. 41, 31 July 2019",
+      "publisher": "Ministry of Law and Justice (Legislative Department), Government of India",
+      "kind": "gazette_act",
+      "official": true,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2018/05/2023010354.pdf",
+      "retrievedAt": "2026-09-28T10:50:47Z",
+      "sha256": "5a3dc04248911561dbc032e7bcc5c3224acead70dbece2415d4bf335f94ac307",
+      "note": "Gazette publication of the Act hosted on the Government S3WaaS CDN. Section 1(3) leaves the commencement of section 21 to a Gazette notification."
+    },
+    {
+      "sourceId": "gazette-so-324e-2021",
+      "title": "Ministry of Corporate Affairs notification S.O. 324(E), 22 January 2021, Gazette of India, Extraordinary, No. 293",
+      "publisher": "Ministry of Corporate Affairs, Government of India (eGazette)",
+      "kind": "gazette_notification",
+      "official": true,
+      "url": "https://egazette.gov.in/WriteReadData/2021/224636.pdf",
+      "retrievedAt": "2026-09-28T11:08:54Z",
+      "sha256": "3507aaea28c52453d64622f2dc8d4c2209ffd707cf3b093d7621c78b7b9d28e8",
+      "note": "Located through the Gazette link in a LiveLaw report dated 22 January 2021."
+    },
+    {
+      "sourceId": "consolidated-companies-act-2022",
+      "title": "The Companies Act, 2013, consolidated text marked 'Last update-29-7-2022'",
+      "publisher": "Recorded at manual intake as Ministry of Corporate Affairs (filename CompaniesAct2013.pdf)",
+      "kind": "secondary_reproduction",
+      "official": false,
+      "url": "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf",
+      "retrievedAt": null,
+      "sha256": "863b1cf5dc33bc395fe556471279323753116220733079debb2e391f3ad11ba2",
+      "note": "Manually supplied copy in the local intake corpus; its download URL was not recorded at intake and the MCA URL shown is the expected publication location, which rejects automated access (HTTP 403). Treated as corroborating rather than primary evidence until its provenance is re-established."
+    },
+    {
+      "sourceId": "prs-act-29-of-2020",
+      "title": "The Companies (Amendment) Act, 2020 (No. 29 of 2020), reproduction by PRS Legislative Research",
+      "publisher": "PRS Legislative Research",
+      "kind": "secondary_reproduction",
+      "official": false,
+      "url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Companies%20(Amendment)%20Act,%202020.pdf",
+      "retrievedAt": "2026-09-28T10:50:47Z",
+      "sha256": "a410fd0b944ca799603280de9008e471993300219b41def07872acfb2c1dd07b",
+      "note": "Non-government reproduction of the Gazette text. The official MCA copy rejected automated access."
+    },
+    {
+      "sourceId": "kpmg-first-notes-2014-csr",
+      "title": "KPMG First Notes, 28 February 2014: CSR rules and commencement of Section 135",
+      "publisher": "KPMG in India",
+      "kind": "secondary_report",
+      "official": false,
+      "url": "https://assets.kpmg.com/content/dam/kpmg/pdf/2014/03/First_Notes_28Feb14_CSR_Rules.pdf",
+      "retrievedAt": null,
+      "sha256": null,
+      "note": "Identified by web search on 2026-09-28 as reporting that Section 135 and Schedule VII commence on 1 April 2014; not downloaded."
+    }
+  ],
+  "fragments": [
+    {
+      "fragmentId": "s135-5-second-proviso",
+      "section": "135",
+      "heading": "Corporate Social Responsibility",
+      "label": "sub-section (5), second proviso: consequence of not spending the CSR amount",
+      "inForceFrom": {
+        "date": "2014-04-01",
+        "review": "secondary_corroborated",
+        "evidence": [
+          {
+            "sourceId": "consolidated-companies-act-2022",
+            "locator": "commencement footnote on printed page 16",
+            "pageStart": 16,
+            "pageEnd": 16,
+            "excerpt": "1st April, 2014 – S. 135 and Sch. VII, vide notification No. S.O. 582(E), dated 27th February, 2014"
+          },
+          {
+            "sourceId": "kpmg-first-notes-2014-csr",
+            "locator": "summary of MCA notification of 27 February 2014",
+            "excerpt": null
+          }
+        ]
+      },
+      "versions": [
+        {
+          "versionId": "s135-5-p2-2014",
+          "effectiveFrom": "2014-04-01",
+          "effectiveTo": "2021-01-22",
+          "text": "Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount.",
+          "textEvidence": [
+            {
+              "sourceId": "tdb-companies-act-2013",
+              "locator": "Section 135(5), second proviso",
+              "pageStart": 87,
+              "pageEnd": 87,
+              "excerpt": "Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount."
+            },
+            {
+              "sourceId": "gazette-act-22-of-2019",
+              "locator": "section 21(a)(ii), printed page 6",
+              "pageStart": 6,
+              "pageEnd": 6,
+              "excerpt": "in the second proviso, after the words “reasons for not spending the amount” occurring at the end"
+            }
+          ],
+          "textReview": "primary_source_verified",
+          "effectiveFromEvidence": [
+            {
+              "sourceId": "consolidated-companies-act-2022",
+              "locator": "commencement footnote on printed page 16",
+              "pageStart": 16,
+              "pageEnd": 16,
+              "excerpt": "1st April, 2014 – S. 135 and Sch. VII, vide notification No. S.O. 582(E), dated 27th February, 2014"
+            }
+          ],
+          "effectiveToEvidence": [
+            {
+              "sourceId": "gazette-so-324e-2021",
+              "locator": "operative paragraph",
+              "pageStart": 1,
+              "pageEnd": 1,
+              "excerpt": "appoints the 22nd day of January, 2021 as the date on which the provisions of section 21 of the said Act shall come into force."
+            }
+          ],
+          "dateReview": "secondary_corroborated",
+          "reviewMethod": "AI coding assistant compared the indexed TDB text with the words the 2019 Gazette amendment says occur at the end of the second proviso, and read the end date from the S.O. 324(E) Gazette notification. The 2014 start date rests on a consolidated copy whose download URL is unrecorded plus a secondary report, so dates are rated secondary_corroborated.",
+          "reviewedAt": "2026-09-28",
+          "ambiguity": "The S.O. 582(E) Gazette notification itself was not retrieved. The consolidated copy shows no amendment of this proviso between 2014 and 2021 other than Act 22 of 2019."
+        },
+        {
+          "versionId": "s135-5-p2-2021",
+          "effectiveFrom": "2021-01-22",
+          "effectiveTo": null,
+          "text": "Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year.",
+          "textEvidence": [
+            {
+              "sourceId": "gazette-act-22-of-2019",
+              "locator": "section 21(a)(ii), printed page 6",
+              "pageStart": 6,
+              "pageEnd": 6,
+              "excerpt": "the words, brackets, figure and letters “and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year” shall be inserted"
+            },
+            {
+              "sourceId": "tdb-companies-act-2013",
+              "locator": "Section 135(5), second proviso (text before insertion)",
+              "pageStart": 87,
+              "pageEnd": 87,
+              "excerpt": null
+            },
+            {
+              "sourceId": "consolidated-companies-act-2022",
+              "locator": "Section 135(5), printed pages 93-94, footnote 1 on page 94",
+              "pageStart": 93,
+              "pageEnd": 94,
+              "excerpt": "Ins. by Act 22 of 2019, s. 21 (w.e.f. 22-1-2021)."
+            }
+          ],
+          "textReview": "primary_source_verified",
+          "effectiveFromEvidence": [
+            {
+              "sourceId": "gazette-so-324e-2021",
+              "locator": "operative paragraph",
+              "pageStart": 1,
+              "pageEnd": 1,
+              "excerpt": "appoints the 22nd day of January, 2021 as the date on which the provisions of section 21 of the said Act shall come into force."
+            }
+          ],
+          "effectiveToEvidence": [],
+          "dateReview": "primary_source_verified",
+          "reviewMethod": "AI coding assistant applied the Gazette insertion instruction of Act 22 of 2019, section 21(a)(ii), verbatim to the prior text and read the commencement date from the S.O. 324(E) Gazette notification.",
+          "reviewedAt": "2026-09-28",
+          "ambiguity": "The consolidated copy (last update 29-7-2022) prints 'expiry of the financial years]' while the Gazette amending Act reads 'expiry of the financial year'; the Gazette wording is used. No later version is recorded, but currentness after 29-7-2022 is not verified."
+        }
+      ]
+    },
+    {
+      "fragmentId": "s135-6-unspent-account",
+      "section": "135",
+      "heading": "Corporate Social Responsibility",
+      "label": "sub-section (6): Unspent Corporate Social Responsibility Account for ongoing projects",
+      "inForceFrom": {
+        "date": "2021-01-22",
+        "review": "primary_source_verified",
+        "evidence": [
+          {
+            "sourceId": "gazette-so-324e-2021",
+            "locator": "operative paragraph",
+            "pageStart": 1,
+            "pageEnd": 1,
+            "excerpt": "appoints the 22nd day of January, 2021 as the date on which the provisions of section 21 of the said Act shall come into force."
+          }
+        ]
+      },
+      "versions": [
+        {
+          "versionId": "s135-6-2021",
+          "effectiveFrom": "2021-01-22",
+          "effectiveTo": null,
+          "text": "(6) Any amount remaining unspent under sub-section (5), pursuant to any ongoing project, fulfilling such conditions as may be prescribed, undertaken by a company in persuance of its Corporate Social Responsibility Policy, shall be transferred by the company within a period of thirty days from the end of the financial year to a special account to be opened by the company in that behalf for that financial year in any scheduled bank to be called the Unspent Corporate Social Responsibility Account, and such amount shall be spent by the company in pursuance of its obligation towards the Corporate Social Responsibility Policy within a period of three financial years from the date of such transfer, failing which, the company shall transfer the same to a Fund specified in Schedule VII, within a period of thirty days from the date of completion of the third financial year.",
+          "textEvidence": [
+            {
+              "sourceId": "gazette-act-22-of-2019",
+              "locator": "section 21(b), inserted sub-section (6), printed page 6",
+              "pageStart": 6,
+              "pageEnd": 6,
+              "excerpt": null
+            },
+            {
+              "sourceId": "consolidated-companies-act-2022",
+              "locator": "Section 135(6), printed page 94, footnote 4",
+              "pageStart": 94,
+              "pageEnd": 94,
+              "excerpt": "Ins. by Act 22 of 2019, s. 21 (w.e.f. 22-1-2021)."
+            }
+          ],
+          "textReview": "primary_source_verified",
+          "effectiveFromEvidence": [
+            {
+              "sourceId": "gazette-so-324e-2021",
+              "locator": "operative paragraph",
+              "pageStart": 1,
+              "pageEnd": 1,
+              "excerpt": "appoints the 22nd day of January, 2021 as the date on which the provisions of section 21 of the said Act shall come into force."
+            }
+          ],
+          "effectiveToEvidence": [],
+          "dateReview": "primary_source_verified",
+          "reviewMethod": "AI coding assistant copied the inserted sub-section verbatim from the 2019 Gazette text and read the commencement date from the S.O. 324(E) Gazette notification.",
+          "reviewedAt": "2026-09-28",
+          "ambiguity": "The Gazette text spells 'persuance'; the consolidated copy prints 'pursuance'. The Gazette spelling is kept verbatim."
+        }
+      ]
+    },
+    {
+      "fragmentId": "s135-5-set-off-proviso",
+      "section": "135",
+      "heading": "Corporate Social Responsibility",
+      "label": "sub-section (5), proviso on setting off excess CSR spending",
+      "inForceFrom": null,
+      "versions": [
+        {
+          "versionId": "s135-5-set-off-2021",
+          "effectiveFrom": "2021-01-22",
+          "effectiveTo": null,
+          "text": "Provided also that if the company spends an amount in excess of the requirements provided under this sub-section, such company may set off such excess amount against the requirement to spend under this sub-section for such number of succeeding financial years and in such manner, as may be prescribed.",
+          "textEvidence": [
+            {
+              "sourceId": "prs-act-29-of-2020",
+              "locator": "section 27(a), printed page 6",
+              "pageStart": 6,
+              "pageEnd": 6,
+              "excerpt": null
+            },
+            {
+              "sourceId": "consolidated-companies-act-2022",
+              "locator": "Section 135(5), printed page 94, footnote 2",
+              "pageStart": 94,
+              "pageEnd": 94,
+              "excerpt": "The Proviso ins. by Act 29 of 2020, s. 27 (w.e.f. 22-1-2021)."
+            }
+          ],
+          "textReview": "secondary_corroborated",
+          "effectiveFromEvidence": [
+            {
+              "sourceId": "consolidated-companies-act-2022",
+              "locator": "footnote 2 on printed page 94",
+              "pageStart": 94,
+              "pageEnd": 94,
+              "excerpt": "The Proviso ins. by Act 29 of 2020, s. 27 (w.e.f. 22-1-2021)."
+            }
+          ],
+          "effectiveToEvidence": [],
+          "dateReview": "secondary_corroborated",
+          "reviewMethod": "Recorded from a non-government reproduction of Act 29 of 2020 and the consolidated copy. Neither the Gazette text of Act 29 of 2020 nor its commencement notification (reported as S.O. 325(E), 22 January 2021) was retrieved.",
+          "reviewedAt": "2026-09-28",
+          "ambiguity": "Not usable for answers until the text is verified against the Gazette of India."
+        }
+      ]
+    }
+  ]
+}

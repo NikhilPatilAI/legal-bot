@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "legal-bot-manifest-v1",
+  "documents": [
+    {
+      "file": "llp-act-2008.pdf",
+      "title": "The Limited Liability Partnership Act, 2008",
+      "authority": "Ministry of Corporate Affairs / India Code",
+      "legalCategory": "llp",
+      "documentType": "act",
+      "finalPdfUrl": "https://indiacode.gov.in/server/api/core/bitstreams/eebd9c23-655b-4e6e-a0ab-25033a8e3834/content",
+      "officialLandingUrl": "https://indiacode.gov.in/handle/123456789/496127"
+    },
+    {
+      "file": "trade-marks-act-1999.pdf",
+      "title": "Trade Marks Act 1999",
+      "authority": "Office of the Controller General of Patents, Designs and Trade Marks (IP India)",
+      "legalCategory": "trademarks",
+      "documentType": "act",
+      "finalPdfUrl": "https://ipindia.gov.in/storage/uploads/docs-operator/c9e8a57e-bc94-4b93-8518-6e8729c976bf.pdf",
+      "officialLandingUrl": "https://ipindia.gov.in/trade-marks-resources-act"
+    },
+    {
+      "file": "fema-1999.pdf",
+      "title": "The Foreign Exchange Management Act, 1999",
+      "authority": "India Code",
+      "legalCategory": "rbi-fema",
+      "documentType": "act",
+      "finalPdfUrl": "https://indiacode.gov.in/server/api/core/bitstreams/8024e4a4-c5b7-4f53-9326-0f9591087b39/content"
+    },
+    {
+      "file": "cgst-act-2017-amended-2022-01-01.pdf",
+      "title": "CGST Act, 2017 as amended up to 01.01.2022",
+      "authority": "Central Board of Indirect Taxes and Customs",
+      "legalCategory": "gst",
+      "documentType": "act",
+      "amendmentDate": "2022-01-01",
+      "finalPdfUrl": "https://cbic-gst.gov.in/pdf/CGST-Act-2017-amended-01012022.pdf"
+    }
+  ]
+}

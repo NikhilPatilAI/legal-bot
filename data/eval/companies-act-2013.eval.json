@@ -1,0 +1,705 @@
+{
+  "schemaVersion": "legal-bot-legal-eval-v2",
+  "act": "The Companies Act, 2013",
+  "reviewStatus": "source_reviewed",
+  "reviewNote": "Questions, expected sections and expected facts were drafted and checked by an AI coding assistant against the indexed Technology Development Board reproduction of the Companies Act, 2013 and, for temporal cases, against the Gazette-sourced history store. Every expected fact is a verbatim substring of its cited source text, enforced by an automated test. No case has been reviewed by a lawyer. The indexed source is not a current consolidation: expected facts describe that text, not current law. Splits are frozen by family: cases about the same provision, template or amendment family share a split. Development cases were inspected while tuning; test cases must not be.",
+  "cases": [
+    {
+      "id": "direct-149-board",
+      "split": "dev",
+      "family": "s149",
+      "type": "direct_lookup",
+      "question": "What does Section 149 of the Companies Act, 2013 require about the composition of a company's Board of Directors?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["149"],
+      "expectedFacts": [
+        "three directors",
+        "two directors",
+        "One Person Company",
+        "fifteen directors"
+      ],
+      "note": "Minimum directors: 3 public, 2 private, 1 OPC; maximum 15 without a special resolution.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 149(1), PDF pages 98-99"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "direct-173-board-meetings",
+      "split": "dev",
+      "family": "s173",
+      "type": "direct_lookup",
+      "question": "How many board meetings must a company hold each year under Section 173?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["173"],
+      "expectedFacts": [
+        "first meeting",
+        "thirty days",
+        "four meetings",
+        "one hundred and twenty days"
+      ],
+      "note": "First meeting within 30 days of incorporation; minimum four per year; max 120 days between meetings.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 173(1), PDF pages 107-108"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "direct-96-agm",
+      "split": "dev",
+      "family": "s96",
+      "type": "direct_lookup",
+      "question": "What are the timing requirements for an annual general meeting under Section 96?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["96"],
+      "expectedFacts": ["fifteen months", "One Person Company", "nine months"],
+      "note": "Not more than 15 months between AGMs; first AGM within 9 months of first financial year close; OPC excluded.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 96(1), PDF page 66"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "direct-92-annual-return",
+      "split": "test",
+      "family": "s92",
+      "type": "direct_lookup",
+      "question": "What must a company include in the annual return under Section 92?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["92"],
+      "expectedFacts": ["annual return", "registered office", "close of the financial year"],
+      "note": "Annual return particulars as they stood at the close of the financial year.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 92(1), PDF pages 64-65"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "direct-203-kmp",
+      "split": "test",
+      "family": "s203",
+      "type": "direct_lookup",
+      "question": "Which whole-time key managerial personnel must certain companies appoint under Section 203?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["203"],
+      "expectedFacts": ["key managerial", "company secretary", "Chief Financial"],
+      "note": "MD/CEO/manager, company secretary, and CFO for prescribed classes of companies.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 203(1), PDF pages 127-128"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "direct-139-auditor",
+      "split": "test",
+      "family": "s139",
+      "type": "direct_lookup",
+      "question": "How long does an auditor hold office when first appointed under Section 139?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["139"],
+      "expectedFacts": ["first annual general meeting", "sixth annual general meeting"],
+      "note": "From conclusion of first AGM to conclusion of the sixth AGM, subject to ratification/rotation rules.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 139(1), PDF pages 89-91"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "exception-135-csr-spend",
+      "split": "test",
+      "family": "s135-current",
+      "type": "exception_sensitive",
+      "question": "Do all companies have to spend on corporate social responsibility, and what happens if a company does not spend the required amount?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": ["134"],
+      "expectedFacts": [
+        "five hundred crore",
+        "one thousand crore",
+        "five crore",
+        "two per cent",
+        "three immediately preceding financial years"
+      ],
+      "note": "CSR obligation applies only above net worth / turnover / net profit thresholds; spend is 2% of average net profit of the preceding three years, with a proviso for unspent amounts.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 135(1) and (5), PDF page 87"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": "The indexed Section 135 text predates amendments effective 19-9-2018 and 22-1-2021; expected facts describe the indexed text, not current law."
+      }
+    },
+    {
+      "id": "exception-188-related-party",
+      "split": "dev",
+      "family": "s188",
+      "type": "exception_sensitive",
+      "question": "Does every related party transaction need prior approval under Section 188, or are there exceptions?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["188"],
+      "expectedFacts": ["consent of the Board", "ordinary course of business", "arm"],
+      "note": "Board consent by resolution is the rule, but transactions in the ordinary course of business on an arm's length basis are outside sub-section (1).",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 188(1), fourth proviso, PDF pages 117-118"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "exception-149-max-directors",
+      "split": "dev",
+      "family": "s149",
+      "type": "exception_sensitive",
+      "question": "Can a company have more than fifteen directors under Section 149?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["149"],
+      "expectedFacts": ["fifteen directors", "special resolution"],
+      "note": "Maximum 15, but more are allowed after passing a special resolution.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 149(1) proviso, PDF pages 98-99"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "multi-135-134-disclosure",
+      "split": "test",
+      "family": "s135-current",
+      "type": "multi_provision",
+      "question": "How is a company's CSR spending governed and where must its CSR policy be disclosed?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135", "134"],
+      "expectedFacts": ["Corporate Social Responsibility Committee", "Board's report"],
+      "note": "Section 135 sets the CSR obligation and committee; Section 134 governs the Board's report disclosure it references.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 135, PDF page 87", "Section 134, PDF pages 85-87"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": "The indexed Section 135 text predates later amendments."
+      }
+    },
+    {
+      "id": "multi-177-179-board-powers",
+      "split": "dev",
+      "family": "s177-s179",
+      "type": "multi_provision",
+      "question": "What committee must a listed company constitute for audit oversight and where are the Board's powers set out?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["177", "179"],
+      "expectedFacts": ["Audit Committee", "Powers of Board"],
+      "note": "Section 177 requires the Audit Committee; Section 179 sets out the powers of the Board.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 177, PDF pages 108-109", "Section 179, PDF pages 110-111"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "multi-185-186-loans",
+      "split": "test",
+      "family": "s185-s186",
+      "type": "multi_provision",
+      "question": "What are the restrictions on a company giving loans to its directors and on making loans and investments generally?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["185", "186"],
+      "expectedFacts": ["loan", "directors", "investment"],
+      "note": "Section 185 restricts loans to directors; Section 186 governs loans and investments by the company.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 185, PDF pages 114-115", "Section 186, PDF pages 115-116"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": "Section 185 was substituted by Act 1 of 2018; the indexed text may predate it."
+      }
+    },
+    {
+      "id": "nonexistent-903",
+      "split": "dev",
+      "family": "nonexistent-a",
+      "type": "nonexistent_section",
+      "question": "Please summarise Section 903 of the Companies Act, 2013.",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectAbstention": true,
+      "note": "The Act has no Section 903; the system must refuse rather than fabricate.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant confirmed the refusal basis: no Section 903 exists in the indexed source.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "nonexistent-250z",
+      "split": "test",
+      "family": "nonexistent-b",
+      "type": "nonexistent_section",
+      "question": "What does Section 250Z of the Companies Act require for board meetings?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectAbstention": true,
+      "note": "No such section exists; refusal is the correct behaviour.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant confirmed the refusal basis: no Section 250Z exists in the indexed source.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "insufficient-foreign-merger",
+      "split": "dev",
+      "family": "foreign-a",
+      "type": "insufficient_evidence",
+      "question": "How does Delaware corporate law treat freeze-out mergers of minority shareholders?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectAbstention": true,
+      "note": "Outside the India-only Companies Act corpus; the system must refuse.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant confirmed the refusal basis: Delaware law is outside the India-only corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "insufficient-tax-rate",
+      "split": "test",
+      "family": "tax",
+      "type": "insufficient_evidence",
+      "question": "What is the current corporate income tax rate for domestic companies in India this year?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectAbstention": true,
+      "note": "Tax-rate currentness is not in the Companies Act source; the system must refuse rather than guess.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant confirmed the refusal basis: income-tax rates are not in the Companies Act corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "conn-173-small-company",
+      "split": "dev",
+      "family": "s173",
+      "type": "multi_provision",
+      "question": "Does a small company have to hold four meetings of its Board of Directors every year under Section 173?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["173"],
+      "connectedSections": ["2"],
+      "expectedFacts": [
+        "small company",
+        "each half of a calendar year",
+        "not less than ninety days",
+        "other than a public company"
+      ],
+      "expectAbstention": false,
+      "note": "Section 173(5) relaxes the four-meeting rule for small companies; Section 2(85) defines small company and excludes public, holding and subsidiary companies.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 173(1) and (5), PDF pages 107-108", "Section 2(85), PDF page 15"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": "The indexed Section 2(85) monetary limits predate Act 1 of 2018; only non-monetary facts are expected."
+      }
+    },
+    {
+      "id": "exception-173-short-notice",
+      "split": "dev",
+      "family": "s173",
+      "type": "exception_sensitive",
+      "question": "Can a Board meeting be called at shorter notice than seven days under Section 173?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["173"],
+      "connectedSections": [],
+      "expectedFacts": [
+        "seven days",
+        "shorter notice",
+        "urgent business",
+        "at least one independent director"
+      ],
+      "expectAbstention": false,
+      "note": "Section 173(3): seven days written notice, with a proviso for shorter notice for urgent business if at least one independent director is present.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 173(3), PDF pages 107-108"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "conn-188-related-party-definition",
+      "split": "dev",
+      "family": "s188",
+      "type": "multi_provision",
+      "question": "Who counts as a related party for the related party transaction rules in Section 188?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["188"],
+      "connectedSections": ["2"],
+      "expectedFacts": [
+        "a director or his relative",
+        "key managerial personnel",
+        "holding, subsidiary or an associate company"
+      ],
+      "expectAbstention": false,
+      "note": "Section 188 uses the term related party, which Section 2(76) defines.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 188(1), PDF pages 117-118", "Section 2(76), PDF page 15"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "conn-135-198-net-profit",
+      "split": "test",
+      "family": "s135-current",
+      "type": "multi_provision",
+      "question": "How is the average net profit used for the CSR spending requirement under Section 135 calculated?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": ["198"],
+      "expectedFacts": [
+        "two per cent",
+        "three immediately preceding financial years",
+        "section 198",
+        "bounties and subsidies"
+      ],
+      "expectAbstention": false,
+      "note": "The Section 135 Explanation directs that average net profit is calculated under Section 198, which lists credits and deductions.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": [
+          "Section 135(5) and Explanation, PDF page 87",
+          "Section 198(1)-(2), PDF pages 124-125"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": "The indexed Explanation predates its substitution by Act 1 of 2018."
+      }
+    },
+    {
+      "id": "conn-2-85-subsidiary-small-company",
+      "split": "test",
+      "family": "s2-85",
+      "type": "exception_sensitive",
+      "question": "Can a subsidiary company qualify as a small company under the Companies Act, 2013?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["2"],
+      "connectedSections": [],
+      "expectedFacts": ["holding company or a subsidiary company", "other than a public company"],
+      "expectAbstention": false,
+      "note": "Section 2(85) proviso: nothing in the clause applies to a holding or subsidiary company.",
+      "provenance": {
+        "source": "tdb-companies-act-2013",
+        "locators": ["Section 2(85), PDF page 15"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked expected sections against the indexed TDB reproduction; every expected fact is a verbatim substring of the cited section text (enforced by tests/unit/legal-eval-dataset.test.ts).",
+        "ambiguity": "The indexed monetary limits predate Act 1 of 2018; only the proviso is expected."
+      }
+    },
+    {
+      "id": "insufficient-uk-directors-duties",
+      "split": "test",
+      "family": "foreign-b",
+      "type": "insufficient_evidence",
+      "question": "What duties do directors owe under section 172 of the UK Companies Act 2006?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "UK law is outside the India-only corpus; Section 172 of the Indian Act is an unrelated penalty provision.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant confirmed the refusal basis: United Kingdom law is outside the India-only corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "insufficient-gst-legal-services",
+      "split": "dev",
+      "family": "gst",
+      "type": "insufficient_evidence",
+      "question": "What GST rate applies to legal services supplied by an advocate in India?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "GST rates are not in the Companies Act corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant confirmed the refusal basis: GST rates are not in the Companies Act corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-135-before-commencement",
+      "split": "dev",
+      "family": "s135-history-gating",
+      "type": "temporal",
+      "question": "As of 1 January 2014, what did Section 135 require a Board to do if the company failed to spend its CSR amount?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "asOfDate": "2014-01-01",
+      "note": "Section 135 commenced on 1 April 2014, so no version was in force on 2014-01-01.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["s135-5-second-proviso inForceFrom 2014-04-01"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": "Commencement date is secondary_corroborated (S.O. 582(E) Gazette text not retrieved)."
+      }
+    },
+    {
+      "id": "temporal-135-uncovered-obligation",
+      "split": "dev",
+      "family": "s135-history-gating",
+      "type": "temporal",
+      "question": "As of 1 June 2016, which financial year's net worth, turnover or net profit decided whether Section 135(1) applied to a company?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "asOfDate": "2016-06-01",
+      "note": "Section 135(1) was amended with effect from 19-9-2018 and has no recorded history; the system must not answer from the unrelated second-proviso fragment.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["no fragment recorded for Section 135(1)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-149-no-history",
+      "split": "dev",
+      "family": "s135-history-gating",
+      "type": "temporal",
+      "question": "As of 1 January 2016, what did Section 149 require about the number of directors?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["149"],
+      "connectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "asOfDate": "2016-01-01",
+      "note": "No historical text is recorded for Section 149.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["Section 149 absent from the history store"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-135-future-date",
+      "split": "dev",
+      "family": "s135-history-gating",
+      "type": "temporal",
+      "question": "As of 1 January 2030, what will Section 135 require if a company fails to spend its CSR amount?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "asOfDate": "2030-01-01",
+      "note": "Future dates cannot be answered.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["future date"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-135-unspent-2020",
+      "split": "test",
+      "family": "s135-unspent-amendment",
+      "type": "temporal",
+      "question": "As of 1 June 2020, under Section 135, what did the Board have to do if the company failed to spend the CSR amount?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": ["specify the reasons for not spending the amount"],
+      "expectAbstention": false,
+      "asOfDate": "2020-06-01",
+      "expectedVersionId": "s135-5-p2-2014",
+      "note": "Before 22-1-2021 the second proviso required only reasons in the Board report.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["s135-5-p2-2014"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-135-unspent-2021",
+      "split": "test",
+      "family": "s135-unspent-amendment",
+      "type": "temporal",
+      "question": "As of 1 June 2021, under Section 135, what had to happen if the company failed to spend the CSR amount?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": [
+        "specify the reasons for not spending the amount",
+        "transfer such unspent amount to a Fund specified in Schedule VII",
+        "six months"
+      ],
+      "expectAbstention": false,
+      "asOfDate": "2021-06-01",
+      "expectedVersionId": "s135-5-p2-2021",
+      "note": "From 22-1-2021, unspent amounts not relating to ongoing projects must be transferred to a Schedule VII fund within six months.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["s135-5-p2-2021", "S.O. 324(E) Gazette notification"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-135-unspent-day-before",
+      "split": "test",
+      "family": "s135-unspent-amendment",
+      "type": "temporal",
+      "question": "As of 21 January 2021, under Section 135, what did the Board have to do if the company failed to spend the CSR amount?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": ["specify the reasons for not spending the amount"],
+      "expectAbstention": false,
+      "asOfDate": "2021-01-21",
+      "expectedVersionId": "s135-5-p2-2014",
+      "note": "Boundary: the day before the amendment commenced.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["s135-5-p2-2014 effectiveTo 2021-01-22 (exclusive)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-135-unspent-effective-day",
+      "split": "test",
+      "family": "s135-unspent-amendment",
+      "type": "temporal",
+      "question": "As of 22 January 2021, under Section 135, what had to happen if the company failed to spend the CSR amount?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": ["transfer such unspent amount to a Fund specified in Schedule VII"],
+      "expectAbstention": false,
+      "asOfDate": "2021-01-22",
+      "expectedVersionId": "s135-5-p2-2021",
+      "note": "Boundary: the commencement day of S.O. 324(E).",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["s135-5-p2-2021 effectiveFrom 2021-01-22 (inclusive)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "temporal-135-ongoing-project-2021",
+      "split": "test",
+      "family": "s135-unspent-amendment",
+      "type": "temporal",
+      "question": "As of 1 June 2021, under Section 135, where must a company transfer an unspent CSR amount that relates to an ongoing project?",
+      "legalCategory": "corporate",
+      "jurisdiction": "India",
+      "expectedSections": ["135"],
+      "connectedSections": [],
+      "expectedFacts": ["Unspent Corporate Social Responsibility Account", "thirty days"],
+      "expectAbstention": false,
+      "asOfDate": "2021-06-01",
+      "expectedVersionId": "s135-5-p2-2021",
+      "note": "Section 135(6), inserted with effect from 22-1-2021.",
+      "provenance": {
+        "source": "provision-history",
+        "locators": ["s135-6-2021"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "AI coding assistant checked the expected version and facts against data/legal-history/companies-act-2013.history.json, whose text and dates cite the Gazette of India sources recorded there.",
+        "ambiguity": null
+      }
+    }
+  ]
+}

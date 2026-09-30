@@ -1,0 +1,10 @@
+# Single-package project; this file only holds pnpm settings.
+allowBuilds:
+  # esbuild (used by tsx) installs its platform binary in a postinstall step.
+  esbuild: true
+
+# Pinned versions published less than pnpm's minimum release age at the time
+# the lockfile was created.
+minimumReleaseAgeExclude:
+  - zod@4.5.2
+  - openai@7.9.0

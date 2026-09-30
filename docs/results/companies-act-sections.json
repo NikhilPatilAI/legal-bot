@@ -1,0 +1,2906 @@
+{
+  "generatedAt": "2026-09-29T18:04:37.564Z",
+  "evidenceClass": "local end-to-end LegalRagService run over parsed Companies Act sections with the deterministic extract composer (no language model); measures retrieval, citation, verification and abstention behaviour, not generated-answer quality; not Azure Search; not lawyer-reviewed",
+  "codeRevision": null,
+  "workingTreeDirty": null,
+  "composer": "deterministic_extract",
+  "verification": "deterministic",
+  "resultLimit": 6,
+  "repeats": 1,
+  "indexWarmUpMs": 0,
+  "splits": [
+    "all"
+  ],
+  "dataset": {
+    "path": "data/eval/companies-act-2013.eval.json",
+    "sha256": "d94743f29f2ef2cad4b8d92b4c2e219f47554cde8fe2e2616183a56a084b1863",
+    "reviewStatus": "source_reviewed"
+  },
+  "corpus": {
+    "mode": "sections",
+    "path": "data/sections/companies-act-2013.sections.json",
+    "sha256": "11328873415eaf7fae4fd5ae99a7a0ae9f9c448f8b92c482fda754edb310d3c1"
+  },
+  "history": {
+    "path": "data/history/companies-act-2013.history.json",
+    "sha256": "e518372088d1c8329c99b96a3d66c4998c7fa3f1aac1365cc36cb862e62a5bc4"
+  },
+  "modelUsage": null,
+  "composerErrors": [],
+  "runs": [
+    {
+      "label": "flat",
+      "resultLimit": 6,
+      "repeats": 1,
+      "splits": null,
+      "metrics": {
+        "caseCount": 32,
+        "answerableCount": 22,
+        "refusalCount": 10,
+        "correctAbstentionRate": 0.8,
+        "missedAbstentionRate": 0.2,
+        "unnecessaryAbstentionRate": 0,
+        "withheldByVerifierRate": 0,
+        "citedProvisionRecall": 0.864,
+        "connectedProvisionRecall": 0,
+        "acceptableDocumentHitRate": null,
+        "answerFactCoverage": 0.73,
+        "verifierUnsupportedClaimRate": 0,
+        "temporalVersionAccuracy": 1,
+        "errorRate": 0,
+        "latencyMsP50": 3.969,
+        "latencyMsP95": 36.037,
+        "failureCounts": {
+          "expected_fact_missing": 11,
+          "connected_provision_not_cited": 4,
+          "expected_provision_not_cited": 3,
+          "missed_abstention": 2
+        }
+      },
+      "cases": [
+        {
+          "id": "direct-149-board",
+          "split": "dev",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 149 — Company to have Board of Directors (1) Every company shall have a Board of Directors consisting of individuals as directors and shall have— (a) a minimum number of three directors in the case of a public company, two directors in the case of a private company, and one director in the case of a One Person Company; and (b) a maximum of fifteen directors:\n- Section 149 — Company to have Board of Directors (9) Notwithstanding anything contained in any other provision of this Act, but subject to the provisions of sections 197 and 198, an independent director shall not be entitled to any stock option and may receive remuneration by way of fee provided under sub-section (5) of section 197, reimbursement of expenses for participation in the Board and other meetings and profit related commission as may be approved by the members.\n- Provided further that such class or classes of companies as may be prescribed, shall have at least one woman director.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "149"
+          ],
+          "retrievedSections": [
+            "149"
+          ],
+          "expectedSections": [
+            "149"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 30.814
+        },
+        {
+          "id": "direct-173-board-meetings",
+          "split": "dev",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 173 — Meetings of Board (1) Every company shall hold the first meeting of the Board of Directors within thirty days of the date of its incorporation and thereafter hold a minimum number of four meetings of its Board of Directors every year in such a manner that not more than one hundred and twenty days shall intervene between two consecutive meetings of the Board:\n- A One Person Company, small company and dormant company shall be deemed to have complied with the provisions of this section if at least one meeting of the Board of Directors has been conducted in each half of a calendar year and the gap between the two meetings is not less than ninety days:\n- The participation of directors in a meeting of the Board may be either in person or through video conferencing or other audio visual means, as may be prescribed, which are capable of recording and recognising the participation of the directors and of recording and storing the proceedings of such meetings along with date and time:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "173"
+          ],
+          "retrievedSections": [
+            "173"
+          ],
+          "expectedSections": [
+            "173"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 7.724
+        },
+        {
+          "id": "direct-96-agm",
+          "split": "dev",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 96 — Annual general meeting (1) Every company other than a One Person Company shall in each year hold in addition to any other meetings, a general meeting as its annual general meeting and shall specify the meeting as such in the notices calling it, and not more than fifteen months shall elapse between the date of one annual general meeting of a company and that of the next:\n- Provided that in case of the first annual general meeting, it shall be held within a period of nine months from the date of closing of the first financial year of the company and in any other case, within a period of six months, from the date of closing of the financial year:\n- Provided further that if a company holds its first annual general meeting as aforesaid, it shall not be necessary for the company to hold any annual general meeting in the year of its incorporation:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "96"
+          ],
+          "retrievedSections": [
+            "96"
+          ],
+          "expectedSections": [
+            "96"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 3.969
+        },
+        {
+          "id": "direct-92-annual-return",
+          "split": "test",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Provided that in relation to One Person Company and small company, the annual return shall be signed by the company secretary, or where there is no company secretary, by the director of the company.\n- The annual return, filed by a listed company or, by a company having such paid-up capital and turnover as may be prescribed, shall be certified by a company secretary in practice in the prescribed form, stating that the annual return discloses the facts correctly and adequately and that the company has complied with all the provisions of this Act.\n- An extract of the annual return in such form as may be prescribed shall form part of the Board‘s report.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "92"
+          ],
+          "retrievedSections": [
+            "92"
+          ],
+          "expectedSections": [
+            "92"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.333,
+          "missingFacts": [
+            "registered office",
+            "close of the financial year"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 5.451
+        },
+        {
+          "id": "direct-203-kmp",
+          "split": "test",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 203 — Appointment of key managerial personnel (1) Every company belonging to such class or classes of companies as may be prescribed shall have the following whole-time key managerial personnel,— (i) managing director, or Chief Executive Officer or manager and in their absence, a whole-time director; (ii) company secretary; and (iii) Chief Financial Officer :\n- Every whole-time key managerial personnel of a company shall be appointed by means of a resolution of the Board containing the terms and conditions of the appointment including the remuneration.\n- A whole-time key managerial personnel shall not hold office in more than one company except in its subsidiary company at the same time:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "203"
+          ],
+          "retrievedSections": [
+            "203"
+          ],
+          "expectedSections": [
+            "203"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 4,
+            "supportedClaimCount": 4,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 6.156
+        },
+        {
+          "id": "direct-139-auditor",
+          "split": "test",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 139 — Appointment of auditors (1) Subject to the provisions of this Chapter, every company shall, at the first annual general meeting, appoint an individual or a firm as an auditor who shall hold office from the conclusion of that meeting till the conclusion of its sixth annual general meeting and thereafter till the conclusion of every sixth meeting and the manner and procedure of selection of auditors by the members of the company at such meeting shall be such as may be prescribed:\n- Notwithstanding anything contained in sub-section (1), the first auditor of a company, other than a Government company, shall be appointed by the Board of Directors within thirty days from the date of registration of the company and in the case of failure of the Board to appoint such auditor, it shall inform the members of the company, who shall within ninety days at an extraordinary general meeting appoint such auditor and such auditor shall hold office till the conclusion of the first annual general meeting.\n- Notwithstanding anything contained in sub-section (1), in the case of a Government company or any other company owned or controlled, directly or indirectly, by the Central Government, or by any State Government or Governments, or partly by the Central Government and partly by one or more State Governments, the Comptroller and Auditor-General of India shall, in respect of a financial year, appoint an auditor duly qualified to be appointed as an auditor of companies under this Act, within a period of one hundred and eighty days from the commencement of the financial year, who shall hold office till the conclusion of the annual general meeting.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "139"
+          ],
+          "retrievedSections": [
+            "139"
+          ],
+          "expectedSections": [
+            "139"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 10.422
+        },
+        {
+          "id": "exception-135-csr-spend",
+          "split": "test",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- The Board of every company referred to in sub-section (1), shall ensure that the company spends, in every financial year, at least two per cent. of the average net profits of the company made during the three immediately preceding financial years, in pursuance of its Corporate Social Responsibility Policy:\n- The Corporate Social Responsibility Committee shall,— (a) formulate and recommend to the Board, a Corporate Social Responsibility Policy which shall indicate the activities to be undertaken by the company as specified in Schedule VII; (b) recommend the amount of expenditure to be incurred on the activities referred to in clause (a); and (c) monitor the Corporate Social Responsibility Policy of the company from time to time.\n- Provided that the company shall give preference to the local area and areas around it where it operates, for spending the amount earmarked for Corporate Social Responsibility activities:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135",
+            "50",
+            "149",
+            "248",
+            "39"
+          ],
+          "retrievedSections": [
+            "135",
+            "50",
+            "149",
+            "248",
+            "39"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [
+            "134"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 0,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.4,
+          "missingFacts": [
+            "five hundred crore",
+            "one thousand crore",
+            "five crore"
+          ],
+          "verification": {
+            "claimCount": 4,
+            "supportedClaimCount": 4,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "connected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 44.565
+        },
+        {
+          "id": "exception-188-related-party",
+          "split": "dev",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Provided that no contract or arrangement, in the case of a company having a paid-up share capital of not less than such amount, or transactions exceeding such sums, as may be prescribed, shall be entered into except with the prior approval of the company by a [resolution]:\n- Where any contract or arrangement is entered into by a director or any other employee, without obtaining the consent of the Board or approval by a [resolution] in the general meeting under sub-section (1) and if it is not ratified by the Board or, as the case may be, by the shareholders at a meeting within three months from the date on which such contract or arrangement was entered into, such contract or arrangement shall be voidable at the option of the Board and if the contract or arrangement is with a related party to any director, or is authorised by any other director, the directors concerned shall indemnify the company against any loss incurred by it.\n- Every contract or arrangement entered into under sub-section (1) shall be referred to in the Board‘s report to the shareholders along with the justification for entering into such contract or arrangement.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "188"
+          ],
+          "retrievedSections": [
+            "188"
+          ],
+          "expectedSections": [
+            "188"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.333,
+          "missingFacts": [
+            "ordinary course of business",
+            "arm"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 6.591
+        },
+        {
+          "id": "exception-149-max-directors",
+          "split": "dev",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 149 — Company to have Board of Directors (1) Every company shall have a Board of Directors consisting of individuals as directors and shall have— (a) a minimum number of three directors in the case of a public company, two directors in the case of a private company, and one director in the case of a One Person Company; and (b) a maximum of fifteen directors:\n- Section 149 — Company to have Board of Directors (9) Notwithstanding anything contained in any other provision of this Act, but subject to the provisions of sections 197 and 198, an independent director shall not be entitled to any stock option and may receive remuneration by way of fee provided under sub-section (5) of section 197, reimbursement of expenses for participation in the Board and other meetings and profit related commission as may be approved by the members.\n- Provided further that such class or classes of companies as may be prescribed, shall have at least one woman director.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "149"
+          ],
+          "retrievedSections": [
+            "149"
+          ],
+          "expectedSections": [
+            "149"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.5,
+          "missingFacts": [
+            "special resolution"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 9.124
+        },
+        {
+          "id": "multi-135-134-disclosure",
+          "split": "test",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 68 — Power of company to purchase its own securities (1) Notwithstanding anything contained in this Act, but subject to the provisions of sub-section (2), a company may purchase its own shares or other specified securities (hereinafter referred to as buy-back) out of— (a) its free reserves; (b) the securities premium account; or (c) the proceeds of the issue of any shares or other specified securities:\n- Provided that no buy-back of any kind of shares or other specified securities shall be made out of the proceeds of an earlier issue of the same kind of shares or same kind of other specified securities.\n- No company shall purchase its own shares or other specified securities under sub-section (1), unless— (a) the buy-back is authorised by its articles; (b) a special resolution has been passed at a general meeting of the company authorising the buyback:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "68",
+            "19",
+            "187",
+            "67",
+            "61"
+          ],
+          "retrievedSections": [
+            "68",
+            "19",
+            "187",
+            "67",
+            "61"
+          ],
+          "expectedSections": [
+            "135",
+            "134"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 0,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0,
+          "missingFacts": [
+            "Corporate Social Responsibility Committee",
+            "Board's report"
+          ],
+          "verification": {
+            "claimCount": 5,
+            "supportedClaimCount": 5,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 36.037
+        },
+        {
+          "id": "multi-177-179-board-powers",
+          "split": "dev",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 177 — Audit Committee (1) The Board of Directors of every listed company and such other class or classes of companies, as may be prescribed, shall constitute an Audit Committee.\n- The Audit Committee shall have authority to investigate into any matter in relation to the items specified in sub-section (4) or referred to it by the Board and for this purpose shall have power to obtain professional advice from external sources and have full access to information contained in the records of the company.\n- Provided that the Board may, by a resolution passed at a meeting, delegate to any committee of directors, the managing director, the manager or any other principal officer of the company or in the case of a branch office of the company, the principal officer of the branch office, the powers specified in clauses (d) to (f) on such conditions as it may specify:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "177",
+            "356",
+            "313",
+            "143",
+            "179"
+          ],
+          "retrievedSections": [
+            "177",
+            "356",
+            "313",
+            "143",
+            "179"
+          ],
+          "expectedSections": [
+            "177",
+            "179"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 35.727
+        },
+        {
+          "id": "multi-185-186-loans",
+          "split": "test",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 67 — Restriction on purchase by company or giving of loans by it for purchase of its shares (1) No company limited by shares or by guarantee and having a share capital shall have power to buy its own shares unless the consequent reduction of share capital is effected under the provisions of this Act.\n- Where in pursuance of clause (d) of sub-section (2), any shares or securities in which investments have been made by a company are not held by it in its own name, the company shall maintain a register which shall contain such particulars as may be prescribed and such register shall be open to inspection by any member or debenture-holder of the company without any charge during business hours subject to such reasonable restrictions as the company may by its articles or in general meeting impose.\n- No public company shall give, whether directly or indirectly and whether by means of a loan, guarantee, the provision of security or otherwise, any financial assistance for the purpose of, or in connection with, a purchase or subscription made or to be made, by any person of or for any shares in the company or in its holding company.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "67",
+            "187",
+            "19",
+            "61",
+            "68",
+            "149"
+          ],
+          "retrievedSections": [
+            "67",
+            "187",
+            "19",
+            "61",
+            "68",
+            "149"
+          ],
+          "expectedSections": [
+            "185",
+            "186"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 0,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.667,
+          "missingFacts": [
+            "directors"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 33.745
+        },
+        {
+          "id": "nonexistent-903",
+          "split": "dev",
+          "type": "nonexistent_section",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The available official evidence is insufficient to answer this question.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.228
+        },
+        {
+          "id": "nonexistent-250z",
+          "split": "test",
+          "type": "nonexistent_section",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The available official evidence is insufficient to answer this question.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.09
+        },
+        {
+          "id": "insufficient-foreign-merger",
+          "split": "dev",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The question explicitly requests a foreign jurisdiction that is outside this India-only test corpus.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.036
+        },
+        {
+          "id": "insufficient-tax-rate",
+          "split": "test",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 379 — Application of Act to foreign companies Where not less than fifty per cent. of the paid-up share capital, whether equity or preference or partly equity and partly preference, of a foreign company is held by one or more citizens of India or by one or more companies or bodies corporate incorporated in India, or by one or more citizens of India and one or more companies or bodies corporate incorporated in India, whether singly or in the aggregate, such company shall comply with the provisions of this Chapter and such other provisions of this Act as may be prescribed with regard to the business carried on by it in India as if it were a company incorporated in India.\n- Section 376 — Power to wind up foreign companies, although dissolved Where a body corporate incorporated outside India which has been carrying on business in India, ceases to carry on business in India, it may be wound up as an unregistered company under this Part, notwithstanding that the body corporate has been dissolved or otherwise ceased to exist as such under or by virtue of the laws of the country under which it was incorporated.\n- Section 135 — Corporate Social Responsibility (1) Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during any financial year shall constitute a Corporate Social Responsibility Committee of the Board consisting of three or more directors, out of which at least one director shall be an independent director.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135",
+            "374",
+            "462",
+            "215",
+            "379",
+            "376"
+          ],
+          "retrievedSections": [
+            "135",
+            "374",
+            "462",
+            "215",
+            "379",
+            "376"
+          ],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "missed_abstention"
+          ],
+          "latencyMs": 25.745
+        },
+        {
+          "id": "conn-173-small-company",
+          "split": "dev",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 173 — Meetings of Board (1) Every company shall hold the first meeting of the Board of Directors within thirty days of the date of its incorporation and thereafter hold a minimum number of four meetings of its Board of Directors every year in such a manner that not more than one hundred and twenty days shall intervene between two consecutive meetings of the Board:\n- A One Person Company, small company and dormant company shall be deemed to have complied with the provisions of this section if at least one meeting of the Board of Directors has been conducted in each half of a calendar year and the gap between the two meetings is not less than ninety days:\n- A meeting of the Board shall be called by giving not less than seven days‘ notice in writing to every director at his address registered with the company and such notice shall be sent by hand delivery or by post or by electronic means:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "173"
+          ],
+          "retrievedSections": [
+            "173"
+          ],
+          "expectedSections": [
+            "173"
+          ],
+          "connectedSections": [
+            "2"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 0,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.75,
+          "missingFacts": [
+            "other than a public company"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "connected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 3.956
+        },
+        {
+          "id": "exception-173-short-notice",
+          "split": "dev",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- A meeting of the Board shall be called by giving not less than seven days‘ notice in writing to every director at his address registered with the company and such notice shall be sent by hand delivery or by post or by electronic means:\n- Provided that a meeting of the Board may be called at shorter notice to transact urgent business subject to the condition that at least one independent director, if any, shall be present at the meeting:\n- Section 173 — Meetings of Board (1) Every company shall hold the first meeting of the Board of Directors within thirty days of the date of its incorporation and thereafter hold a minimum number of four meetings of its Board of Directors every year in such a manner that not more than one hundred and twenty days shall intervene between two consecutive meetings of the Board:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "173"
+          ],
+          "retrievedSections": [
+            "173"
+          ],
+          "expectedSections": [
+            "173"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 3.778
+        },
+        {
+          "id": "conn-188-related-party-definition",
+          "split": "dev",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Where any contract or arrangement is entered into by a director or any other employee, without obtaining the consent of the Board or approval by a [resolution] in the general meeting under sub-section (1) and if it is not ratified by the Board or, as the case may be, by the shareholders at a meeting within three months from the date on which such contract or arrangement was entered into, such contract or arrangement shall be voidable at the option of the Board and if the contract or arrangement is with a related party to any director, or is authorised by any other director, the directors concerned shall indemnify the company against any loss incurred by it.\n- Provided that no contract or arrangement, in the case of a company having a paid-up share capital of not less than such amount, or transactions exceeding such sums, as may be prescribed, shall be entered into except with the prior approval of the company by a [resolution]:\n- Every contract or arrangement entered into under sub-section (1) shall be referred to in the Board‘s report to the shareholders along with the justification for entering into such contract or arrangement.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "188"
+          ],
+          "retrievedSections": [
+            "188"
+          ],
+          "expectedSections": [
+            "188"
+          ],
+          "connectedSections": [
+            "2"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 0,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.333,
+          "missingFacts": [
+            "key managerial personnel",
+            "holding, subsidiary or an associate company"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "connected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 5.468
+        },
+        {
+          "id": "conn-135-198-net-profit",
+          "split": "test",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Explanation.—For the purposes of this section ―average net profit‖ shall be calculated in accordance with the provisions of section 198.\n- Section 135 — Corporate Social Responsibility (1) Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during any financial year shall constitute a Corporate Social Responsibility Committee of the Board consisting of three or more directors, out of which at least one director shall be an independent director.\n- The Board of every company referred to in sub-section (1), shall ensure that the company spends, in every financial year, at least two per cent. of the average net profits of the company made during the three immediately preceding financial years, in pursuance of its Corporate Social Responsibility Policy:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [
+            "198"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 0,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.75,
+          "missingFacts": [
+            "bounties and subsidies"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "connected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 4.396
+        },
+        {
+          "id": "conn-2-85-subsidiary-small-company",
+          "split": "test",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 19 — Subsidiary company not to hold shares in its holding company (1) No company shall, either by itself or through its nominees, hold any shares in its holding company and no holding company shall allot or transfer its shares to any of its subsidiary companies and any such allotment or transfer of shares of a company to its subsidiary company shall be void:\n- Provided that nothing in this sub-section shall apply to a case— (a) where the subsidiary company holds such shares as the legal representative of a deceased member of the holding company; or (b) where the subsidiary company holds such shares as a trustee; or (c) where the subsidiary company is a shareholder even before it became a subsidiary company of the holding company:\n- Provided further that the subsidiary company referred to in the preceding proviso shall have a right to vote at a meeting of the holding company only in respect of the shares held by it as a legal representative or as a trustee, as referred to in clause (a) or clause (b) of the said proviso.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "248",
+            "19",
+            "378",
+            "82",
+            "193",
+            "393"
+          ],
+          "retrievedSections": [
+            "248",
+            "19",
+            "378",
+            "82",
+            "193",
+            "393"
+          ],
+          "expectedSections": [
+            "2"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 0,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.5,
+          "missingFacts": [
+            "other than a public company"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 26.878
+        },
+        {
+          "id": "insufficient-uk-directors-duties",
+          "split": "test",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The question explicitly requests a foreign jurisdiction that is outside this India-only test corpus.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.064
+        },
+        {
+          "id": "insufficient-gst-legal-services",
+          "split": "dev",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 227 — Legal advisors and bankers not to disclose certain information Nothing in this Chapter shall require the disclosure to the Tribunal or to the Central Government or to the Registrar or to an inspector appointed by the Central Government— (a) by a legal adviser, of any privileged communication made to him in that capacity, except as respects the name and address of his client; or (b) by the bankers of any company, body corporate, or other person, of any information as to the affairs of any of their customers, other than such company, body corporate, or person.\n- Section 349 — Official Liquidator to make payments into public account of India Every Official Liquidator shall, in such manner and at such times as may be prescribed, pay the monies received by him as Official Liquidator of any company, into the public account of India in the Reserve Bank of India.\n- Section 144 — Auditor not to render certain services An auditor appointed under this Act shall provide to the company only such other services as are approved by the Board of Directors or the audit committee, as the case may be, but which shall not include any of the following services (whether such services are rendered directly or indirectly to the company), or its holding company or subsidiary company, namely:— (a) accounting and book keeping services; (b) internal audit; (c) design and implementation of any financial information system; (d) actuarial services; (e) investment advisory services; (f) investment banking services; 1.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "390",
+            "135",
+            "144",
+            "429",
+            "227",
+            "349"
+          ],
+          "retrievedSections": [
+            "390",
+            "135",
+            "144",
+            "429",
+            "227",
+            "349"
+          ],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 6,
+            "supportedClaimCount": 6,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "missed_abstention"
+          ],
+          "latencyMs": 23.594
+        },
+        {
+          "id": "temporal-135-before-commencement",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The recorded parts of Section 135 were not in force on 2014-01-01; the earliest recorded commencement is 2014-04-01.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2014-01-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.658
+        },
+        {
+          "id": "temporal-135-uncovered-obligation",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The question concerns a part of Section 135 for which no verified historical text is recorded, so its version on 2016-06-01 cannot be established.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2016-06-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.345
+        },
+        {
+          "id": "temporal-149-no-history",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "No verified historical text is recorded for Section 149, so its version on 2016-01-01 cannot be established.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "149"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2016-01-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.173
+        },
+        {
+          "id": "temporal-135-future-date",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The requested date is in the future, so the applicable law cannot be established.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2030-01-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.124
+        },
+        {
+          "id": "temporal-135-unspent-2020",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2020-06-01",
+          "expectedVersionId": "s135-5-p2-2014",
+          "selectedVersionId": "s135-5-p2-2014",
+          "failureCategories": [],
+          "latencyMs": 1.049
+        },
+        {
+          "id": "temporal-135-unspent-2021",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-06-01",
+          "expectedVersionId": "s135-5-p2-2021",
+          "selectedVersionId": "s135-5-p2-2021",
+          "failureCategories": [],
+          "latencyMs": 1.143
+        },
+        {
+          "id": "temporal-135-unspent-day-before",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-01-21",
+          "expectedVersionId": "s135-5-p2-2014",
+          "selectedVersionId": "s135-5-p2-2014",
+          "failureCategories": [],
+          "latencyMs": 0.911
+        },
+        {
+          "id": "temporal-135-unspent-effective-day",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-01-22",
+          "expectedVersionId": "s135-5-p2-2021",
+          "selectedVersionId": "s135-5-p2-2021",
+          "failureCategories": [],
+          "latencyMs": 1.148
+        },
+        {
+          "id": "temporal-135-ongoing-project-2021",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.5,
+          "missingFacts": [
+            "thirty days"
+          ],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-06-01",
+          "expectedVersionId": "s135-5-p2-2021",
+          "selectedVersionId": "s135-5-p2-2021",
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 1.755
+        }
+      ]
+    },
+    {
+      "label": "connected",
+      "resultLimit": 6,
+      "repeats": 1,
+      "splits": null,
+      "metrics": {
+        "caseCount": 32,
+        "answerableCount": 22,
+        "refusalCount": 10,
+        "correctAbstentionRate": 0.8,
+        "missedAbstentionRate": 0.2,
+        "unnecessaryAbstentionRate": 0,
+        "withheldByVerifierRate": 0,
+        "citedProvisionRecall": 0.886,
+        "connectedProvisionRecall": 1,
+        "acceptableDocumentHitRate": null,
+        "answerFactCoverage": 0.73,
+        "verifierUnsupportedClaimRate": 0,
+        "temporalVersionAccuracy": 1,
+        "errorRate": 0,
+        "latencyMsP50": 6.402,
+        "latencyMsP95": 39.874,
+        "failureCounts": {
+          "expected_fact_missing": 11,
+          "expected_provision_not_cited": 3,
+          "missed_abstention": 2
+        }
+      },
+      "cases": [
+        {
+          "id": "direct-149-board",
+          "split": "dev",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 149 — Company to have Board of Directors (1) Every company shall have a Board of Directors consisting of individuals as directors and shall have— (a) a minimum number of three directors in the case of a public company, two directors in the case of a private company, and one director in the case of a One Person Company; and (b) a maximum of fifteen directors:\n- Section 149 — Company to have Board of Directors (9) Notwithstanding anything contained in any other provision of this Act, but subject to the provisions of sections 197 and 198, an independent director shall not be entitled to any stock option and may receive remuneration by way of fee provided under sub-section (5) of section 197, reimbursement of expenses for participation in the Board and other meetings and profit related commission as may be approved by the members.\n- Provided further that such class or classes of companies as may be prescribed, shall have at least one woman director.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "149",
+            "197",
+            "152"
+          ],
+          "retrievedSections": [
+            "149",
+            "197",
+            "152"
+          ],
+          "expectedSections": [
+            "149"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 19.28
+        },
+        {
+          "id": "direct-173-board-meetings",
+          "split": "dev",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 173 — Meetings of Board (1) Every company shall hold the first meeting of the Board of Directors within thirty days of the date of its incorporation and thereafter hold a minimum number of four meetings of its Board of Directors every year in such a manner that not more than one hundred and twenty days shall intervene between two consecutive meetings of the Board:\n- A One Person Company, small company and dormant company shall be deemed to have complied with the provisions of this section if at least one meeting of the Board of Directors has been conducted in each half of a calendar year and the gap between the two meetings is not less than ninety days:\n- The participation of directors in a meeting of the Board may be either in person or through video conferencing or other audio visual means, as may be prescribed, which are capable of recording and recognising the participation of the directors and of recording and storing the proceedings of such meetings along with date and time:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "173",
+            "174"
+          ],
+          "retrievedSections": [
+            "173",
+            "174"
+          ],
+          "expectedSections": [
+            "173"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 7.752
+        },
+        {
+          "id": "direct-96-agm",
+          "split": "dev",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 96 — Annual general meeting (1) Every company other than a One Person Company shall in each year hold in addition to any other meetings, a general meeting as its annual general meeting and shall specify the meeting as such in the notices calling it, and not more than fifteen months shall elapse between the date of one annual general meeting of a company and that of the next:\n- Provided that in case of the first annual general meeting, it shall be held within a period of nine months from the date of closing of the first financial year of the company and in any other case, within a period of six months, from the date of closing of the financial year:\n- Provided further that if a company holds its first annual general meeting as aforesaid, it shall not be necessary for the company to hold any annual general meeting in the year of its incorporation:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "96"
+          ],
+          "retrievedSections": [
+            "96"
+          ],
+          "expectedSections": [
+            "96"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 8.069
+        },
+        {
+          "id": "direct-92-annual-return",
+          "split": "test",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Provided that in relation to One Person Company and small company, the annual return shall be signed by the company secretary, or where there is no company secretary, by the director of the company.\n- The annual return, filed by a listed company or, by a company having such paid-up capital and turnover as may be prescribed, shall be certified by a company secretary in practice in the prescribed form, stating that the annual return discloses the facts correctly and adequately and that the company has complied with all the provisions of this Act.\n- An extract of the annual return in such form as may be prescribed shall form part of the Board‘s report.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "92",
+            "403"
+          ],
+          "retrievedSections": [
+            "92",
+            "403"
+          ],
+          "expectedSections": [
+            "92"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.333,
+          "missingFacts": [
+            "registered office",
+            "close of the financial year"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 6.765
+        },
+        {
+          "id": "direct-203-kmp",
+          "split": "test",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 203 — Appointment of key managerial personnel (1) Every company belonging to such class or classes of companies as may be prescribed shall have the following whole-time key managerial personnel,— (i) managing director, or Chief Executive Officer or manager and in their absence, a whole-time director; (ii) company secretary; and (iii) Chief Financial Officer :\n- Every whole-time key managerial personnel of a company shall be appointed by means of a resolution of the Board containing the terms and conditions of the appointment including the remuneration.\n- A whole-time key managerial personnel shall not hold office in more than one company except in its subsidiary company at the same time:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "203",
+            "2"
+          ],
+          "retrievedSections": [
+            "203",
+            "2"
+          ],
+          "expectedSections": [
+            "203"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 4,
+            "supportedClaimCount": 4,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 8.098
+        },
+        {
+          "id": "direct-139-auditor",
+          "split": "test",
+          "type": "direct_lookup",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 139 — Appointment of auditors (1) Subject to the provisions of this Chapter, every company shall, at the first annual general meeting, appoint an individual or a firm as an auditor who shall hold office from the conclusion of that meeting till the conclusion of its sixth annual general meeting and thereafter till the conclusion of every sixth meeting and the manner and procedure of selection of auditors by the members of the company at such meeting shall be such as may be prescribed:\n- Notwithstanding anything contained in sub-section (1), the first auditor of a company, other than a Government company, shall be appointed by the Board of Directors within thirty days from the date of registration of the company and in the case of failure of the Board to appoint such auditor, it shall inform the members of the company, who shall within ninety days at an extraordinary general meeting appoint such auditor and such auditor shall hold office till the conclusion of the first annual general meeting.\n- Notwithstanding anything contained in sub-section (1), in the case of a Government company or any other company owned or controlled, directly or indirectly, by the Central Government, or by any State Government or Governments, or partly by the Central Government and partly by one or more State Governments, the Comptroller and Auditor-General of India shall, in respect of a financial year, appoint an auditor duly qualified to be appointed as an auditor of companies under this Act, within a period of one hundred and eighty days from the commencement of the financial year, who shall hold office till the conclusion of the annual general meeting.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "139",
+            "141",
+            "177"
+          ],
+          "retrievedSections": [
+            "139",
+            "141",
+            "177"
+          ],
+          "expectedSections": [
+            "139"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 15.782
+        },
+        {
+          "id": "exception-135-csr-spend",
+          "split": "test",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- The Board of every company referred to in sub-section (1), shall ensure that the company spends, in every financial year, at least two per cent. of the average net profits of the company made during the three immediately preceding financial years, in pursuance of its Corporate Social Responsibility Policy:\n- The Corporate Social Responsibility Committee shall,— (a) formulate and recommend to the Board, a Corporate Social Responsibility Policy which shall indicate the activities to be undertaken by the company as specified in Schedule VII; (b) recommend the amount of expenditure to be incurred on the activities referred to in clause (a); and (c) monitor the Corporate Social Responsibility Policy of the company from time to time.\n- Provided that the company shall give preference to the local area and areas around it where it operates, for spending the amount earmarked for Corporate Social Responsibility activities:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135",
+            "50",
+            "149",
+            "248",
+            "134",
+            "198"
+          ],
+          "retrievedSections": [
+            "135",
+            "50",
+            "149",
+            "248",
+            "134",
+            "198"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [
+            "134"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 1,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.4,
+          "missingFacts": [
+            "five hundred crore",
+            "one thousand crore",
+            "five crore"
+          ],
+          "verification": {
+            "claimCount": 4,
+            "supportedClaimCount": 4,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 46.842
+        },
+        {
+          "id": "exception-188-related-party",
+          "split": "dev",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Provided that no contract or arrangement, in the case of a company having a paid-up share capital of not less than such amount, or transactions exceeding such sums, as may be prescribed, shall be entered into except with the prior approval of the company by a [resolution]:\n- Where any contract or arrangement is entered into by a director or any other employee, without obtaining the consent of the Board or approval by a [resolution] in the general meeting under sub-section (1) and if it is not ratified by the Board or, as the case may be, by the shareholders at a meeting within three months from the date on which such contract or arrangement was entered into, such contract or arrangement shall be voidable at the option of the Board and if the contract or arrangement is with a related party to any director, or is authorised by any other director, the directors concerned shall indemnify the company against any loss incurred by it.\n- Every contract or arrangement entered into under sub-section (1) shall be referred to in the Board‘s report to the shareholders along with the justification for entering into such contract or arrangement.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "188",
+            "2"
+          ],
+          "retrievedSections": [
+            "188",
+            "2"
+          ],
+          "expectedSections": [
+            "188"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.333,
+          "missingFacts": [
+            "ordinary course of business",
+            "arm"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 6.724
+        },
+        {
+          "id": "exception-149-max-directors",
+          "split": "dev",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 149 — Company to have Board of Directors (1) Every company shall have a Board of Directors consisting of individuals as directors and shall have— (a) a minimum number of three directors in the case of a public company, two directors in the case of a private company, and one director in the case of a One Person Company; and (b) a maximum of fifteen directors:\n- Section 149 — Company to have Board of Directors (9) Notwithstanding anything contained in any other provision of this Act, but subject to the provisions of sections 197 and 198, an independent director shall not be entitled to any stock option and may receive remuneration by way of fee provided under sub-section (5) of section 197, reimbursement of expenses for participation in the Board and other meetings and profit related commission as may be approved by the members.\n- Provided further that such class or classes of companies as may be prescribed, shall have at least one woman director.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "149",
+            "152",
+            "197"
+          ],
+          "retrievedSections": [
+            "149",
+            "152",
+            "197"
+          ],
+          "expectedSections": [
+            "149"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.5,
+          "missingFacts": [
+            "special resolution"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 14.117
+        },
+        {
+          "id": "multi-135-134-disclosure",
+          "split": "test",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 68 — Power of company to purchase its own securities (1) Notwithstanding anything contained in this Act, but subject to the provisions of sub-section (2), a company may purchase its own shares or other specified securities (hereinafter referred to as buy-back) out of— (a) its free reserves; (b) the securities premium account; or (c) the proceeds of the issue of any shares or other specified securities:\n- Provided that no buy-back of any kind of shares or other specified securities shall be made out of the proceeds of an earlier issue of the same kind of shares or same kind of other specified securities.\n- No company shall purchase its own shares or other specified securities under sub-section (1), unless— (a) the buy-back is authorised by its articles; (b) a special resolution has been passed at a general meeting of the company authorising the buyback:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "68",
+            "19",
+            "187",
+            "67",
+            "62",
+            "70"
+          ],
+          "retrievedSections": [
+            "68",
+            "19",
+            "187",
+            "67",
+            "62",
+            "70"
+          ],
+          "expectedSections": [
+            "135",
+            "134"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 0,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0,
+          "missingFacts": [
+            "Corporate Social Responsibility Committee",
+            "Board's report"
+          ],
+          "verification": {
+            "claimCount": 5,
+            "supportedClaimCount": 5,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 39.874
+        },
+        {
+          "id": "multi-177-179-board-powers",
+          "split": "dev",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 177 — Audit Committee (1) The Board of Directors of every listed company and such other class or classes of companies, as may be prescribed, shall constitute an Audit Committee.\n- The Audit Committee shall have authority to investigate into any matter in relation to the items specified in sub-section (4) or referred to it by the Board and for this purpose shall have power to obtain professional advice from external sources and have full access to information contained in the records of the company.\n- The Audit Committee may call for the comments of the auditors about internal control systems, the scope of audit, including the observations of the auditors and review of financial statement before their submission to the Board and may also discuss any related issues with the internal and statutory auditors and the management of the company.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "177",
+            "356",
+            "313",
+            "2",
+            "134",
+            "232"
+          ],
+          "retrievedSections": [
+            "177",
+            "356",
+            "313",
+            "2",
+            "134",
+            "232"
+          ],
+          "expectedSections": [
+            "177",
+            "179"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 0.5,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_provision_not_cited"
+          ],
+          "latencyMs": 32.69
+        },
+        {
+          "id": "multi-185-186-loans",
+          "split": "test",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 67 — Restriction on purchase by company or giving of loans by it for purchase of its shares (1) No company limited by shares or by guarantee and having a share capital shall have power to buy its own shares unless the consequent reduction of share capital is effected under the provisions of this Act.\n- Where in pursuance of clause (d) of sub-section (2), any shares or securities in which investments have been made by a company are not held by it in its own name, the company shall maintain a register which shall contain such particulars as may be prescribed and such register shall be open to inspection by any member or debenture-holder of the company without any charge during business hours subject to such reasonable restrictions as the company may by its articles or in general meeting impose.\n- No public company shall give, whether directly or indirectly and whether by means of a loan, guarantee, the provision of security or otherwise, any financial assistance for the purpose of, or in connection with, a purchase or subscription made or to be made, by any person of or for any shares in the company or in its holding company.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "67",
+            "187",
+            "19",
+            "61",
+            "68",
+            "149"
+          ],
+          "retrievedSections": [
+            "67",
+            "187",
+            "19",
+            "61",
+            "68",
+            "149"
+          ],
+          "expectedSections": [
+            "185",
+            "186"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 0,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.667,
+          "missingFacts": [
+            "directors"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_provision_not_cited",
+            "expected_fact_missing"
+          ],
+          "latencyMs": 31.234
+        },
+        {
+          "id": "nonexistent-903",
+          "split": "dev",
+          "type": "nonexistent_section",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The available official evidence is insufficient to answer this question.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.408
+        },
+        {
+          "id": "nonexistent-250z",
+          "split": "test",
+          "type": "nonexistent_section",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The available official evidence is insufficient to answer this question.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.14
+        },
+        {
+          "id": "insufficient-foreign-merger",
+          "split": "dev",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The question explicitly requests a foreign jurisdiction that is outside this India-only test corpus.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.03
+        },
+        {
+          "id": "insufficient-tax-rate",
+          "split": "test",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (1) Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during any financial year shall constitute a Corporate Social Responsibility Committee of the Board consisting of three or more directors, out of which at least one director shall be an independent director.\n- The Board of every company referred to in sub-section (1), shall ensure that the company spends, in every financial year, at least two per cent. of the average net profits of the company made during the three immediately preceding financial years, in pursuance of its Corporate Social Responsibility Policy:\n- Section 198 — Calculation of profits (1) In computing the net profits of a company in any financial year for the purpose of section 197,— (a) credit shall be given for the sums specified in sub-section (2), and credit shall not be given for those specified in sub-section (3); and (b) the sums specified in sub-section (4) shall be deducted, and those specified in sub-section (5) shall not be deducted.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135",
+            "374",
+            "462",
+            "215",
+            "134",
+            "198"
+          ],
+          "retrievedSections": [
+            "135",
+            "374",
+            "462",
+            "215",
+            "134",
+            "198"
+          ],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "missed_abstention"
+          ],
+          "latencyMs": 33.464
+        },
+        {
+          "id": "conn-173-small-company",
+          "split": "dev",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 173 — Meetings of Board (1) Every company shall hold the first meeting of the Board of Directors within thirty days of the date of its incorporation and thereafter hold a minimum number of four meetings of its Board of Directors every year in such a manner that not more than one hundred and twenty days shall intervene between two consecutive meetings of the Board:\n- A One Person Company, small company and dormant company shall be deemed to have complied with the provisions of this section if at least one meeting of the Board of Directors has been conducted in each half of a calendar year and the gap between the two meetings is not less than ninety days:\n- A meeting of the Board shall be called by giving not less than seven days‘ notice in writing to every director at his address registered with the company and such notice shall be sent by hand delivery or by post or by electronic means:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "173",
+            "2",
+            "174"
+          ],
+          "retrievedSections": [
+            "173",
+            "2",
+            "174"
+          ],
+          "expectedSections": [
+            "173"
+          ],
+          "connectedSections": [
+            "2"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 1,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.75,
+          "missingFacts": [
+            "other than a public company"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 5.823
+        },
+        {
+          "id": "exception-173-short-notice",
+          "split": "dev",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- A meeting of the Board shall be called by giving not less than seven days‘ notice in writing to every director at his address registered with the company and such notice shall be sent by hand delivery or by post or by electronic means:\n- Provided that a meeting of the Board may be called at shorter notice to transact urgent business subject to the condition that at least one independent director, if any, shall be present at the meeting:\n- Section 173 — Meetings of Board (1) Every company shall hold the first meeting of the Board of Directors within thirty days of the date of its incorporation and thereafter hold a minimum number of four meetings of its Board of Directors every year in such a manner that not more than one hundred and twenty days shall intervene between two consecutive meetings of the Board:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "173",
+            "174"
+          ],
+          "retrievedSections": [
+            "173",
+            "174"
+          ],
+          "expectedSections": [
+            "173"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 5.106
+        },
+        {
+          "id": "conn-188-related-party-definition",
+          "split": "dev",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Where any contract or arrangement is entered into by a director or any other employee, without obtaining the consent of the Board or approval by a [resolution] in the general meeting under sub-section (1) and if it is not ratified by the Board or, as the case may be, by the shareholders at a meeting within three months from the date on which such contract or arrangement was entered into, such contract or arrangement shall be voidable at the option of the Board and if the contract or arrangement is with a related party to any director, or is authorised by any other director, the directors concerned shall indemnify the company against any loss incurred by it.\n- Provided that no contract or arrangement, in the case of a company having a paid-up share capital of not less than such amount, or transactions exceeding such sums, as may be prescribed, shall be entered into except with the prior approval of the company by a [resolution]:\n- Every contract or arrangement entered into under sub-section (1) shall be referred to in the Board‘s report to the shareholders along with the justification for entering into such contract or arrangement.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "188",
+            "2"
+          ],
+          "retrievedSections": [
+            "188",
+            "2"
+          ],
+          "expectedSections": [
+            "188"
+          ],
+          "connectedSections": [
+            "2"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 1,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.333,
+          "missingFacts": [
+            "key managerial personnel",
+            "holding, subsidiary or an associate company"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 6.402
+        },
+        {
+          "id": "conn-135-198-net-profit",
+          "split": "test",
+          "type": "multi_provision",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Explanation.—For the purposes of this section ―average net profit‖ shall be calculated in accordance with the provisions of section 198.\n- Section 135 — Corporate Social Responsibility (1) Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during any financial year shall constitute a Corporate Social Responsibility Committee of the Board consisting of three or more directors, out of which at least one director shall be an independent director.\n- The Board of every company referred to in sub-section (1), shall ensure that the company spends, in every financial year, at least two per cent. of the average net profits of the company made during the three immediately preceding financial years, in pursuance of its Corporate Social Responsibility Policy:",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135",
+            "198",
+            "134"
+          ],
+          "retrievedSections": [
+            "135",
+            "198",
+            "134"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [
+            "198"
+          ],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": 1,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.75,
+          "missingFacts": [
+            "bounties and subsidies"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 8.26
+        },
+        {
+          "id": "conn-2-85-subsidiary-small-company",
+          "split": "test",
+          "type": "exception_sensitive",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 19 — Subsidiary company not to hold shares in its holding company (1) No company shall, either by itself or through its nominees, hold any shares in its holding company and no holding company shall allot or transfer its shares to any of its subsidiary companies and any such allotment or transfer of shares of a company to its subsidiary company shall be void:\n- Section 2(87) — Definitions (87) ―subsidiary company‖ or ―subsidiary‖, in relation to any other company (that is to say the holding company), means a company in which the holding company— (i) controls the composition of the Board of Directors; or (ii) exercises or controls more than one-half of the total share capital either at its own or together with one or more of its subsidiary companies:\n- Provided that such class or classes of holding companies as may be prescribed shall not have layers of subsidiaries beyond such numbers as may be prescribed.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "248",
+            "19",
+            "378",
+            "8",
+            "455",
+            "2"
+          ],
+          "retrievedSections": [
+            "248",
+            "19",
+            "378",
+            "8",
+            "455",
+            "2"
+          ],
+          "expectedSections": [
+            "2"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.5,
+          "missingFacts": [
+            "other than a public company"
+          ],
+          "verification": {
+            "claimCount": 3,
+            "supportedClaimCount": 3,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 27.384
+        },
+        {
+          "id": "insufficient-uk-directors-duties",
+          "split": "test",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The question explicitly requests a foreign jurisdiction that is outside this India-only test corpus.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.059
+        },
+        {
+          "id": "insufficient-gst-legal-services",
+          "split": "dev",
+          "type": "insufficient_evidence",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 144 — Auditor not to render certain services An auditor appointed under this Act shall provide to the company only such other services as are approved by the Board of Directors or the audit committee, as the case may be, but which shall not include any of the following services (whether such services are rendered directly or indirectly to the company), or its holding company or subsidiary company, namely:— (a) accounting and book keeping services; (b) internal audit; (c) design and implementation of any financial information system; (d) actuarial services; (e) investment advisory services; (f) investment banking services; 1.\n- Provided further that the companies, whose auditors have reported frauds under this sub-section to the audit committee or the Board but not reported to the Central Government, shall disclose the details about such frauds in the Board‘s report in such manner as may be prescribed.‖. (g) rendering of outsourced financial services; (h) management services; and (i) any other kind of services as may be prescribed:\n- Provided that an auditor or audit firm who or which has been performing any non-audit services on or before the commencement of this Act shall comply with the provisions of this section before the closure of the first financial year after the date of such commencement.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "390",
+            "135",
+            "144",
+            "429",
+            "134",
+            "198"
+          ],
+          "retrievedSections": [
+            "390",
+            "135",
+            "144",
+            "429",
+            "134",
+            "198"
+          ],
+          "expectedSections": [],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 8,
+            "supportedClaimCount": 8,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": null,
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [
+            "missed_abstention"
+          ],
+          "latencyMs": 34.465
+        },
+        {
+          "id": "temporal-135-before-commencement",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The recorded parts of Section 135 were not in force on 2014-01-01; the earliest recorded commencement is 2014-04-01.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2014-01-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.839
+        },
+        {
+          "id": "temporal-135-uncovered-obligation",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The question concerns a part of Section 135 for which no verified historical text is recorded, so its version on 2016-06-01 cannot be established.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2016-06-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.831
+        },
+        {
+          "id": "temporal-149-no-history",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "No verified historical text is recorded for Section 149, so its version on 2016-01-01 cannot be established.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "149"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2016-01-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.996
+        },
+        {
+          "id": "temporal-135-future-date",
+          "split": "dev",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": true,
+          "expectAbstention": true,
+          "errorCode": null,
+          "answer": "The requested date is in the future, so the applicable law cannot be established.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [],
+          "retrievedSections": [],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": null,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [],
+          "acceptableDocumentCited": null,
+          "factCoverage": null,
+          "missingFacts": [],
+          "verification": null,
+          "applicableDate": "2030-01-01",
+          "expectedVersionId": null,
+          "selectedVersionId": null,
+          "failureCategories": [],
+          "latencyMs": 0.642
+        },
+        {
+          "id": "temporal-135-unspent-2020",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2020-06-01",
+          "expectedVersionId": "s135-5-p2-2014",
+          "selectedVersionId": "s135-5-p2-2014",
+          "failureCategories": [],
+          "latencyMs": 2.101
+        },
+        {
+          "id": "temporal-135-unspent-2021",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-06-01",
+          "expectedVersionId": "s135-5-p2-2021",
+          "selectedVersionId": "s135-5-p2-2021",
+          "failureCategories": [],
+          "latencyMs": 1.604
+        },
+        {
+          "id": "temporal-135-unspent-day-before",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-01-21",
+          "expectedVersionId": "s135-5-p2-2014",
+          "selectedVersionId": "s135-5-p2-2014",
+          "failureCategories": [],
+          "latencyMs": 1.392
+        },
+        {
+          "id": "temporal-135-unspent-effective-day",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 1,
+          "missingFacts": [],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-01-22",
+          "expectedVersionId": "s135-5-p2-2021",
+          "selectedVersionId": "s135-5-p2-2021",
+          "failureCategories": [],
+          "latencyMs": 1.604
+        },
+        {
+          "id": "temporal-135-ongoing-project-2021",
+          "split": "test",
+          "type": "temporal",
+          "attempt": 1,
+          "abstained": false,
+          "expectAbstention": false,
+          "errorCode": null,
+          "answer": "## Summary\n\n- Section 135 — Corporate Social Responsibility (sub-section (5), second proviso: consequence of not spending the CSR amount) Provided further that if the company fails to spend such amount, the Board shall, in its report made under clause (o) of sub-section (3) of section 134, specify the reasons for not spending the amount and, unless the unspent amount relates to any ongoing project referred to in sub-section (6), transfer such unspent amount to a Fund specified in Schedule VII, within a period of six months of the expiry of the financial year.",
+          "answerMode": "deterministic_extract",
+          "citedSections": [
+            "135"
+          ],
+          "retrievedSections": [
+            "135"
+          ],
+          "expectedSections": [
+            "135"
+          ],
+          "connectedSections": [],
+          "expectedProvisionRecall": 1,
+          "connectedProvisionRecall": null,
+          "citedDocuments": [
+            "legal_6764a91179ecd937cbf15946"
+          ],
+          "acceptableDocumentCited": null,
+          "factCoverage": 0.5,
+          "missingFacts": [
+            "thirty days"
+          ],
+          "verification": {
+            "claimCount": 1,
+            "supportedClaimCount": 1,
+            "unsupportedClaimCount": 0,
+            "contradictedClaimCount": 0,
+            "unverifiedClaimCount": 0,
+            "withheld": false,
+            "rejectedClaims": []
+          },
+          "applicableDate": "2021-06-01",
+          "expectedVersionId": "s135-5-p2-2021",
+          "selectedVersionId": "s135-5-p2-2021",
+          "failureCategories": [
+            "expected_fact_missing"
+          ],
+          "latencyMs": 2.175
+        }
+      ]
+    }
+  ]
+}

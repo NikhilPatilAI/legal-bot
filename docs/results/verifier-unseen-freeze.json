@@ -1,0 +1,7 @@
+{
+  "frozenAt": "2026-09-29T17:04:59.190Z",
+  "note": "Unseen-law verifier benchmark frozen before any verifier change and before it was scored. Tuning uses only the Companies Act dev and test partitions.",
+  "unseenSha256": "a9ef507e8edededc350a0f993b7b7dd5cb6f83bc36f437e67f55576fd98b555f",
+  "unseenParaphrasesSha256": "d701fc99b20d0040a8784ba426260db8d8f55854c566d5bb4d99d4cb012b83f7",
+  "unseenItemsSha256": "1a36a66f77644347869962e87d94c39193f50fe4d9ee216fa5ae6aa027bf1d7b"
+}

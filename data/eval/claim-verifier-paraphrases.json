@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "legal-bot-claim-paraphrases-v1",
+  "reviewNote": "Faithful plain-English paraphrases of single sentences of the indexed Technology Development Board reproduction of the Companies Act, 2013, written and checked against the quoted source excerpt by an AI coding assistant on 2026-09-28. They are positive examples for measuring verifier false rejections, not lawyer-reviewed statements of current law. Each sourceExcerpt is verified to occur in the cited section by scripts/evaluate-claim-verifier.ts.",
+  "items": [
+    {
+      "id": "12-registered-office",
+      "section": "12",
+      "claim": "From the fifteenth day after incorporation, a company must always have a registered office able to receive and acknowledge communications and notices.",
+      "sourceExcerpt": "A company shall, on and from the fifteenth day of its incorporation and at all times thereafter, have a registered office capable of receiving and acknowledging all communications and notices"
+    },
+    {
+      "id": "12-verification",
+      "section": "12",
+      "claim": "The company must give the Registrar verification of its registered office within thirty days of incorporation.",
+      "sourceExcerpt": "The company shall furnish to the Registrar verification of its registered office within a period of thirty days of its incorporation"
+    },
+    {
+      "id": "96-gap",
+      "section": "96",
+      "claim": "No more than fifteen months may pass between one annual general meeting of a company and the next.",
+      "sourceExcerpt": "not more than fifteen months shall elapse between the date of one annual general meeting of a company and that of the next"
+    },
+    {
+      "id": "96-first-agm",
+      "section": "96",
+      "claim": "A company's first annual general meeting must be held within nine months from the close of its first financial year.",
+      "sourceExcerpt": "in case of the first annual general meeting, it shall be held within a period of nine months from the date of closing of the first financial year of the company"
+    },
+    {
+      "id": "139-term",
+      "section": "139",
+      "claim": "An auditor appointed at the first annual general meeting holds office from the conclusion of that meeting until the conclusion of the sixth annual general meeting.",
+      "sourceExcerpt": "shall hold office from the conclusion of that meeting till the conclusion of its sixth annual general meeting"
+    },
+    {
+      "id": "152-general-meeting",
+      "section": "152",
+      "claim": "Unless the Act expressly provides otherwise, every director is appointed by the company in general meeting.",
+      "sourceExcerpt": "Save as otherwise expressly provided in this Act, every director shall be appointed by the company in general meeting."
+    },
+    {
+      "id": "161-additional-director",
+      "section": "161",
+      "claim": "An additional director appointed by the Board holds office up to the date of the next annual general meeting or the last date on which it should have been held, whichever is earlier.",
+      "sourceExcerpt": "shall hold office up to the date of the next annual general meeting or the last date on which the annual general meeting should have been held, whichever is earlier"
+    },
+    {
+      "id": "165-twenty",
+      "section": "165",
+      "claim": "A person cannot hold office as a director, including alternate directorships, in more than twenty companies at the same time.",
+      "sourceExcerpt": "No person, after the commencement of this Act, shall hold office as a director, including any alternate directorship, in more than twenty companies at the same time"
+    },
+    {
+      "id": "165-public-ten",
+      "section": "165",
+      "claim": "The maximum number of public companies in which a person can be appointed as a director shall not exceed ten.",
+      "sourceExcerpt": "the maximum number of public companies in which a person can be appointed as a director shall not exceed ten"
+    },
+    {
+      "id": "168-registrar-copy",
+      "section": "168",
+      "claim": "A resigning director must also send the Registrar a copy of the resignation with detailed reasons within thirty days of resigning.",
+      "sourceExcerpt": "a director shall also forward a copy of his resignation along with detailed reasons for the resignation to the Registrar within thirty days of resignation"
+    },
+    {
+      "id": "177-composition",
+      "section": "177",
+      "claim": "An Audit Committee must have at least three directors, with independent directors forming a majority.",
+      "sourceExcerpt": "The Audit Committee shall consist of a minimum of three directors with independent directors forming a majority"
+    },
+    {
+      "id": "177-constitute",
+      "section": "177",
+      "claim": "The Board of every listed company, and of other prescribed classes of companies, must constitute an Audit Committee.",
+      "sourceExcerpt": "The Board of Directors of every listed company and such other class or classes of companies, as may be prescribed, shall constitute an Audit Committee."
+    },
+    {
+      "id": "179-powers",
+      "section": "179",
+      "claim": "The Board of Directors is entitled to exercise all the powers and do all the acts and things that the company is authorised to exercise and do.",
+      "sourceExcerpt": "The Board of Directors of a company shall be entitled to exercise all such powers, and to do all such acts and things, as the company is authorised to exercise and do"
+    },
+    {
+      "id": "180-special-resolution",
+      "section": "180",
+      "claim": "The Board may sell, lease or otherwise dispose of the whole or substantially the whole of the company's undertaking only with the consent of the company by a special resolution.",
+      "sourceExcerpt": "The Board of Directors of a company shall exercise the following powers only with the consent of the company by a special resolution"
+    },
+    {
+      "id": "203-kmp",
+      "section": "203",
+      "claim": "Prescribed classes of companies must have whole-time key managerial personnel, including a company secretary and a Chief Financial Officer.",
+      "sourceExcerpt": "shall have the following whole-time key managerial personnel"
+    },
+    {
+      "id": "204-secretarial-audit",
+      "section": "204",
+      "claim": "Every listed company must annex to its Board's report a secretarial audit report given by a company secretary in practice.",
+      "sourceExcerpt": "a secretarial audit report, given by a company secretary in practice"
+    },
+    {
+      "id": "149-minimum",
+      "section": "149",
+      "claim": "A public company needs at least three directors and a private company at least two.",
+      "sourceExcerpt": "a minimum number of three directors in the case of a public company, two directors in the case of a private company"
+    },
+    {
+      "id": "173-first-meeting",
+      "section": "173",
+      "claim": "A company must hold its first Board meeting within thirty days of incorporation.",
+      "sourceExcerpt": "Every company shall hold the first meeting of the Board of Directors"
+    },
+    {
+      "id": "188-ordinary-course",
+      "section": "188",
+      "claim": "The Board-consent requirement in sub-section (1) does not apply to transactions in the ordinary course of business that are on an arm's length basis.",
+      "sourceExcerpt": "nothing in this sub-section shall apply to any transactions entered into by the company in its ordinary course of business"
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "schemaVersion": "legal-bot-legal-eval-v2",
+  "act": "Indian regulatory corpus (5,082 supplied PDFs: Companies, LLP, SEBI, GST, Trade marks, IBBI, RBI/FEMA, Income tax, Case law)",
+  "corpus": "full-corpus-index",
+  "reviewStatus": "source_reviewed",
+  "reviewNote": "Questions and expected facts were drafted by an AI coding assistant and checked against the text of the named documents in the local full-corpus SQLite index on 2026-09-28. Every expected fact is a verbatim substring of at least one acceptable document, checked mechanically when the dataset was built. No case is lawyer-reviewed. Every indexed document has legalStatus unknown: expected facts describe the indexed text, not verified current law. Splits are frozen by family.",
+  "cases": [
+    {
+      "id": "fc-llp-designated-partners",
+      "split": "dev",
+      "family": "llp-act",
+      "type": "direct_lookup",
+      "question": "How many designated partners must a limited liability partnership have under the Limited Liability Partnership Act, 2008?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_343686ae15225fa3c565700e"
+      ],
+      "expectedFacts": [
+        "at least two designated partners",
+        "resident in India"
+      ],
+      "note": "LLP Act, 2008 section 7(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "02-llp/a2009-06.pdf, section 7(1), index page 7"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-fema-current-account",
+      "split": "dev",
+      "family": "fema-definitions",
+      "type": "direct_lookup",
+      "question": "What is a current account transaction under the Foreign Exchange Management Act, 1999?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_1e4b9ea188c27c795a448a2e"
+      ],
+      "expectedFacts": [
+        "other than a capital account transaction",
+        "payments due in connection with foreign trade"
+      ],
+      "note": "FEMA, 1999 section 2(j).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "07-rbi-fema/content.pdf, section 2(j), index page 6"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-fema-person-resident",
+      "split": "dev",
+      "family": "fema-definitions",
+      "type": "direct_lookup",
+      "question": "Who is a person resident in India under the Foreign Exchange Management Act, 1999?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_1e4b9ea188c27c795a448a2e"
+      ],
+      "expectedFacts": [
+        "more than one hundred and eighty-two days during the course of the preceding financial year"
+      ],
+      "note": "FEMA, 1999 section 2(v).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "07-rbi-fema/content.pdf, section 2(v), index page 7"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-refusal-foreign-delaware",
+      "split": "dev",
+      "family": "refusal-foreign",
+      "type": "insufficient_evidence",
+      "question": "What fiduciary duties do directors owe under Delaware corporate law?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "Foreign law is outside the India-only corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Delaware law is not in the supplied corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-refusal-passport",
+      "split": "dev",
+      "family": "refusal-out-of-domain",
+      "type": "insufficient_evidence",
+      "question": "What documents do I need to apply for a fresh Indian passport?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "Passport rules are not among the nine supplied categories.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: no passport material in the corpus categories (Companies, LLP, SEBI, GST, Trade marks, IBBI, RBI/FEMA, Income tax, Case law).",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-refusal-nonexistent-llp-section",
+      "split": "dev",
+      "family": "refusal-nonexistent",
+      "type": "nonexistent_section",
+      "question": "What does Section 999 of the Limited Liability Partnership Act, 2008 provide?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "The LLP Act has no Section 999.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: the indexed LLP Act has no Section 999.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-tm-opposition-period",
+      "split": "test",
+      "family": "trade-marks-opposition",
+      "type": "direct_lookup",
+      "question": "Within what time can a person oppose a trade mark application after it is advertised under the Trade Marks Act, 1999?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_07aa58f3262a4d764c087577"
+      ],
+      "expectedFacts": [
+        "three months from the date of the advertisement",
+        "not exceeding one month"
+      ],
+      "note": "Trade Marks Act, 1999 section 21(1) as indexed.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "05-trademarks/undated__Trade-Marks-Act-1999.pdf, section 21(1), index page 12"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": "The indexed copy is undated and may predate later amendments to the opposition period; the expected facts describe the indexed text."
+      }
+    },
+    {
+      "id": "fc-tm-counter-statement",
+      "split": "test",
+      "family": "trade-marks-opposition",
+      "type": "exception_sensitive",
+      "question": "What happens if a trade mark applicant does not send a counter statement after receiving a notice of opposition?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_07aa58f3262a4d764c087577"
+      ],
+      "expectedFacts": [
+        "within two months",
+        "deemed to have abandoned his application"
+      ],
+      "note": "Trade Marks Act, 1999 section 21(2) as indexed.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "05-trademarks/undated__Trade-Marks-Act-1999.pdf, section 21(2), index page 12"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": "Undated indexed copy."
+      }
+    },
+    {
+      "id": "fc-sebi-trading-window",
+      "split": "test",
+      "family": "sebi-pit",
+      "type": "exception_sensitive",
+      "question": "Under the SEBI insider trading regulations, when may designated persons not trade, and for how long does the trading restriction period last around financial results?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_3e14632093a11d5ced286205"
+      ],
+      "expectedFacts": [
+        "shall not trade in securities when the trading window is closed",
+        "48 hours after the declaration of financial results"
+      ],
+      "note": "SEBI (PIT) Regulations, 2015, Schedule B clause 4.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "03-sebi/1786963663321.pdf (last amended March 12, 2025), Schedule B, index page 61"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-income-tax-tax-year",
+      "split": "test",
+      "family": "income-tax-2025",
+      "type": "direct_lookup",
+      "question": "What does tax year mean under the Income-tax Act, 2025?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_d54a0ed6a91673d1a4fbcef9"
+      ],
+      "expectedFacts": [
+        "twelve months period of the financial year commencing on the 1st April"
+      ],
+      "note": "Income-tax Act, 2025 section 3(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "08-income-tax/Income_Tax_Act_2025_as_amended_by_FA_Act_2026.pdf, section 3(1), index page 26"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-gst-itc-conditions",
+      "split": "test",
+      "family": "gst-itc",
+      "type": "exception_sensitive",
+      "question": "Under the CGST Act, what conditions must a registered person satisfy before taking input tax credit?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_04f1a718758ad47178cc62f5"
+      ],
+      "expectedFacts": [
+        "he is in possession of a tax invoice or debit note",
+        "he has received the goods or services or both"
+      ],
+      "note": "CGST Act, 2017 section 16(2).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "04-gst/CGST-Act-2017-amended-01012022.pdf, section 16(2), index page 39"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": "The corpus holds several dated versions of CGST material; this case accepts the version amended up to 01.01.2022 only."
+      }
+    },
+    {
+      "id": "fc-companies-unspent-csr",
+      "split": "test",
+      "family": "companies-csr-current",
+      "type": "exception_sensitive",
+      "question": "Under the Companies Act, 2013, what must a company do with an unspent CSR amount that does not relate to an ongoing project?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "acceptableDocuments": [
+        "legal_863b1cf5dc33bc395fe55647"
+      ],
+      "expectedFacts": [
+        "transfer such unspent amount to a Fund specified in Schedule VII"
+      ],
+      "note": "Companies Act, 2013 section 135(5) second proviso (consolidated text, last update 29-7-2022).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "01-companies/CompaniesAct2013.pdf, section 135(5), index page 94"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text of the named document.",
+        "ambiguity": "The consolidated copy's download URL was not recorded at intake."
+      }
+    },
+    {
+      "id": "fc-refusal-criminal",
+      "split": "test",
+      "family": "refusal-criminal",
+      "type": "insufficient_evidence",
+      "question": "What is the punishment for murder in India?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "Criminal law is not in the supplied corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: no criminal-law statute in the corpus categories.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-refusal-minimum-wage",
+      "split": "test",
+      "family": "refusal-out-of-domain-labour",
+      "type": "insufficient_evidence",
+      "question": "What is the current statutory minimum wage for unskilled workers in Maharashtra?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "Labour law is not among the supplied categories.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: no labour-law material in the corpus categories.",
+        "ambiguity": null
+      }
+    },
+    {
+      "id": "fc-refusal-uk",
+      "split": "test",
+      "family": "refusal-foreign-uk",
+      "type": "insufficient_evidence",
+      "question": "How are private companies wound up under UK law?",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "expectedFacts": [],
+      "expectAbstention": true,
+      "note": "Foreign law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: UK law is not in the supplied corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho-tm-registration-term",
+      "family": "ho-trade-marks",
+      "type": "direct_lookup",
+      "question": "For how long is the registration of a trade mark valid under the Trade Marks Act, 1999, and can it be renewed?",
+      "expectedFacts": [
+        "period of ten years",
+        "renewed"
+      ],
+      "acceptableDocuments": [
+        "legal_07aa58f3262a4d764c087577"
+      ],
+      "note": "Trade Marks Act, 1999 section 25(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "05-trademarks/undated__Trade-Marks-Act-1999.pdf, section 25(1), index page 13"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": "Undated indexed copy."
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho-cgst-registration-threshold",
+      "family": "ho-cgst",
+      "type": "direct_lookup",
+      "question": "Under the CGST Act, when does a supplier become liable to be registered on the basis of aggregate turnover?",
+      "expectedFacts": [
+        "aggregate turnover in a financial year exceeds twenty lakh rupees"
+      ],
+      "acceptableDocuments": [
+        "legal_04f1a718758ad47178cc62f5",
+        "legal_f7317f3ae40c2f41ab777acb",
+        "legal_1ff27caaf1293da6578e4184",
+        "legal_4db47a4ed2af6e61864049fa"
+      ],
+      "note": "CGST Act, 2017 section 22(1); limits for special category States differ.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "04-gst/CGST-Act-2017-amended-01012022.pdf, section 22(1), index page 49"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": "Later notifications changed thresholds for some suppliers; expected facts describe the indexed Act text."
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho-cgst-taxable-person",
+      "family": "ho-cgst",
+      "type": "direct_lookup",
+      "question": "Who is a taxable person under the CGST Act?",
+      "expectedFacts": [
+        "registered or liable to be registered under section 22 or section 24"
+      ],
+      "acceptableDocuments": [
+        "legal_04f1a718758ad47178cc62f5",
+        "legal_f7317f3ae40c2f41ab777acb",
+        "legal_1ff27caaf1293da6578e4184",
+        "legal_4db47a4ed2af6e61864049fa"
+      ],
+      "note": "CGST Act, 2017 section 2(107).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "04-gst/CGST-Act-2017-amended-01012022.pdf, section 2(107), index page 18"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho-companies-resident-director",
+      "family": "ho-companies-149",
+      "type": "direct_lookup",
+      "question": "Under the Companies Act, 2013, must every company have a director who stays in India, and for how long?",
+      "expectedFacts": [
+        "one hundred and eighty-two days"
+      ],
+      "acceptableDocuments": [
+        "legal_863b1cf5dc33bc395fe55647"
+      ],
+      "note": "Companies Act, 2013 section 149(3).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "01-companies/CompaniesAct2013.pdf, section 149(3), index page 106"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho-companies-woman-director",
+      "family": "ho-companies-149",
+      "type": "direct_lookup",
+      "question": "Under the Companies Act, 2013, which companies must have a woman director?",
+      "expectedFacts": [
+        "at least one woman director"
+      ],
+      "acceptableDocuments": [
+        "legal_863b1cf5dc33bc395fe55647"
+      ],
+      "note": "Companies Act, 2013 section 149(1), second proviso.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "01-companies/CompaniesAct2013.pdf, section 149(1), index page 106"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho-sebi-lodr-woman-director",
+      "family": "ho-sebi-lodr",
+      "type": "direct_lookup",
+      "question": "Under the SEBI Listing Obligations and Disclosure Requirements Regulations, which listed entities must have an independent woman director?",
+      "expectedFacts": [
+        "top 1000 listed entities",
+        "at least one independent woman director"
+      ],
+      "acceptableDocuments": [
+        "legal_f3c187d46aeb15e10d056144"
+      ],
+      "note": "SEBI (LODR) Regulations, 2015 regulation 17(1)(a) proviso.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "03-sebi LODR Regulations, regulation 17(1)(a), index page 28"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho-ibbi-public-announcement",
+      "family": "ho-ibbi-cirp",
+      "type": "direct_lookup",
+      "question": "Under the IBBI Insolvency Resolution Process for Corporate Persons Regulations, how soon must an interim resolution professional make a public announcement?",
+      "expectedFacts": [
+        "not later than three days from the date of his appointment"
+      ],
+      "acceptableDocuments": [
+        "legal_f088ccf9da67ec596b85aee6",
+        "legal_685cb53c468e57a191994dce",
+        "legal_e7399e7a058026291eca4342",
+        "legal_c10b54e4567d5bb5a4d8cfb1",
+        "legal_e50110cb4ba50f2fd96b7d29",
+        "legal_7a09b18351bcb42cdfc550c3",
+        "legal_e27fccef5e68817b9fd965c6",
+        "legal_2cb9430e783ccc570d592f8b",
+        "legal_8e5e7f115b1f1dd718504b02",
+        "legal_f8ef9aac5e38d414e613afe2",
+        "legal_087acc74123f87be62aba65d",
+        "legal_d2ec9d454e834c97c822880a",
+        "legal_89cf91cc884a398adb1ff6fd",
+        "legal_26fe84a326b8d39ca213ca08",
+        "legal_e35d3f52a66b4baf5ec1f4f4",
+        "legal_a86919f6399c5e4fb515efbe",
+        "legal_95b5f039fe174a422034733c",
+        "legal_bc2161127cfdec4755b9530d",
+        "legal_decd9f4e3ed292e8ce773ead",
+        "legal_31473f46211a26329c43a704",
+        "legal_741f3c5a69d315e9370abd89",
+        "legal_271f84162290a18f64739740",
+        "legal_fdd2b2815bea3f6e281d6583",
+        "legal_7716cfbb2e5a595dfa13f9a0",
+        "legal_a2a1b6c6c3a99194118f9466",
+        "legal_98c8a8f5a60c027dfc23e48b",
+        "legal_c77c3a9c6c37a538c2661b03",
+        "legal_874d47e4660b66962c65e729",
+        "legal_374f6c130f037083bafc69ff",
+        "legal_42a475eb8447a50556c8a79a",
+        "legal_448f06cc926c4ecd562d971f",
+        "legal_734226e387bae4fc5ecfc0e3",
+        "legal_dc5313f9669b10436bdff7a9",
+        "legal_ff5ccfc012447c3c54e070ce"
+      ],
+      "note": "IBBI (CIRP) Regulations, 2016 regulation 6(1) Explanation.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "06-ibbi CIRP Regulations, regulation 6(1), index page 6"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": "Several dated versions of the CIRP Regulations are indexed; any version containing the fact is accepted."
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho-refusal-stamp-duty",
+      "family": "ho-refusal-stamp",
+      "type": "insufficient_evidence",
+      "question": "What is the stamp duty on a residential property sale deed in Karnataka?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "State stamp law is not in the corpus categories.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: no stamp-duty material in the nine corpus categories.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho-refusal-singapore",
+      "family": "ho-refusal-foreign",
+      "type": "insufficient_evidence",
+      "question": "What duties do directors owe under Singapore company law?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Foreign law.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Singapore law is not in the India-only corpus.",
+        "ambiguity": null
+      }
+    }
+  ]
+}

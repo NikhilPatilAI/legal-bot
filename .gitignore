@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+# Built search indexes and evaluation outputs are generated, not committed.
+data/index/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+reports/

@@ -1,0 +1,18 @@
+# Local production-like run:  docker compose up --build   then open http://localhost:3000
+services:
+  legal-bot:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      # Open demo without API keys. For a protected deployment set API_KEYS
+      # (comma-separated, 32+ characters each) and remove PUBLIC_DEMO.
+      PUBLIC_DEMO: 'true'
+      RETRIEVER: index
+      COMPOSER: extract
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped

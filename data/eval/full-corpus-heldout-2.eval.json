@@ -1,0 +1,359 @@
+{
+  "schemaVersion": "legal-bot-legal-eval-v2",
+  "act": "Indian regulatory corpus (5,082 supplied PDFs): second held-out set",
+  "corpus": "full-corpus-index",
+  "reviewStatus": "source_reviewed",
+  "reviewNote": "Second held-out set, drafted by an AI coding assistant on 2026-09-29 after the verifier tuning on the dev and test splits of full-corpus.eval.json and frozen before any run. Every expected fact is a verbatim substring of every listed acceptable document in the local full-corpus SQLite index; acceptable documents were computed mechanically. No family overlaps the first set. No case is lawyer-reviewed; expected facts describe the indexed text, not verified current law.",
+  "cases": [
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-companies-agm-gap",
+      "family": "ho2-companies-96",
+      "type": "direct_lookup",
+      "question": "Under the Companies Act, 2013, what is the maximum gap allowed between two annual general meetings?",
+      "expectedFacts": ["fifteen months"],
+      "acceptableDocuments": ["legal_863b1cf5dc33bc395fe55647", "legal_d6e286d2a3feec89a7d432a5"],
+      "note": "Companies Act, 2013 section 96(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["01-companies/A2013-18.pdf, index page 71 (legal_d6e286d2a3feec89a7d432a5)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-companies-auditor-term",
+      "family": "ho2-companies-139",
+      "type": "direct_lookup",
+      "question": "Under the Companies Act, 2013, for how long is an auditor appointed at an annual general meeting to hold office?",
+      "expectedFacts": ["sixth annual general meeting"],
+      "acceptableDocuments": ["legal_863b1cf5dc33bc395fe55647", "legal_d6e286d2a3feec89a7d432a5"],
+      "note": "Companies Act, 2013 section 139(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["01-companies/A2013-18.pdf, index page 96 (legal_d6e286d2a3feec89a7d432a5)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-companies-directorship-limit",
+      "family": "ho2-companies-165",
+      "type": "direct_lookup",
+      "question": "In how many companies can a person hold office as a director at the same time under the Companies Act, 2013?",
+      "expectedFacts": ["twenty companies"],
+      "acceptableDocuments": ["legal_863b1cf5dc33bc395fe55647", "legal_d6e286d2a3feec89a7d432a5"],
+      "note": "Companies Act, 2013 section 165(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["01-companies/A2013-18.pdf, index page 100 (legal_d6e286d2a3feec89a7d432a5)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-companies-private-members-to-form",
+      "family": "ho2-companies-3",
+      "type": "direct_lookup",
+      "question": "How many persons are needed to form a private company under the Companies Act, 2013?",
+      "expectedFacts": ["two or more persons", "private company"],
+      "acceptableDocuments": ["legal_863b1cf5dc33bc395fe55647", "legal_d6e286d2a3feec89a7d432a5"],
+      "note": "Companies Act, 2013 section 3(1)(b).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["01-companies/A2013-18.pdf, index page 23 (legal_d6e286d2a3feec89a7d432a5)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-llp-annual-return",
+      "family": "ho2-llp-35",
+      "type": "direct_lookup",
+      "question": "Within what time must a limited liability partnership file its annual return with the Registrar?",
+      "expectedFacts": ["within sixty days of closure of its financial year"],
+      "acceptableDocuments": ["legal_343686ae15225fa3c565700e"],
+      "note": "Limited Liability Partnership Act, 2008 section 35(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["02-llp/a2009-06.pdf, index page 16 (legal_343686ae15225fa3c565700e)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-ibc-cirp-period",
+      "family": "ho2-ibc-12",
+      "type": "direct_lookup",
+      "question": "Within what period must the corporate insolvency resolution process be completed under the Insolvency and Bankruptcy Code, 2016?",
+      "expectedFacts": ["one hundred and eighty days from the date of admission"],
+      "acceptableDocuments": [
+        "legal_9947ee636a425f4468e6a8d5",
+        "legal_ad096739006d213252534b91",
+        "legal_cdc723a50ddd781a6510b4fd",
+        "legal_e402ef3843e853c504c7dda1",
+        "legal_e6eb19b921aeecfd88e47e68",
+        "legal_f0ed6353d3ad61805b828418",
+        "legal_f99be52c9836c2e7fb46f63f",
+        "legal_fa46e849cd1da1118aeb43d8"
+      ],
+      "note": "Insolvency and Bankruptcy Code, 2016 section 12(1). Every indexed consolidated version of the Code is acceptable.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "06-ibbi/0360c1887d46d74de3c53b53f3f1a675.pdf, index page 18 (legal_f0ed6353d3ad61805b828418)"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-tm-definition",
+      "family": "ho2-trade-marks-definition",
+      "type": "direct_lookup",
+      "question": "How does the Trade Marks Act, 1999 define a trade mark?",
+      "expectedFacts": [
+        "capable of being represented graphically",
+        "distinguishing the goods or services of one person from those of others"
+      ],
+      "acceptableDocuments": ["legal_07aa58f3262a4d764c087577"],
+      "note": "Trade Marks Act, 1999 section 2(1)(zb).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "05-trademarks/undated__Trade-Marks-Act-1999.pdf, index page 4 (legal_07aa58f3262a4d764c087577)"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-tm-rights-on-registration",
+      "family": "ho2-trade-marks-28",
+      "type": "direct_lookup",
+      "question": "What right does registration of a trade mark give to its registered proprietor under the Trade Marks Act, 1999?",
+      "expectedFacts": ["exclusive right to the use of the trade mark"],
+      "acceptableDocuments": ["legal_07aa58f3262a4d764c087577"],
+      "note": "Trade Marks Act, 1999 section 28(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "05-trademarks/undated__Trade-Marks-Act-1999.pdf, index page 10 (legal_07aa58f3262a4d764c087577)"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-fema-penalty",
+      "family": "ho2-fema-13",
+      "type": "direct_lookup",
+      "question": "What penalty can be imposed for contravening the Foreign Exchange Management Act, 1999?",
+      "expectedFacts": ["thrice the sum involved", "two lakh rupees"],
+      "acceptableDocuments": ["legal_1e4b9ea188c27c795a448a2e"],
+      "note": "Foreign Exchange Management Act, 1999 section 13(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["07-rbi-fema/content.pdf, index page 11 (legal_1e4b9ea188c27c795a448a2e)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-sebi-upsi-definition",
+      "family": "ho2-sebi-pit-upsi",
+      "type": "direct_lookup",
+      "question": "What is unpublished price sensitive information under the SEBI insider trading regulations?",
+      "expectedFacts": ["not generally available", "materially affect the price"],
+      "acceptableDocuments": ["legal_3e14632093a11d5ced286205"],
+      "note": "SEBI (Prohibition of Insider Trading) Regulations, 2015 regulation 2(1)(n).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["03-sebi/1786963663321.pdf, index page 8 (legal_3e14632093a11d5ced286205)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-sebi-lodr-board-meetings",
+      "family": "ho2-sebi-lodr-17",
+      "type": "direct_lookup",
+      "question": "How often must the board of directors of a listed entity meet under the SEBI Listing Obligations and Disclosure Requirements Regulations, and what is the maximum gap between meetings?",
+      "expectedFacts": ["at least four times", "one hundred and twenty days"],
+      "acceptableDocuments": ["legal_f3c187d46aeb15e10d056144"],
+      "note": "SEBI (LODR) Regulations, 2015 regulation 17(2).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": ["03-sebi/1784630770711.pdf, index page 32 (legal_f3c187d46aeb15e10d056144)"],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho2-cgst-rate-cap",
+      "family": "ho2-cgst-9",
+      "type": "direct_lookup",
+      "question": "What is the maximum rate at which central tax can be levied on intra-State supplies under the CGST Act, 2017?",
+      "expectedFacts": ["not exceeding twenty per cent"],
+      "acceptableDocuments": ["legal_04f1a718758ad47178cc62f5"],
+      "note": "Central Goods and Services Tax Act, 2017 section 9(1).",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "04-gst/CGST-Act-2017-amended-01012022.pdf, index page 25 (legal_04f1a718758ad47178cc62f5)"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Facts matched verbatim in the indexed text; acceptable documents are every version of the named instrument whose indexed text contains the expected facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho2-refusal-australia",
+      "family": "ho2-refusal-foreign-australia",
+      "type": "insufficient_evidence",
+      "question": "What duties do directors have under the Australian Corporations Act 2001?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Foreign law.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Australian law is not in the India-only corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho2-refusal-divorce",
+      "family": "ho2-refusal-family-law",
+      "type": "insufficient_evidence",
+      "question": "What is the procedure for divorce by mutual consent in India?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Family law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: The corpus covers company, LLP, securities, GST, trade marks, insolvency, FEMA and income-tax law; it has no family-law instruments.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho2-refusal-tenancy",
+      "family": "ho2-refusal-tenancy",
+      "type": "insufficient_evidence",
+      "question": "How much notice must a landlord give a tenant before eviction in Mumbai?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Rent control law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: The corpus has no rent-control or tenancy instruments.",
+        "ambiguity": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "frozenAt": "2026-09-29T17:14:00.809Z",
+  "dataset": "data/eval/full-corpus-heldout-3.eval.json",
+  "sha256": "ba414588548c152f23cd052fbf6f43554b70d3d05169d7e338c986a7af369525",
+  "cases": 104,
+  "answerable": 89,
+  "refusals": 15,
+  "sampling": "scripts/sample-provisions.ts --seed 20260929 --per-area 12 --spares 6",
+  "note": "Frozen before any run. Protocol: a no-model baseline and the final system are each run once; only aggregate metrics of the baseline are read, and no tuning uses this set."
+}

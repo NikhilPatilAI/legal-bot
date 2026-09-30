@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "legal-bot-claim-paraphrases-unseen-v1",
+  "reviewNote": "Plain-language paraphrases of sentences from the four bundled Acts (LLP Act 2008, Trade Marks Act 1999, FEMA 1999, CGST Act 2017), written on 2026-09-29 before the verifier was run on these Acts. Each claim restates its source excerpt faithfully, keeping every number; labels are 'supported' by construction. Drafted by an AI assistant, not lawyer-reviewed.",
+  "items": [
+    {
+      "id": "llp-6-partners",
+      "act": "The Limited Liability Partnership Act, 2008",
+      "section": "6",
+      "claim": "An LLP must have a minimum of two partners.",
+      "sourceExcerpt": "Every limited liability partnership shall have at least two partners."
+    },
+    {
+      "id": "llp-7-consent",
+      "act": "The Limited Liability Partnership Act, 2008",
+      "section": "7",
+      "claim": "Under section 7, an individual can become a designated partner of an LLP only after giving prior consent to act as one, in the prescribed form and manner.",
+      "sourceExcerpt": "An individual shall not become a designated partner in any limited liability partnership unless he has given his prior consent to act as such"
+    },
+    {
+      "id": "llp-25-change",
+      "act": "The Limited Liability Partnership Act, 2008",
+      "section": "25",
+      "claim": "A partner has to tell the LLP about any change in his name or address within fifteen days of the change.",
+      "sourceExcerpt": "Every partner shall inform the limited liability partnership of any change in his name or address within a period of fifteen days of such change."
+    },
+    {
+      "id": "llp-28-liability",
+      "act": "The Limited Liability Partnership Act, 2008",
+      "section": "28",
+      "claim": "A partner of an LLP is not personally liable for another partner's wrongful act or omission.",
+      "sourceExcerpt": "a partner shall not be personally liable for the wrongful act or omission of any other partner of the limited liability partnership"
+    },
+    {
+      "id": "llp-35-return",
+      "act": "The Limited Liability Partnership Act, 2008",
+      "section": "35",
+      "claim": "Each LLP must file its annual return with the Registrar within sixty days after its financial year closes.",
+      "sourceExcerpt": "Every limited liability partnership shall file an annual return duly authenticated with the Registrar within sixty days of closure of its financial year"
+    },
+    {
+      "id": "llp-34-books",
+      "act": "The Limited Liability Partnership Act, 2008",
+      "section": "34",
+      "claim": "An LLP must keep proper books of account, as prescribed, for every year of its existence, on a cash or accrual basis.",
+      "sourceExcerpt": "The limited liability partnership shall maintain such proper books of account as may be prescribed relating to its affairs for each year of its existence on cash basis or accrual basis"
+    },
+    {
+      "id": "tm-25-term",
+      "act": "Trade Marks Act 1999",
+      "section": "25",
+      "claim": "A trade mark registration lasts for ten years and can be renewed from time to time under section 25.",
+      "sourceExcerpt": "The registration of a trade mark, after the commencement of this Act shall be for a period of ten years, but may be renewed from time to time"
+    },
+    {
+      "id": "tm-7-classification",
+      "act": "Trade Marks Act 1999",
+      "section": "7",
+      "claim": "For registration purposes, the Registrar classifies goods and services, as far as possible, according to the international classification of goods and services.",
+      "sourceExcerpt": "shall classify goods and services, as far as may be , in accordance with the international classification of goods and services"
+    },
+    {
+      "id": "tm-91-appeal",
+      "act": "Trade Marks Act 1999",
+      "section": "91",
+      "claim": "An appeal to the Appellate Board must be made in the prescribed form, verified in the prescribed manner, and accompanied by a copy of the order appealed against and the prescribed fees.",
+      "sourceExcerpt": "An appeal to the Appellate Board shall be in the prescribed form and shall be verified in the prescribed manner and shall be accompanied by a copy of the order or decision appealed against"
+    },
+    {
+      "id": "tm-139-importer",
+      "act": "Trade Marks Act 1999",
+      "section": "139",
+      "claim": "The importer or his agent must comply within fourteen days, and failing that is punishable with a fine of up to five hundred rupees.",
+      "sourceExcerpt": "The importer or his agent shall, within fourteen days, comply with the requirement as aforesaid, and if he fails to do so, he shall be punishable with fine which may extend to five hundred rupees."
+    },
+    {
+      "id": "tm-106-punishment",
+      "act": "Trade Marks Act 1999",
+      "section": "106",
+      "claim": "Contravening sub-section (1) is punishable with imprisonment of up to three years, or a fine, or both.",
+      "sourceExcerpt": "he shall be punishable with imprisonment for a term which may extend to three year or with fine, or with both"
+    },
+    {
+      "id": "tm-24-joint",
+      "act": "Trade Marks Act 1999",
+      "section": "24",
+      "claim": "Except as provided in sub-section (2), the Act does not allow two or more people who use a trade mark independently to be registered as its joint proprietors.",
+      "sourceExcerpt": "nothing in this Act shall authorise the registration of two or more persons who use a trade mark independently"
+    },
+    {
+      "id": "fema-4-holding",
+      "act": "The Foreign Exchange Management Act, 1999",
+      "section": "4",
+      "claim": "Unless the Act provides otherwise, a person resident in India may not acquire, hold, own, possess or transfer foreign exchange, foreign securities or immovable property outside India.",
+      "sourceExcerpt": "Save as otherwise provided in this Act, no person resident in India shall acquire, hold, own, possess or transfer any foreign exchange, foreign security or any immovable property situated outside India."
+    },
+    {
+      "id": "fema-7-exporter",
+      "act": "The Foreign Exchange Management Act, 1999",
+      "section": "7",
+      "claim": "An exporter of services must give the Reserve Bank, or other specified authorities, a declaration with the true and correct material particulars about payment for those services.",
+      "sourceExcerpt": "Every exporter of services shall furnish to the Reserve Bank or to such other authorities a declaration in such form and in such manner as may be specified, containing the true and correct material particulars in relation to payment for such services."
+    },
+    {
+      "id": "fema-10-authorisation",
+      "act": "The Foreign Exchange Management Act, 1999",
+      "section": "10",
+      "claim": "An authorisation under section 10 has to be in writing and is subject to the conditions it sets out.",
+      "sourceExcerpt": "An authorisation under this section shall be in writing and shall be subject to the conditions laid down therein."
+    },
+    {
+      "id": "fema-36-directorate",
+      "act": "The Foreign Exchange Management Act, 1999",
+      "section": "36",
+      "claim": "The Central Government must set up a Directorate of Enforcement, headed by a Director, whose officers are called officers of Enforcement.",
+      "sourceExcerpt": "The Central Government shall establish a Directorate of Enforcement with a Director and such other officers or class of officers as it thinks fit, who shall be called officers of Enforcement"
+    },
+    {
+      "id": "fema-47-regulations",
+      "act": "The Foreign Exchange Management Act, 1999",
+      "section": "47",
+      "claim": "The Reserve Bank can make regulations by notification to carry out the Act and the rules under it.",
+      "sourceExcerpt": "The Reserve Bank may, by notification, make regulations to carry out the provisions of this Act and the rules made thereunder."
+    },
+    {
+      "id": "fema-49-repeal",
+      "act": "The Foreign Exchange Management Act, 1999",
+      "section": "49",
+      "claim": "FEMA repealed the Foreign Exchange Regulation Act, 1973.",
+      "sourceExcerpt": "The Foreign Exchange Regulation Act, 1973 (46 of 1973) is hereby repealed"
+    },
+    {
+      "id": "cgst-51-deposit",
+      "act": "CGST Act, 2017 as amended up to 01.01.2022",
+      "section": "51",
+      "claim": "Tax deducted at source under section 51 has to be paid to the Government by the deductor within ten days after the end of the month in which it was deducted.",
+      "sourceExcerpt": "The amount deducted as tax under this section shall be paid to the Government by the deductor within ten days after the end of the month in which such deduction is made"
+    },
+    {
+      "id": "cgst-54-refund-order",
+      "act": "CGST Act, 2017 as amended up to 01.01.2022",
+      "section": "54",
+      "claim": "The proper officer must issue the refund order within sixty days of receiving a complete application.",
+      "sourceExcerpt": "The proper officer shall issue the order under sub-section (5) within sixty days from the date of receipt of application complete in all respects."
+    },
+    {
+      "id": "cgst-65-audit-notice",
+      "act": "CGST Act, 2017 as amended up to 01.01.2022",
+      "section": "65",
+      "claim": "Before an audit, the registered person must be given notice at least fifteen working days in advance.",
+      "sourceExcerpt": "The registered person shall be informed by way of a notice not less than fifteen working days prior to the conduct of audit"
+    },
+    {
+      "id": "cgst-101-appeal-order",
+      "act": "CGST Act, 2017 as amended up to 01.01.2022",
+      "section": "101",
+      "claim": "The Appellate Authority for Advance Ruling must pass its order within ninety days of the appeal being filed.",
+      "sourceExcerpt": "The order referred to in sub-section (1) shall be passed within a period of ninety days from the date of filing of the appeal"
+    },
+    {
+      "id": "cgst-113-tribunal",
+      "act": "CGST Act, 2017 as amended up to 01.01.2022",
+      "section": "113",
+      "claim": "As far as possible, the Appellate Tribunal should hear and decide each appeal within one year of its filing.",
+      "sourceExcerpt": "The Appellate Tribunal shall, as far as possible, hear and decide every appeal within a period of one year from the date on which it is filed."
+    },
+    {
+      "id": "cgst-103-binding",
+      "act": "CGST Act, 2017 as amended up to 01.01.2022",
+      "section": "103",
+      "claim": "An advance ruling stays binding unless the law, facts or circumstances behind the original ruling have changed.",
+      "sourceExcerpt": "The advance ruling referred to in sub-section (1) shall be binding unless the law, facts or circumstances supporting the original advance ruling have changed."
+    }
+  ]
+}
