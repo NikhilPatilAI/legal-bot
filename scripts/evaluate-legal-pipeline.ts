@@ -74,6 +74,10 @@ const { values } = parseArgs({
     // Milliseconds to wait between cases (not counted in latency), to stay
     // within the model deployment's tokens-per-minute quota.
     'pause-ms': { type: 'string', default: '0' },
+    // Answer deadline, as ANSWER_TIMEOUT_MS in the server (default 60 s).
+    'answer-timeout-ms': { type: 'string', default: '60000' },
+    // Selective answering threshold (0 = answer whenever verification passes).
+    'min-confidence': { type: 'string', default: '0' },
     // Retail prices in INR per 1M tokens, used only to report cost. Defaults:
     // Azure retail price list, gpt-5.6-luna GlobalStandard East US, checked
     // 2026-09-29 (input 19.1093, cached input 1.9109, output 114.6555).
@@ -144,10 +148,11 @@ for (const configuration of configurations) {
   const service = new LegalRagService(
     configuration.retriever,
     composer,
-    30_000,
+    Number(values['answer-timeout-ms']),
     recorder,
     0.5,
     history,
+    Number(values['min-confidence']),
   );
   runs.push(
     await runPipelineEvaluation(service, dataset, {
@@ -174,6 +179,8 @@ const report = {
   verification: values.verification,
   resultLimit,
   repeats,
+  answerTimeoutMs: Number(values['answer-timeout-ms']),
+  minimumConfidence: Number(values['min-confidence']),
   indexWarmUpMs: Math.round(warmUpMs),
   splits: splits ?? ['all'],
   dataset: {
@@ -273,6 +280,7 @@ async function createComposer(mode: string): Promise<RagComposer> {
       openAiEndpoint: endpoint,
       generationDeployment: deployment,
       openAiApiVersion: apiVersion,
+      timeoutMs: Number(values['answer-timeout-ms']),
     }),
     deployment,
   );

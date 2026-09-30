@@ -140,4 +140,16 @@ describe('configuration', () => {
   it('requires Azure settings when the Azure composer is selected', () => {
     expect(() => loadConfig({ COMPOSER: 'azure_openai' })).toThrow(/AZURE_OPENAI_ENDPOINT/u);
   });
+
+  it('enables selective answering by default only for the model composer', () => {
+    const azure = {
+      COMPOSER: 'azure_openai',
+      AZURE_OPENAI_ENDPOINT: 'https://example.openai.azure.com/',
+      AZURE_OPENAI_GENERATION_DEPLOYMENT: 'model',
+    };
+    expect(loadConfig({}).rag.confidenceThreshold).toBe(0);
+    expect(loadConfig(azure).rag.confidenceThreshold).toBe(0.7);
+    expect(loadConfig({ ...azure, CONFIDENCE_THRESHOLD: '0' }).rag.confidenceThreshold).toBe(0);
+    expect(() => loadConfig({ CONFIDENCE_THRESHOLD: '2' })).toThrow();
+  });
 });

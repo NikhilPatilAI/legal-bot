@@ -120,6 +120,23 @@ describe('runPipelineEvaluation', () => {
     expect(run.metrics.unnecessaryAbstentionRate).toBe(1);
     expect(run.metrics.answerFactCoverage).toBe(0);
   });
+
+  it('scores a low-confidence suppression separately and keeps its draft scorable', async () => {
+    const recorder = new RecordingAnswerVerifier(new DeterministicClaimVerifier());
+    const hedging: RagComposer = {
+      mode: 'azure_openai',
+      compose: async () =>
+        'Under Section 135, every company shall file the annual compliance statement with the registrar within thirty days after the close of the financial year. The evidence does not state a penalty.',
+    };
+    const service = new LegalRagService(retriever, hedging, 30_000, recorder, 0.5, undefined, 0.7);
+    const run = await runPipelineEvaluation(service, dataset, { label: 'fixture', recorder });
+    const answerable = run.cases.find((item) => item.id === 'answerable')!;
+    expect(answerable.confidence).toBeLessThan(0.7);
+    expect(answerable.lowConfidence).toBe(true);
+    expect(answerable.failureCategories).toEqual(['low_confidence']);
+    expect(answerable.suppressedDraftFactCoverage).toBeCloseTo(0.667, 3);
+    expect(run.metrics.lowConfidenceRate).toBe(1);
+  });
 });
 
 describe('LegalRagService as-of-date answers', () => {

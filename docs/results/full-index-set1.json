@@ -8,9 +8,7 @@
   "resultLimit": 6,
   "repeats": 1,
   "indexWarmUpMs": 459,
-  "splits": [
-    "all"
-  ],
+  "splits": ["all"],
   "dataset": {
     "path": "data/eval/full-corpus.eval.json",
     "sha256": "7677374754b191eddc236ee3270d54da07d75477cf6fb756e5e8b8722c41f6f6",
@@ -18,7 +16,7 @@
   },
   "corpus": {
     "mode": "index",
-    "path": "(outside project)/qvo-legal-fts.sqlite",
+    "path": "(outside project)/full-corpus-index.sqlite",
     "builtAt": "2026-09-02T11:52:00.000Z"
   },
   "history": {
@@ -68,20 +66,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Registrar of Limited Liability Partnership Sub: Integration of Director’s Identification Number (DIN) issued under Companies Act, 1956 with Designated Partnership Identification Number (DPIN) issued under Limited Liability Partnership (LLP) Act, 2008 Sir, The Ministry of Corporate Affairs has been issuing two separate identification numbers as DIN to an individual for becoming a director of a company under Companies Act, 1956 and DPIN for a designated partner in a Limited Liability Partnership under Limited Liability Partnership (LLP) Act, 2008. 2.\n- Any person, who desires to become a designated partner in a Limited Liability Partnership, has to obtain DIN by filing e-form DIN-1. (b) If a person has been allotted DIN, the said DIN shall also be used as DPIN for all purposes under Limited Liability Partnership Act, 2008.\n- In section 167 Sub-section (1) (i) for the word “director” wherever it occurs, the words “designated partner” shall be substituted; (ii) for the word “company” wherever it occurs, the words “limited liability partnership” shall be substituted; (iii) in proviso of clause (a), for the word “companies” the words “limited liability partnerships” shall be substituted; (iv) clause (b) shall be omitted; (v) for the words “this Act” the words “the Limited Liability Partnership Act, 2008”, shall be substituted; (vi) clause (h) shall be omitted; Sub-section (2) for the word “director” wherever it occurs, the words “designated partner ” shall be substituted; IndiaCode",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 25",
-            "PAGE 7",
-            "PAGE 23",
-            "PAGE 2",
-            "PAGE 1"
-          ],
-          "retrievedSections": [
-            "PAGE 25",
-            "PAGE 7",
-            "PAGE 23",
-            "PAGE 2",
-            "PAGE 1"
-          ],
+          "citedSections": ["PAGE 25", "PAGE 7", "PAGE 23", "PAGE 2", "PAGE 1"],
+          "retrievedSections": ["PAGE 25", "PAGE 7", "PAGE 23", "PAGE 2", "PAGE 1"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -93,10 +79,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "at least two designated partners",
-            "resident in India"
-          ],
+          "missingFacts": ["at least two designated partners", "resident in India"],
           "verification": {
             "claimCount": 11,
             "supportedClaimCount": 11,
@@ -109,9 +92,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2240.07
         },
         {
@@ -124,20 +105,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Short title and commencement - (1) These rules may be called the Foreign Exchange Management (Current Account Transactions) Rules, 2000.\n- Short title and commencement—(1) These rules may be called the Foreign Exchange Management (Current Account Transactions) Rules, 2000;\n- Current account transactions. — Any person may sell or draw foreign exchange to or from an authorised person if such sale or drawal is a current account transaction:",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 6",
-            "PAGE 8",
-            "PAGE 5",
-            "PAGE 1",
-            "PAGE 140"
-          ],
-          "retrievedSections": [
-            "PAGE 6",
-            "PAGE 8",
-            "PAGE 5",
-            "PAGE 1",
-            "PAGE 140"
-          ],
+          "citedSections": ["PAGE 6", "PAGE 8", "PAGE 5", "PAGE 1", "PAGE 140"],
+          "retrievedSections": ["PAGE 6", "PAGE 8", "PAGE 5", "PAGE 1", "PAGE 140"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -166,9 +135,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2548.763
         },
         {
@@ -181,22 +148,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- 9 1 [(2A) The Central Government may, in consultation with the Reserve Bank, prescribe — (a) any class or classes of capital account transactions, not involving debt instruments, which are permissible; (b) the limit up to which foreign exchange shall be admissible for such transactions; and (c) any conditions which may be placed on such transactions.] 2 * * * * * (4) A person resident in India may hold, own, transfer or invest in foreign currency, foreign security or any immovable property situated outside India if such currency, security or property was acquired, held or owned by such person when he was resident outside India or inherited from a person who was resident outside India.\n- Realisation and repatriation of foreign exchange. — Save as otherwise provided in this Act, where any amount of foreign exchange is due or has accrued to any person resident in India, such person shall take all reasonable steps to realise and repatriate to India such foreign exchange within such period and in such manner as may be specified by the Reserve Bank. 9.\n- Holding of foreign exchange, etc. — Save as otherwise provided in this Act, no person resident in India shall acquire, hold, own, possess or transfer any foreign exchange, foreign security or any immovable property situated outside India. 5.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 9",
-            "PAGE 7",
-            "PAGE 8",
-            "PAGE 3",
-            "PAGE 80",
-            "PAGE 78"
-          ],
-          "retrievedSections": [
-            "PAGE 9",
-            "PAGE 7",
-            "PAGE 8",
-            "PAGE 3",
-            "PAGE 80",
-            "PAGE 78"
-          ],
+          "citedSections": ["PAGE 9", "PAGE 7", "PAGE 8", "PAGE 3", "PAGE 80", "PAGE 78"],
+          "retrievedSections": ["PAGE 9", "PAGE 7", "PAGE 8", "PAGE 3", "PAGE 80", "PAGE 78"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -222,9 +175,7 @@
               {
                 "text": "9 1 [(2A) The Central Government may, in consultation with the Reserve Bank, prescribe — (a) any class or classes of capital account transactions, not involving debt instruments, which are permissible;",
                 "status": "unsupported",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "(2A) The Central Government may, in consultation with the Reserve Bank, prescribe — (a) any class or classes of capital account transactions, not involving debt instruments, which are permissible;"
               }
@@ -233,10 +184,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing",
-            "unsupported_claims"
-          ],
+          "failureCategories": ["expected_fact_missing", "unsupported_claims"],
           "latencyMs": 3550.696
         },
         {
@@ -330,22 +278,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- FORM TM-58 THE TRADE MARKS ACT, 1999 Agent’s Code No: Proprietor’s Code No: Back Fee: Rs.250 Request to Registrar for particulars of advertisement of a mark. rule 46 I (or we)' .................................................................................... hereby request that I (or we) may be informed of the number, date and page of the Journal in which the trade mark sought to be registered under Application No.................in the name of ....................is advertised The information may be sent to the following address in India - Dated this ................day of ..........20......... 2...........................\n- FORM TM- 58 THE TRADE MARKS ACT, 1999 Age nt s Code N o: Pr opr ie t or s Code N o: Fee: Rs.250 Request to Registrar for particulars of advertisement of a mark. rule 46 I ( or we) ' .................................................................................... hereby request t hat I ( or we) may be inform ed of t he num ber, dat e and page of t he Journal in which t he t rade m ark sought t o be registered under Application No.................in the name of ....................is advertised The information may be sent to the following address in India - Dated this ................day of ..........20......... 2...........................\n- Request to Registrar for particulars of advertisement of a mark. - Any person may request the Registrar in Form TM-58 to be informed of the number, date and page of the Journal in which a trade mark which is sought to be registered specified in the form was advertised and the Registrar shall furnish such particulars to the person making the request.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 17",
-            "PAGE 24",
-            "PAGE 3",
-            "PAGE 219",
-            "PAGE 1",
-            "PAGE 21"
-          ],
-          "retrievedSections": [
-            "PAGE 17",
-            "PAGE 24",
-            "PAGE 3",
-            "PAGE 219",
-            "PAGE 1",
-            "PAGE 21"
-          ],
+          "citedSections": ["PAGE 17", "PAGE 24", "PAGE 3", "PAGE 219", "PAGE 1", "PAGE 21"],
+          "retrievedSections": ["PAGE 17", "PAGE 24", "PAGE 3", "PAGE 219", "PAGE 1", "PAGE 21"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -373,9 +307,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 3512.013
         },
         {
@@ -388,22 +320,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Provided that where the applicant has already filed the counter statement on the basis of the copy of notice of opposition made available in the electronic records on the official website, the requirement of service of copy of the notice of opposition to the applicant shall be dispensed with. 43.\n- Within three months from the date of advertisement under subrule (1), or within such further period not exceeding one month in the aggregate as the Registrar may allow, any person may give notice of opposition to the application in Form TM-39 and may also send therewith a statement of his objections.\n- A copy of the notice shall be transmitted forthwith by the Registrar to the registered proprietor and each registered user, if any, and within two months from the receipt by the registered proprietor of such copies he shall sent to the Registrar in Form TM-O a counter statement of the grounds on which the opposition is contested.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 1",
-            "PAGE 63",
-            "PAGE 113",
-            "PAGE 22",
-            "PAGE 42",
-            "PAGE 73"
-          ],
-          "retrievedSections": [
-            "PAGE 1",
-            "PAGE 63",
-            "PAGE 113",
-            "PAGE 22",
-            "PAGE 42",
-            "PAGE 73"
-          ],
+          "citedSections": ["PAGE 1", "PAGE 63", "PAGE 113", "PAGE 22", "PAGE 42", "PAGE 73"],
+          "retrievedSections": ["PAGE 1", "PAGE 63", "PAGE 113", "PAGE 22", "PAGE 42", "PAGE 73"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -415,9 +333,7 @@
           ],
           "acceptableDocumentCited": false,
           "factCoverage": 0.5,
-          "missingFacts": [
-            "deemed to have abandoned his application"
-          ],
+          "missingFacts": ["deemed to have abandoned his application"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -430,10 +346,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited",
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["acceptable_document_not_cited", "expected_fact_missing"],
           "latencyMs": 1307.453
         },
         {
@@ -479,10 +392,7 @@
               {
                 "text": "Designated persons and their immediate relatives shall not trade in securities when the trading window is closed. 104 [Provided that, for unpublished price sensitive information not emanating from within the Listed Company, trading window may not be closed.] (2) 105 [Trading restriction period 106 [shall] be made applicable from the end of every quarter till 48 hours after the declaration of financial results.",
                 "status": "contradicted",
-                "reasons": [
-                  "number_not_in_source",
-                  "polarity_mismatch"
-                ],
+                "reasons": ["number_not_in_source", "polarity_mismatch"],
                 "supportScore": 0.875,
                 "supportingText": "(2) Trading restriction period shall be made applicable from the end of every quarter till 48 hours after the declaration of financial results."
               }
@@ -491,9 +401,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "withheld_by_verifier"
-          ],
+          "failureCategories": ["withheld_by_verifier"],
           "latencyMs": 1927.362
         },
         {
@@ -506,30 +414,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- “agricultural income” means— (a) any rent or revenue derived from a land which is situated in India and is used for agricultural purposes; (b) any income derived from such land by— (i) agriculture; or (ii) the performance by a cultivator or receiver of rent-in-kind of any process ordinarily employed by a cultivator or receiver of rent-in-kind to render the produce raised or received by him fit to be taken to market; or (iii) the sale by a cultivator or receiver of rent-in-kind of the produce raised or received by him, in respect of which no process has been performed other than a process of the nature described in item (ii); *Assented by the President of India on 21-8-2025.\n- The Government is implementing necessary measures to ensure that both legislative frameworks operate seamlessly and simultaneously on the income tax portal. ******** Parallel Operation of ITA 1961 and ITA 2025 from 1 April 2026 File AY 2026-27 Pending Appeals under ITA 1961 Return Assessments and Track (July 2026 - old ------3> Reassessments ------3> ITA 1961 - until ~ ITR forms) continue final resolution.\n- For the purposes of this Act, “tax year” means the twelve months period of the financial year commencing on the 1st April.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 26",
-            "PAGE 108",
-            "PAGE 280",
-            "PAGE 14",
-            "PAGE 1",
-            "PAGE 192"
-          ],
-          "retrievedSections": [
-            "PAGE 26",
-            "PAGE 108",
-            "PAGE 280",
-            "PAGE 14",
-            "PAGE 1",
-            "PAGE 192"
-          ],
+          "citedSections": ["PAGE 26", "PAGE 108", "PAGE 280", "PAGE 14", "PAGE 1", "PAGE 192"],
+          "retrievedSections": ["PAGE 26", "PAGE 108", "PAGE 280", "PAGE 14", "PAGE 1", "PAGE 192"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_d54a0ed6a91673d1a4fbcef9",
-            "legal_cf1d4ad8e7c7bc144dae8102"
-          ],
+          "citedDocuments": ["legal_d54a0ed6a91673d1a4fbcef9", "legal_cf1d4ad8e7c7bc144dae8102"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -558,18 +449,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Eligibility and conditions for taking input tax credit.— (1) Every registered person shall, subject to such conditions and restrictions as may be prescribed and in the manner specified in section 49, be entitled to take credit of input tax charged on any supply of goods or services or both to him which are used or intended to be used in the course or furtherance of his business and the said amount shall be credited to the electronic credit ledger of such person.\n- Eligibility and conditions for taking input tax credit.- (1) Every registered person shall, subject to such conditions and restrictions as may be prescribed and in the manner specified in section 49, be entitled to take credit of input tax charged on any supply of goods or services or both to him which are used or intended to be used in the course or furtherance of his business and the said amount shall be credited to the electronic credit ledger of such person.\n- Claim of input tax credit and provisional acceptance thereof.— (1) Every registered person shall, subject to such conditions and restrictions as may be prescribed, be entitled to take the credit of eligible input tax, as self-assessed, in his return and such amount shall be credited on a provisional basis to his electronic credit ledger.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 39",
-            "PAGE 73",
-            "PAGE 45",
-            "PAGE 53"
-          ],
-          "retrievedSections": [
-            "PAGE 39",
-            "PAGE 73",
-            "PAGE 45",
-            "PAGE 53"
-          ],
+          "citedSections": ["PAGE 39", "PAGE 73", "PAGE 45", "PAGE 53"],
+          "retrievedSections": ["PAGE 39", "PAGE 73", "PAGE 45", "PAGE 53"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -598,9 +479,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 3356.943
         },
         {
@@ -613,22 +492,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Name 1 2 3 Total XX (c)* Amount spent in Administrative Overheads (d)* Amount spent on Impact Assessment, if applicable (e)* Total Amount Spent for the Financial Year (f)* Amount unspent/ (excess) spent for the Financial Year [6(d)-7(e)] unspent for Ongoing projects) (g)* Amount eligible for transfer to Unspent CSR Account for the Financial Year as per Section 135(6) (before adjustments) (h)* Amount to be transferred to Fund specified in Schedule VII for the Financial Year (if total unspent for the Financial Year is greater than unspent for Ongoing projects) IndiaCode\n- [भाग II— खण्ड 3(i)] भारत का राजपत्र : ऄसाधारण 11 (i) Details of CSR amount spent against ongoing projects for the financial year: Number of Ongoing Projects for the financial year 1 2 3 4 5 6 7 8 9 10 S.\n- Name 1 2 3 4 5 Total XX (ii) Details of CSR amount spent against other than ongoing projects for the financial year: x Number of Other than Ongoing Projects for the financial year 1 2 3 4 5 6 7 8 S.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 246",
-            "PAGE 51",
-            "PAGE 213",
-            "PAGE 16",
-            "PAGE 14",
-            "PAGE 11"
-          ],
-          "retrievedSections": [
-            "PAGE 246",
-            "PAGE 51",
-            "PAGE 213",
-            "PAGE 16",
-            "PAGE 14",
-            "PAGE 11"
-          ],
+          "citedSections": ["PAGE 246", "PAGE 51", "PAGE 213", "PAGE 16", "PAGE 14", "PAGE 11"],
+          "retrievedSections": ["PAGE 246", "PAGE 51", "PAGE 213", "PAGE 16", "PAGE 14", "PAGE 11"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -747,22 +612,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Notice is hereby given as required in section 25(3) of the Trade Marks Act, 1999 that the registration of the aforesaid trade mark will expire on................. and that the registration can be renewed for a further period of 10 years on receipt in the Trade Marks Registry of an application on the enclosed Form TM-12 accompanied by the prescribed fee of Rs.......... on or before the said date...........\n- A certification trade mark may be renewed from time to time and the provisions of rule 63 to 67 shall apply mutatis mutandis in respect of such request for renewal. 139.- Rectification of certification trade mark.-An application for cancellation or variation of registration of a certification trade mark on any of the grounds mentioned in section 77 shall be made in Form TM-43 and shall set forth particulars of the grounds on which the application is made.\n- I (or we) ' ............................................................................hereby apply that the Trade mark numbered...................................................................in class ....................be restored to the register and the registration of the said Trade Mark in the class aforesaid be renewed, and that the notice of restoration and renewal be sent to the following address in India.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 17",
-            "PAGE 3",
-            "PAGE 29",
-            "PAGE 57",
-            "PAGE 1",
-            "PAGE 272"
-          ],
-          "retrievedSections": [
-            "PAGE 17",
-            "PAGE 3",
-            "PAGE 29",
-            "PAGE 57",
-            "PAGE 1",
-            "PAGE 272"
-          ],
+          "citedSections": ["PAGE 17", "PAGE 3", "PAGE 29", "PAGE 57", "PAGE 1", "PAGE 272"],
+          "retrievedSections": ["PAGE 17", "PAGE 3", "PAGE 29", "PAGE 57", "PAGE 1", "PAGE 272"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -800,20 +651,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Persons liable for registration.— (1) Every supplier shall be liable to be registered under this Act in the State or Union territory, other than special category States, from where he makes a taxable supply of goods or services or both, if his aggregate turnover in a financial year exceeds twenty lakh rupees: 46 Substituted for ―under entry 84‖ by The Central Goods and Services Tax (Amendment) Act, 2018 (No. 31 of 2018) – Brought into force w.e.f. 01 st February, 2019.\n- Persons liable for registration.–– (1) Every supplier making a taxable supply of goods or services or both in the State shall be liable to be registered under this Act if his aggregate turnover in a financial year exceeds twenty lakh rupees:\n- Persons liable for registration.- (1) Every supplier making a taxable supply of goods or services or both in the State shall be liable to be registered under this Act if his aggregate turnover in a financial year exceeds twenty lakh rupees:",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 4",
-            "PAGE 49",
-            "PAGE 51",
-            "PAGE 37",
-            "PAGE 1"
-          ],
-          "retrievedSections": [
-            "PAGE 4",
-            "PAGE 49",
-            "PAGE 51",
-            "PAGE 37",
-            "PAGE 1"
-          ],
+          "citedSections": ["PAGE 4", "PAGE 49", "PAGE 51", "PAGE 37", "PAGE 1"],
+          "retrievedSections": ["PAGE 4", "PAGE 49", "PAGE 51", "PAGE 37", "PAGE 1"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -852,16 +691,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- ―taxable person‖ means a person who is registered or liable to be registered under section 22 or section 24;\n- Assessment of unregistered persons.— Notwithstanding anything to the contrary contained in section 73 or section 74, where a taxable person fails to obtain registration even though liable to do so or whose registration has been cancelled under sub-section (2) of section 29 but who was liable to pay tax, the proper officer may proceed to assess the tax liability of such taxable person to the best of his judgment for the relevant tax periods and issue an assessment order within a period of five years from the date specified under section 44 for furnishing of the annual return for the financial year to which the tax not paid relates:\n- Provided that where the taxable person to whom the liability pertains is not ascertainable and such liability pertains to supply of goods, the person in charge of such goods shall be deemed to be the taxable person liable to be assessed and liable to pay tax and any other amount due under this section.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 18",
-            "PAGE 98",
-            "PAGE 52"
-          ],
-          "retrievedSections": [
-            "PAGE 18",
-            "PAGE 98",
-            "PAGE 52"
-          ],
+          "citedSections": ["PAGE 18", "PAGE 98", "PAGE 52"],
+          "retrievedSections": ["PAGE 18", "PAGE 98", "PAGE 52"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -900,20 +731,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Every company existing on or before the date of commencement of this Act shall within one year from such commencement comply with the requirements of the provisions of sub-section (1). 1 [(3) Every company shall have at least one director who stays in India for a total period of not less than one hundred and eighty-two days during the financial year:\n- It is hereby certified that I have gone through the provisions of the Companies Act, 2013 and Rules thereunder relevant to this form and I have verified the above particulars (including attachment(s)) from the original records maintained by the Company/applicant which is subject matter of this form and found them to be true, correct and complete and no information material to this form has been suppressed Chartered accountant (in whole-time practice) or Cost accountant (in whole-time practice) or Company secretary (in whole-time practice) *Whether associate or fellow: Associate Fellow * To be digitally signed by Membership number Certificate of practice number Save Submit IndiaCode\n- Every listed public company shall have at least one-third of the total number of directors as independent directors and the Central Government may prescribe the minimum number of independent directors in case of any class or classes of public companies.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 106",
-            "PAGE 110",
-            "PAGE 109",
-            "PAGE 204",
-            "PAGE 279"
-          ],
-          "retrievedSections": [
-            "PAGE 106",
-            "PAGE 110",
-            "PAGE 109",
-            "PAGE 204",
-            "PAGE 279"
-          ],
+          "citedSections": ["PAGE 106", "PAGE 110", "PAGE 109", "PAGE 204", "PAGE 279"],
+          "retrievedSections": ["PAGE 106", "PAGE 110", "PAGE 109", "PAGE 204", "PAGE 279"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -951,20 +770,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Provided further that such class or classes of companies as may be prescribed, shall have at least one woman director.\n- Woman director on the Board.—The following class of companies shall appoint at least one woman davetdr- (i) every listed company; (ii) every other public company having - (a) paid-up share capital of one hundred crore rupees or more; or (b) turnover of three hundred crore rupees or more:\n- Provided further that any intermittent vacancy of a woman director shall be filled-up by the Board at the earliest but not later than immediate next Board meeting or three months from the date of such vacancy whichever is later.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 106",
-            "PAGE 118",
-            "PAGE 108",
-            "PAGE 34",
-            "PAGE 7"
-          ],
-          "retrievedSections": [
-            "PAGE 106",
-            "PAGE 118",
-            "PAGE 108",
-            "PAGE 34",
-            "PAGE 7"
-          ],
+          "citedSections": ["PAGE 106", "PAGE 118", "PAGE 108", "PAGE 34", "PAGE 7"],
+          "retrievedSections": ["PAGE 106", "PAGE 118", "PAGE 108", "PAGE 34", "PAGE 7"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1003,22 +810,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Separate posts of chairperson and chief executive officer The listed entity may appoint separate persons to the post of chairperson and managing director or chief executive officer.”] 678 Inserted by the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2024 w.e.f. 13.12.2024.\n- 165 performance of his 675 [/her] duties. 676 [(ii) The listed entities ranked from 1001 to 2000 as per the list prepared by recognized stock exchanges in terms of sub-regulation (2) of regulation 3 shall endeavour to have atleast one woman independent director on its board of directors.] B.\n- The composition of board of directors of a HVDLE shall be as follows: (a) board of directors shall have an optimum combination of executive and non-executive directors with at least one woman director and not less than fifty per cent. of the board of directors shall comprise of non-executive directors; (b) where the chairperson of the board of directors is a non-executive director, at least one-third of the board of directors shall comprise of independent directors and where the listed entity does not have a regular non-executive chairperson, at least half of the board of directors shall comprise of independent directors:",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 28",
-            "PAGE 165",
-            "PAGE 46",
-            "PAGE 49",
-            "PAGE 57",
-            "PAGE 114"
-          ],
-          "retrievedSections": [
-            "PAGE 28",
-            "PAGE 165",
-            "PAGE 46",
-            "PAGE 49",
-            "PAGE 57",
-            "PAGE 114"
-          ],
+          "citedSections": ["PAGE 28", "PAGE 165", "PAGE 46", "PAGE 49", "PAGE 57", "PAGE 114"],
+          "retrievedSections": ["PAGE 28", "PAGE 165", "PAGE 46", "PAGE 49", "PAGE 57", "PAGE 114"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1031,9 +824,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0.5,
-          "missingFacts": [
-            "top 1000 listed entities"
-          ],
+          "missingFacts": ["top 1000 listed entities"],
           "verification": {
             "claimCount": 5,
             "supportedClaimCount": 4,
@@ -1045,9 +836,7 @@
               {
                 "text": "165 performance of his 675 [/her] duties. 676 [(ii) The listed entities ranked from 1001 to 2000 as per the list prepared by recognized stock exchanges in terms of sub-regulation (2) of regulation 3 shall endeavour to have atleast one woman independent director on its board of directors.] B.",
                 "status": "unsupported",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 0.96,
                 "supportingText": "(ii) The listed entities ranked from 1001 to 2000 as per the list prepared by recognized stock exchanges in terms of sub-regulation"
               }
@@ -1056,10 +845,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing",
-            "unsupported_claims"
-          ],
+          "failureCategories": ["expected_fact_missing", "unsupported_claims"],
           "latencyMs": 1682.744
         },
         {
@@ -1072,27 +858,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Explanation -The expenses on the public announcement shall not form part of fast track process costs.\n- A transaction shall be considered an extortionate credit transaction under section 50 (2) where the terms: (a) require the corporate debtor to make exorbitant payments in respect of the credit provided; or (b) are unconscionable under the principles of law relating to contracts.\n- The applicant shall bear the expenses of the public announcement which may be reimbursed by the committee to the extent it ratifies them.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 10",
-            "PAGE 5"
-          ],
-          "retrievedSections": [
-            "PAGE 10",
-            "PAGE 5"
-          ],
+          "citedSections": ["PAGE 10", "PAGE 5"],
+          "retrievedSections": ["PAGE 10", "PAGE 5"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_f8ef9aac5e38d414e613afe2",
-            "legal_b765b23d4af47c02b5645164"
-          ],
+          "citedDocuments": ["legal_f8ef9aac5e38d414e613afe2", "legal_b765b23d4af47c02b5645164"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "not later than three days from the date of his appointment"
-          ],
+          "missingFacts": ["not later than three days from the date of his appointment"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 4,
@@ -1105,9 +880,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 3033.093
         },
         {

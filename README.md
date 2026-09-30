@@ -2,7 +2,7 @@
 
 **Retrieval-augmented question answering over Indian statutes. Every answer is built only from official legal texts, cites the exact document and page, and is checked claim by claim before it is shown. If the check fails, the answer is withheld instead of guessed.**
 
-![CI](https://github.com/OWNER/legal-bot/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/NikhilPatilAI/legal-bot/actions/workflows/ci.yml/badge.svg)
 TypeScript · Node 22 · Fastify · SQLite FTS5 (BM25) · pdf.js · Azure OpenAI · Docker · Vitest
 
 ---
@@ -13,9 +13,10 @@ General chatbots answer legal questions fluently, but they invent section number
 
 - **Grounded:** retrieval over a corpus of official PDFs (India Code, CBIC, IP India, MCA, SEBI, IBBI, RBI …). The model only sees retrieved passages.
 - **Cited:** every answer lists its sources with title, page and the official URL.
+- **Selective:** each verified answer gets a confidence score; below a threshold tuned on the dev set, the user gets the official sources instead of a possibly wrong answer.
 - **Verified:** a deterministic claim verifier splits the drafted answer into claims and checks each one against the cited text: numbers, negation, "shall/may", section citations and quotations. Contradicted answers are withheld.
 - **Honest about scope:** out-of-area questions (passports, criminal law, foreign law) are declined before any search or model call.
-- **Measured:** frozen evaluation sets with dev/test/held-out splits, a 1,510-item held-out perturbation benchmark for the verifier, and recorded model cost.
+- **Measured:** random-sample test sets frozen before they are run, a blind verifier benchmark on laws it was never tuned on, and recorded model cost.
 
 ## What it looks like
 
@@ -59,7 +60,9 @@ flowchart LR
     E --> G[compose<br/>extract or Azure OpenAI]
     G --> V{claim verifier<br/>numbers · polarity · modality<br/>citations · quotations}
     V -- contradicted --> W[withhold]
-    V -- supported --> A[answer + citations + checks]
+    V -- supported --> K{confidence<br/>≥ threshold?}
+    K -- no --> O[sources only]
+    K -- yes --> A[answer + citations + checks]
   end
 ```
 
@@ -67,19 +70,21 @@ More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Results
 
-All numbers come from files in [`docs/results/`](docs/results) and can be reproduced with the commands in [docs/EVALUATION.md](docs/EVALUATION.md). Evaluation questions and expected facts were checked verbatim against the source texts; they are not lawyer-reviewed.
+Every number comes from a file in [`docs/results/`](docs/results); the method is in [docs/EVALUATION.md](docs/EVALUATION.md). The main test sets are **seeded random samples** of provisions from the 5,082-PDF corpus, frozen before they were run. Expected facts were checked verbatim against the source; they are not lawyer-reviewed.
 
-| What was measured                                                                                                                | Result                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Claim verifier, held-out perturbation benchmark (negated, number-changed, modality-flipped, wrong-section and fabricated claims) | **4.9 %** false acceptance (95 % CI 3.7–6.4 %, n = 1,022) · **0.8 %** false rejection (n = 488)                                                                                           |
-| Out-of-scope questions correctly declined (multi-Act sets: sample corpus, 5,082-PDF corpus, Azure runs)                          | **100 %** (e.g. 11/11 on the sample corpus; 9/9 in every 3-run Azure set). Companies Act set: 8/10                                                                                        |
-| Right document cited, 5,082-PDF corpus, no model (28 questions)                                                                  | **89 %** (set 1: 14/16, set 2: 11/12)                                                                                                                                                     |
-| Connected-provision recall, Companies Act (flat → graph expansion)                                                               | **0 → 100 %**                                                                                                                                                                             |
-| Point-in-time answers (amendment history, as-of dates)                                                                           | **100 %** version accuracy on the temporal cases, with secondary-corroborated dates allowed; the server defaults to the stricter primary-source policy and declines dates it cannot prove |
-| Azure OpenAI answers, second held-out set, 3 runs × 12 questions                                                                 | withheld by verifier **17 % → 5.6 %** after verifier fixes; **21/36** runs fully correct (second look)                                                                                    |
-| Cost with Azure OpenAI                                                                                                           | about **₹0.04–0.11 per question** at list price                                                                                                                                           |
+| What was measured                                                                                       | Result                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Claim verifier on laws it was never tuned on** (blind, frozen: LLP Act, Trade Marks Act, FEMA, CGST)  | **0.8%** of falsified claims accepted (6/706, 95% CI 0.4–1.8%) · **1.7%** of true claims rejected (6/362)                                                                                      |
+| Claim verifier on the Companies Act (tuning data)                                                       | false acceptance **4.9% → 0.6%**, false rejection **0.8% → 0.4%** (n = 1,022 / 488)                                                                                                            |
+| **New blind random set: 94 questions, final system with Azure OpenAI** (frozen before the run, one run) | **89% precision** (41 of 46 answers fully correct, CI 77–95%; 96% after an audit of the misses). Low-confidence answers are replaced by their sources. 0 timeouts; 15/15 out-of-scope refusals |
+| Confidence threshold chosen on the dev set only (risk-coverage curve)                                   | 0.70: precision 83% → 89% on the blind set, at 49% coverage                                                                                                                                    |
+| Previous blind set, 89 questions, earlier system                                                        | 86% precision (38/44), 13 answers lost to a 30 s timeout; no-model retrieval: right document 61% → 69%                                                                                         |
+| Out-of-scope questions declined (foreign law, other fields, non-existent sections)                      | **15/15** on both random sets, 100% on every multi-Act set; Companies Act set 8/10                                                                                                             |
+| Connected-provision recall, Companies Act (flat → graph expansion)                                      | **0 → 100%**                                                                                                                                                                                   |
+| Hybrid BM25 + embeddings (RRF) vs BM25 on the sample corpus                                             | no gain (13/14 vs 14/14 right document, 10× latency): measured and kept off by default                                                                                                         |
+| Cost with Azure OpenAI                                                                                  | about **₹0.04–0.11 per question** at list price                                                                                                                                                |
 
-Limitations are part of the result: fact coverage with the no-model extract composer is 33–50 %, and some questions fail at retrieval (the right page is not in the top five). See [docs/EVALUATION.md](docs/EVALUATION.md).
+Limitations are part of the result. Samples are small (94 and 89 answerable questions), and answering only when confident trades coverage for precision: the final system answers about half of in-scope questions and returns sources for the rest. Random provisions include circulars and forms, so the scores are lower than on hand-picked questions. Most unanswered questions are declined by the legal-area router or held back by the verifier; widening the router (tuned on dev, measured on a new frozen set) is the next step.
 
 ## Quick start
 
@@ -150,7 +155,7 @@ Errors are RFC 9457 problem documents (`application/problem+json`) with a reques
 - **Privacy:** request logs contain method, status and request id, never questions, answers or headers.
 - **Reliability:** answer deadline with cancellation when the client disconnects; `/health` and `/ready` probes; graceful shutdown on SIGTERM; model calls are not retried blindly.
 - **Supply chain:** pinned dependencies and lockfile; non-root, read-only container with a health check.
-- **CI:** typecheck, lint, format, 133 tests, index build from real PDFs, both free evaluations, and a Docker smoke test that asks a real question.
+- **CI:** typecheck, lint, format, 150 tests, index build from real PDFs, both free evaluations, and a Docker smoke test that asks a real question.
 
 See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 

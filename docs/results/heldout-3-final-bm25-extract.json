@@ -8,9 +8,7 @@
   "resultLimit": 6,
   "repeats": 1,
   "indexWarmUpMs": 511,
-  "splits": [
-    "heldout"
-  ],
+  "splits": ["heldout"],
   "dataset": {
     "path": "data/eval/full-corpus-heldout-3.eval.json",
     "sha256": "ba414588548c152f23cd052fbf6f43554b70d3d05169d7e338c986a7af369525",
@@ -18,7 +16,7 @@
   },
   "corpus": {
     "mode": "index",
-    "path": "(outside project)/qvo-legal-fts.sqlite",
+    "path": "(outside project)/full-corpus-index.sqlite",
     "builtAt": "2026-09-02T11:52:00.000Z"
   },
   "history": {
@@ -32,9 +30,7 @@
       "label": "index",
       "resultLimit": 6,
       "repeats": 1,
-      "splits": [
-        "heldout"
-      ],
+      "splits": ["heldout"],
       "metrics": {
         "caseCount": 104,
         "answerableCount": 89,
@@ -80,16 +76,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "six months"
-          ],
+          "missingFacts": ["six months"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 329.89
         },
         {
@@ -102,20 +94,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The Central Government shall provide an electronic system to facilitate submission of application for the allotment of DIN through the portal on the website ofthe Ministry of Corporate Affairs. (3) (a) The applicant shall download Form DIR-3 from the portal, fill in the required particulars sought therein and sign the form and after attaching copies ofthe following documents, scan and file the entire set of documents electronically— (i) photograph; IndiaCode\n- Application for allotment of Director Identification Number.— (I) Every individual, who is to be appointed as director of a company shall make an application electronically in Form DIR-3, to the Central Government for the allotment of a Director Identification Number (DIN) along with such fees as provided in the Companies (Registration Offices and Fees) Rules, 2014.\n- Allotment of Director Identification Number. —The Central Government shall, within one month from the receipt of the application under section 153, allot a Director Identification Number to an applicant in such manner as may be prescribed. 155.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 37",
-            "PAGE 110",
-            "PAGE 11",
-            "PAGE 12",
-            "PAGE 70"
-          ],
-          "retrievedSections": [
-            "PAGE 37",
-            "PAGE 110",
-            "PAGE 11",
-            "PAGE 12",
-            "PAGE 70"
-          ],
+          "citedSections": ["PAGE 37", "PAGE 110", "PAGE 11", "PAGE 12", "PAGE 70"],
+          "retrievedSections": ["PAGE 37", "PAGE 110", "PAGE 11", "PAGE 12", "PAGE 70"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -165,16 +145,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "shall not exceed one year"
-          ],
+          "missingFacts": ["shall not exceed one year"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.251
         },
         {
@@ -196,16 +172,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "within seven days"
-          ],
+          "missingFacts": ["within seven days"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.099
         },
         {
@@ -218,14 +190,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- SMCs shall follow the following instructions while complying with Accounting Standards under these rules:- 1.1 the SMC which does not disclose certain information pursuant to the exemptions or relaxations given to it shall disclose (by way of a note to its financial statements) the fact that it is an SMC and has complied with the Accounting Standards insofar as they are applicable to an SMC on the following lines: “The Company is a Small and Medium Sized Company (SMC) as defined in the Companies (Accounting Standards) Rules, 2021 notified under the Companies Act, 2013.\n- Accordingly, the Company has complied with the Accounting Standards as applicable to a Small and Medium Sized Company.” 1.2 Where a company, being a SMC, has qualified for any exemption or relaxation previously but no longer qualifies for the relevant exemption or relaxation in the current accounting period, the relevant standards or requirements become applicable from the current period and the figures for the corresponding period of the previous accounting period need not be revised merely by reason of its having ceased to be an SMC.\n- Qualification for exemption or relaxation in respect of SMC.— An existing company, which was proviously not a Small and Medium Sized Company (SMC) an subsequently becomes a SMC, shall not be qualified for exemption or relaxation in respect of Accounting Standards available to a SMC until the company remains a SMC for two consecutive accounting periods. [F.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 329",
-            "PAGE 423",
-            "PAGE 407",
-            "PAGE 422",
-            "PAGE 330",
-            "PAGE 557"
-          ],
+          "citedSections": ["PAGE 329", "PAGE 423", "PAGE 407", "PAGE 422", "PAGE 330", "PAGE 557"],
           "retrievedSections": [
             "PAGE 329",
             "PAGE 423",
@@ -238,9 +203,7 @@
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_16642e70bf1e8ffd723a7de1"
-          ],
+          "citedDocuments": ["legal_16642e70bf1e8ffd723a7de1"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -278,16 +241,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "within sixty days"
-          ],
+          "missingFacts": ["within sixty days"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.227
         },
         {
@@ -300,18 +259,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Sitting fees.-A company may pay a sitting fee to a director for attending meetings of the Board or committees thereof, such sum as may be decided by the Board of directors thereof which shall not exceed one lakh rupees per meeting of the Board or committee thereof:\n- Provided that for Independent Directors and Women Directors, the sitting fee shall not be less than the sitting fee payable to other directors. 5.\n- Notwithstanding anything in this Act, where there is only one director on the Board of Director of a One Person Company, any business which is required to be transacted at the meeting of the Board of Directors of a company, it shall be sufficient if, in case of such One Person Company, the resolution by such director is entered in the minutes-book required to be maintained under section 118 and signed and dated by such director and such date shall be deemed to be the date of the meeting of the Board of Directors for all the purposes under this Act.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 110",
-            "PAGE 21",
-            "PAGE 81",
-            "PAGE 111"
-          ],
-          "retrievedSections": [
-            "PAGE 110",
-            "PAGE 21",
-            "PAGE 81",
-            "PAGE 111"
-          ],
+          "citedSections": ["PAGE 110", "PAGE 21", "PAGE 81", "PAGE 111"],
+          "retrievedSections": ["PAGE 110", "PAGE 21", "PAGE 81", "PAGE 111"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -358,16 +307,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "fifty rupees"
-          ],
+          "missingFacts": ["fifty rupees"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.209
         },
         {
@@ -389,16 +334,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "one-tenth of the depositors"
-          ],
+          "missingFacts": ["one-tenth of the depositors"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.56
         },
         {
@@ -411,35 +352,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- In exercise of the powers conferred by sub-rule (5) of rule 13 of the Companies (Registered Valuers and Valuation) Rules, 2017 the Registration hereb y grants a certificate recognising [insert name], as a registered valuers organisation for the valuation of [insert class(es) of assets].\n- Qualifications Plant and Machinery (i) Graduate in Mechanical, Electrical, Electronic and Communication, Electronic and Instrumentation, Production, Chemical, Textiles, Leather, Metallurgy, or Aeronautical Engineering, or Graduate in Valuation of Plant and Machinery or equivalent; (i) Five Years 16 Subs. by the Companies (Registered Valuers and Valuation) Fourth Amendment Rules, 2018, w.e.f. 13-11-2018.\n- (h) “registered valuers organisation” means a registered valuers organisation recognised under sub-rule (5) of rule 13; (i) “valuation standards” means the standards on valuation referred to in rule 18; and (j) “valuer” means a person registered with the authority in accordance with these rules and the term “registered valuer” shall be construed accordingly.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 60",
-            "PAGE 30",
-            "PAGE 2",
-            "PAGE 68",
-            "PAGE 39",
-            "PAGE 33"
-          ],
-          "retrievedSections": [
-            "PAGE 60",
-            "PAGE 30",
-            "PAGE 2",
-            "PAGE 68",
-            "PAGE 39",
-            "PAGE 33"
-          ],
+          "citedSections": ["PAGE 60", "PAGE 30", "PAGE 2", "PAGE 68", "PAGE 39", "PAGE 33"],
+          "retrievedSections": ["PAGE 60", "PAGE 30", "PAGE 2", "PAGE 68", "PAGE 39", "PAGE 33"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_d400d20e8f36819656646f99",
-            "legal_00290bef6603b30310a1f749"
-          ],
+          "citedDocuments": ["legal_d400d20e8f36819656646f99", "legal_00290bef6603b30310a1f749"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "within thirty days"
-          ],
+          "missingFacts": ["within thirty days"],
           "verification": {
             "claimCount": 5,
             "supportedClaimCount": 5,
@@ -452,9 +374,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1441.742
         },
         {
@@ -467,30 +387,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Short title and commencement.- (1)These rules may be called the National Company Law Appellate Tribunal Rules, 2016.\n- Arrangement of records in pending matters.— The record of appeal or petition shall be divided into the following four parts and shall be collated and maintained – (a) main file : (Petition being kept separately); (b) miscellaneous application file; (c) process file; and (d) execution file 99.\n- Register of Appeals, Petitions, etc.- (1) A Register in Form NCLT-18 shall be maintained in regard to appeals, petitions, etc., against the orders of the Tribunal to the National Company Law Appellate Tribunal and necessary entries therein be promptly made by the judicial branch.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 23",
-            "PAGE 34",
-            "PAGE 24",
-            "PAGE 86",
-            "PAGE 78",
-            "PAGE 102"
-          ],
-          "retrievedSections": [
-            "PAGE 23",
-            "PAGE 34",
-            "PAGE 24",
-            "PAGE 86",
-            "PAGE 78",
-            "PAGE 102"
-          ],
+          "citedSections": ["PAGE 23", "PAGE 34", "PAGE 24", "PAGE 86", "PAGE 78", "PAGE 102"],
+          "retrievedSections": ["PAGE 23", "PAGE 34", "PAGE 24", "PAGE 86", "PAGE 78", "PAGE 102"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_f5f2d0e79c746e7683909b75",
-            "legal_6fa78c025891892934a0ad64"
-          ],
+          "citedDocuments": ["legal_f5f2d0e79c746e7683909b75", "legal_6fa78c025891892934a0ad64"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -528,9 +431,7 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "seven or more members"
-          ],
+          "missingFacts": ["seven or more members"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 2,
@@ -551,9 +452,7 @@
               {
                 "text": "Valuation by registered valuers. —(1) Where a valuation is required to be made in respect of any property, stocks, shares, debentures, securities or goodwill or any other assets (herein referred to as the assets) or net worth of a company or its liabilities under the provision of this Act, it shall be valued by 1 [a person having such qualifications and experience, registered as a valuer and being a member of an organisation recognised, in such manner, on such terms and conditions as may be prescribed] and appointed by the audit committee or in its absence by the Board of Directors of that company.",
                 "status": "contradicted",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "—(1) Where a valuation is required to be made in respect of any property, stocks, shares, debentures, securities or goodwill or any other assets (herein referred to as the assets) or net worth of a company or its liabilities under the provision of this Act, it shall be valued by a person having such"
               }
@@ -562,9 +461,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "withheld_by_verifier"
-          ],
+          "failureCategories": ["withheld_by_verifier"],
           "latencyMs": 4313.488
         },
         {
@@ -577,20 +474,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Rule of opt-out.— (1) A member of a class action under section 245 of the Act is entitled to opt-out of the proceedings at any time after the institution of the class action, with the permission of the Tribunal, as per Form No.\n- For the purposes of clause (c) of sub-section (4) of section 245, while considering the desirability of an individual or separate action as opposed to a class action, the Tribunal may take into account, in particular, whether admitting separate actions by member or members or depositor or depositors would create a risk of:- (a) inconsistent or varying adjudications in such separate actions; or (b) adjudications that, as a practical matter, would be dispositive of the interests of the other members; (c) adjudications which would substantially impair or impede the ability of other members of the class to protect their interests. 86.\n- All other words and expressions used in these rules but not defined herein, and defined in the Act or in the Companies (Specification of Definitions Details) Rules, 2014 or in the National Company Law Tribunal Rules, 2016, shall have the same meanings respectively assigned to them in the Act or in the said rules. 3.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 86",
-            "245",
-            "PAGE 27",
-            "PAGE 65",
-            "PAGE 23"
-          ],
-          "retrievedSections": [
-            "PAGE 86",
-            "245",
-            "PAGE 27",
-            "PAGE 65",
-            "PAGE 23"
-          ],
+          "citedSections": ["PAGE 86", "245", "PAGE 27", "PAGE 65", "PAGE 23"],
+          "retrievedSections": ["PAGE 86", "245", "PAGE 27", "PAGE 65", "PAGE 23"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -602,9 +487,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "NCLT-9"
-          ],
+          "missingFacts": ["NCLT-9"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 4,
@@ -617,9 +500,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1395.08
         },
         {
@@ -641,17 +522,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "qualified institutional buyers",
-            "two hundred persons"
-          ],
+          "missingFacts": ["qualified institutional buyers", "two hundred persons"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.109
         },
         {
@@ -664,14 +540,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Provided also that where an applicant had applied for reservation of name under rule 18 in Form RUN-LLP and which has been approved, he may fill the reserved name as the proposed name of limited liability partnership. (2) (a) Where the Registrar, on examining Form FiLLiP, finds that it is necessary to call for further information or finds such application or document to be defective or incomplete in any respect, he shall give intimation to the applicant to remove the defects and re-submit the e-form within fifteen IndiaCode\n- Notice of appointment of LLP Liquidator to be given to Registrar.- The LLP shall give notice to the Registrar of the appointment of, or any vacancy occurred by death, resignation, removal or otherwise of, the LLP Liquidator indicating the name and particulars of that LLP Liquidator, within ten days of such appointment or change in Form No 7. 13.\n- In the Limited Liability Partnership Rules, 2009,- (a) in rule 3, after sub-rule (2), the following shall be inserted, namely:— “(3) Form RUN-LLP (Reserve Unique Name-Limited Liability Partnership), Form FiLLiP (Form for incorporation of Limited Liability Partnership), Form 5, Form 17 and Form 18 shall be processed by the Registrar, Central Registration Centre (CRC) for and on behalf of the jurisdictional Registrar.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 264",
-            "PAGE 267",
-            "PAGE 265",
-            "PAGE 26",
-            "PAGE 140",
-            "PAGE 25"
-          ],
+          "citedSections": ["PAGE 264", "PAGE 267", "PAGE 265", "PAGE 26", "PAGE 140", "PAGE 25"],
           "retrievedSections": [
             "PAGE 264",
             "PAGE 267",
@@ -719,14 +588,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- It shall, unless otherwise ordered, further state that any person who intends either to oppose or support the petition at the hearing should send notice of his intention to the petitioner or his advocate or pleader so as to reach him not later than two days previous to the day fixed for the hearing, and in the case of a petition for a winding-up, not later than four days previous to the day fixed for the hearing of the petition. 89.\n- Notice to be given by persons intending to appear at the hearing of petition. - (1) Every person, who intends to appear at the hearing of a petition, whether to support or oppose the petition, shall serve on the petitioner or his advocate or. pleader, notice of his intention at the address given in the advertisement.\n- Notice to be given by persons intending to appear at the hearing of petition. - (1) Every person, who intends to appear at the hearing of a petition, whether to support or oppose the petition, shall serve on the petitioner or his advocate or pleader, notice of his intention at the address given in the advertisement.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 299",
-            "PAGE 302",
-            "PAGE 298",
-            "PAGE 296",
-            "PAGE 297",
-            "PAGE 300"
-          ],
+          "citedSections": ["PAGE 299", "PAGE 302", "PAGE 298", "PAGE 296", "PAGE 297", "PAGE 300"],
           "retrievedSections": [
             "PAGE 299",
             "PAGE 302",
@@ -772,14 +634,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The statement to be filed along with the incorporation document under clause (c) of sub-section (1) of section 11 shall be in the format provided in Part B of Form 2.\n- [*TTTT ] l _ J g p i g 3 ( i ) ] *TTCcT ^H <l«IH3l : •3raTtTR n T 123 7. 'Whether another addendum to eForm 2 is required to be filed (refer instruction kit for details) QYes QNo Note: Attach the details of company(s)/ LLP{s) in which partner/ designated partner is a director/ partner, as the case may be in the beiow format as an attachment S.No.\n- Partnership Act, 2008 and the rules made thereunder have been complied with, in respect of incorporation and matters precedent and incidental thereto; (iv) I make this statement conscientiously believing the same to be true. . .",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 9",
-            "PAGE 123",
-            "PAGE 111",
-            "PAGE 118",
-            "PAGE 219",
-            "PAGE 65"
-          ],
+          "citedSections": ["PAGE 9", "PAGE 123", "PAGE 111", "PAGE 118", "PAGE 219", "PAGE 65"],
           "retrievedSections": [
             "PAGE 9",
             "PAGE 123",
@@ -827,20 +682,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Service of notice of demand. -The Liquidator shall serve under registered or speed post or other modes'as specified in rule 15 of the Limited Liability Partnership Rules 2009, demand notice of not less than fourteen days in Form No.63 specifying the amount due from such partner. 208.\n- Service of notice of demand. -The Liquidator shall serve under registered or speed post or other modes as specified in rule 15 of the Limited Liability Partnership Rules 2009, demand notice of not less than fourteen days in Form No.63 specifying the amount due from such partner. 208.\n- Other moneys due by partners. - When any money is due to the LLP from a partner or from the estate of the person whom he represents, other than moneys due on demands made subsequent to the winding-up on unrealized, unrecovered or outstanding contribution, the Liquidator may make an application to the Tribunal supported by an affidavit for an order against such partner for the payment of such moneys.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 319",
-            "PAGE 322",
-            "PAGE 311",
-            "PAGE 314",
-            "PAGE 273"
-          ],
-          "retrievedSections": [
-            "PAGE 319",
-            "PAGE 322",
-            "PAGE 311",
-            "PAGE 314",
-            "PAGE 273"
-          ],
+          "citedSections": ["PAGE 319", "PAGE 322", "PAGE 311", "PAGE 314", "PAGE 273"],
+          "retrievedSections": ["PAGE 319", "PAGE 322", "PAGE 311", "PAGE 314", "PAGE 273"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -878,20 +721,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Alteration in Particulars of Partners / Designated Partners of LLP incorporated or registered outside India (a) Type of alteration Appointment of new partner(s) or designated partner(s) Cessation of partner(s) or designated partner(s) Appointment of new partner(s) or designated partner(s) (b) How many partners are being appointed? (i) Details of Partner of the foreign LLP – Partner 1 (c) How many designated partners are being appointed? (i) Details of Designated Partner of the foreign LLP - DP1 (d) Designated Partner Identification number (DPIN) (e) (i) First Name (ii) Middle Name (iii) Last Name (f) Address Address Line1 Address Line2 Country IndiaCode\n- Registration of changes in partners.— (1) Every partner shall inform the limited liability partnership of any change in his name or address within a period of fifteen days of such change.\n- A limited liability partnership shall — (a) where a person becomes or ceases to be a partner, file a notice with the Registrar within thirty days from the date he becomes or ceases to be a partner; and (b) where there is any change in the name or address of a partner, file a notice with the Registrar within thirty days of such change.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 311",
-            "PAGE 314",
-            "PAGE 13",
-            "PAGE 220",
-            "PAGE 404"
-          ],
-          "retrievedSections": [
-            "PAGE 311",
-            "PAGE 314",
-            "PAGE 13",
-            "PAGE 220",
-            "PAGE 404"
-          ],
+          "citedSections": ["PAGE 311", "PAGE 314", "PAGE 13", "PAGE 220", "PAGE 404"],
+          "retrievedSections": ["PAGE 311", "PAGE 314", "PAGE 13", "PAGE 220", "PAGE 404"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -931,18 +762,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Registrar of Limited Liability Partnership Sub: Integration of Director’s Identification Number (DIN) issued under Companies Act, 1956 with Designated Partnership Identification Number (DPIN) issued under Limited Liability Partnership (LLP) Act, 2008 Sir, The Ministry of Corporate Affairs has been issuing two separate identification numbers as DIN to an individual for becoming a director of a company under Companies Act, 1956 and DPIN for a designated partner in a Limited Liability Partnership under Limited Liability Partnership (LLP) Act, 2008. 2.\n- Therefore, the Ministry, vide notification dated 5 th July, 2011, has integrated the Director’s Identification Number (DIN) issued under Companies Act, 1956 with Designated Partnership Identification Number (DPIN) issued under Limited Liability Partnership (LLP) Act, 2008 with effect from 9.7.2011. 4.\n- For rule 2. cub-rule (1), para (iv), following shall be substituted :— \"Designated Partnership Identification Number (DPIN) means an identification number which the Central Government may allot to any individual, intending to be appointed as designated partner of aLimited Liability Partnership for the purpose of his identification as such, and includes Directors Identification Number (DIN) issued under Sections 266A. 266B and 266E of the Companies Act, 1956 and rules made thereunder\" 3.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 2",
-            "PAGE 1",
-            "PAGE 232",
-            "PAGE 123"
-          ],
-          "retrievedSections": [
-            "PAGE 2",
-            "PAGE 1",
-            "PAGE 232",
-            "PAGE 123"
-          ],
+          "citedSections": ["PAGE 2", "PAGE 1", "PAGE 232", "PAGE 123"],
+          "retrievedSections": ["PAGE 2", "PAGE 1", "PAGE 232", "PAGE 123"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -955,9 +776,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "used as DPIN"
-          ],
+          "missingFacts": ["used as DPIN"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 4,
@@ -970,9 +789,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1911.823
         },
         {
@@ -985,16 +802,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Every commodity derivatives exchange shall collect from every stock broker/clearing member/self-clearing member, dealing/clearing and settling trades in commodity derivatives, the fee payable under regulation 41(1) in accordance with the provisions of its bye-laws.\n- Every recognized stock exchange shall collect from every stock broker in any segment other than cash segment, the fee payable under regulation 41 in respect of turnover in the relevant segment of that recognised stock exchange in accordance with the provisions of its bye-laws.\n- A stock broker who also acts as a clearing member or self-clearing member shall pay the annual fee separately, as applicable to each category as specified in regulation 41, by way of direct credit in the bank account through online payment using SEBI payment gateway. 44.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 47",
-            "PAGE 3",
-            "PAGE 6"
-          ],
-          "retrievedSections": [
-            "PAGE 47",
-            "PAGE 3",
-            "PAGE 6"
-          ],
+          "citedSections": ["PAGE 47", "PAGE 3", "PAGE 6"],
+          "retrievedSections": ["PAGE 47", "PAGE 3", "PAGE 6"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1035,18 +844,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- While there shall be no requirement for payment of any fees on account of resubmission of draft offer document, the requirement for paying applicable fees for the changes, if any, in terms of changes specified in Schedule XVI of the ICDR Regulations for the updated offer document shall continue to apply as is applicable to issuer for updation in offer document. 2.2.\n- SEBI/CFD/ICDRR/2/2009/29/09 September 29, 2009 To All Registered Merchant Bankers Dear Sirs, Sub.: Filing of offer documents with the Board under Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2009 1.\n- There shall be no refund of the filing fees on account of non-submission of draft offer document by the issuer after return. 2.3.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 5",
-            "PAGE 1",
-            "PAGE 3",
-            "PAGE 2"
-          ],
-          "retrievedSections": [
-            "PAGE 5",
-            "PAGE 1",
-            "PAGE 3",
-            "PAGE 2"
-          ],
+          "citedSections": ["PAGE 5", "PAGE 1", "PAGE 3", "PAGE 2"],
+          "retrievedSections": ["PAGE 5", "PAGE 1", "PAGE 3", "PAGE 2"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1058,9 +857,7 @@
           ],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "August 27, 2012"
-          ],
+          "missingFacts": ["August 27, 2012"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 4,
@@ -1073,10 +870,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited",
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["acceptable_document_not_cited", "expected_fact_missing"],
           "latencyMs": 2450.138
         },
         {
@@ -1098,16 +892,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "mandatory"
-          ],
+          "missingFacts": ["mandatory"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.483
         },
         {
@@ -1120,18 +910,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Once the initial slab limit is breached in any contract, then, after a cooling-off period of 15 minutes, this limit shall be increased further by enhanced slab, only in that contract. 3.2.3.\n- Once the initial slab limit is breached in any contract, the DPL for that contract shall be relaxed further by the ‘Enhanced Slab’ after the cooling off period of 15 minutes in the trading. 3.3.3.\n- Once the initial slab limit is breached in any contract, the DPL for that contract shall be relaxed further by the ‘Enhanced Slab’ after the cooling off period of 15 minutes in the trading. 7.3.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 2",
-            "PAGE 45",
-            "PAGE 3",
-            "PAGE 44"
-          ],
-          "retrievedSections": [
-            "PAGE 2",
-            "PAGE 45",
-            "PAGE 3",
-            "PAGE 44"
-          ],
+          "citedSections": ["PAGE 2", "PAGE 45", "PAGE 3", "PAGE 44"],
+          "retrievedSections": ["PAGE 2", "PAGE 45", "PAGE 3", "PAGE 44"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1180,16 +960,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "25%"
-          ],
+          "missingFacts": ["25%"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.122
         },
         {
@@ -1211,16 +987,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "rule 8"
-          ],
+          "missingFacts": ["rule 8"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.055
         },
         {
@@ -1233,18 +1005,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Page 9 of 261 by persons other than Promoter and Promoter Group and satisfying the above conditions would be classified under the category ‘Public Shareholding’. 2.5.3 The underlying shares, against which depository receipts have been issued, of a listed entity not satisfying the conditions at paragraph2.5.1 above which are held by Public Shareholders shall be classified under the category ‘Non-Public Non-Promoter shareholding’. 2.6 The listed entity shall ensure that shareholding of employee trusts and schemes are shown separately in relevant categories in terms of Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021. 3.\n- Page 9 of 230 by persons other than Promoter and Promoter Group and satisfying the above conditions would be classified under the category ‘Public Shareholding’. 2.5.3 The underlying shares, against which depository receipts have been issued, of a listed entity not satisfying the conditions at paragraph 2.5.1 above which are held by Public Shareholders shall be classified under the category ‘Non-Public Non-Promoter shareholding’. 2.6 The listed entity shall ensure that shareholding of employee trusts and schemes are shown separately in relevant categories in terms of Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021. 3.\n- Page 9 of 291 which are held by persons other than Promoter and Promoter Group and satisfying the above conditions would be classified under the category ‘Public Shareholding’. 2.5.3 The underlying shares, against which depository receipts have been issued, of a listed entity not satisfying the conditions at paragraph2.5.1 above which are held by Public Shareholders shall be classified under the category ‘Non- Public Non-Promoter shareholding’. 2.6 The listed entity shall ensure that shareholding of employee trusts and schemes are shown separately in relevant categories in terms of Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021. 3.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 9",
-            "PAGE 6",
-            "PAGE 11",
-            "PAGE 2"
-          ],
-          "retrievedSections": [
-            "PAGE 9",
-            "PAGE 6",
-            "PAGE 11",
-            "PAGE 2"
-          ],
+          "citedSections": ["PAGE 9", "PAGE 6", "PAGE 11", "PAGE 2"],
+          "retrievedSections": ["PAGE 9", "PAGE 6", "PAGE 11", "PAGE 2"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1284,20 +1046,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Page 1 of 2 CIRCULAR SEBI/HO/DDHS/DDHS-POD3/P/CIR/2024/102 July 19, 2024 To All Registered Credit Rating Agencies (CRAs), Dear Sir/ Madam, Sub: Enabling Credit Rating Agencies (CRAs) to undertake rating activities under IFSCA 1.\n- Any issue arising from the activities of such SEBI registered CRAs in the IFSC shall be dealt with by IFSCA under the powers exercisable under Section 12 and 13 of IFSCA Act and regulations and subsidiary instructions made thereunder. 2.2.\n- Any issue arising from the activities of such SEBI registered CRAs in the International Financial Services Centre (IFSC) shall be dealt with by IFSCA under the powers exercisable under Section 12 and 13 of IFSCA Act and regulations and subsidiary instructions made thereunder. ii.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 1",
-            "PAGE 43",
-            "PAGE 2",
-            "PAGE 18",
-            "PAGE 105"
-          ],
-          "retrievedSections": [
-            "PAGE 1",
-            "PAGE 43",
-            "PAGE 2",
-            "PAGE 18",
-            "PAGE 105"
-          ],
+          "citedSections": ["PAGE 1", "PAGE 43", "PAGE 2", "PAGE 18", "PAGE 105"],
+          "retrievedSections": ["PAGE 1", "PAGE 43", "PAGE 2", "PAGE 18", "PAGE 105"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1337,34 +1087,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The provisions of these regulations in relation to recovery of disgorgement amount ordered by the Board shall be applied in so far as it is applicable and the disgorgement amount so recovered shall be credited to the Investor Protection and Education Fund of the Board.\n- Provided the disgorgement amount shall be paid to investors only in cases where the eligible investors are identified in the order passed by the Board and the remaining amount, if any, after such payment, shall be credited to the account of Investor Protection and Education Fund of the Board.\n- Page 1 of 13 SECURITIES AND EXCHANGE BOARD OF INDIA (APPOINTMENT OF ADMINISTRATOR AND PROCEDURE FOR REFUNDING TO THE INVESTORS) REGULATIONS, 2018 No.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 10",
-            "PAGE 1",
-            "PAGE 2",
-            "PAGE 7",
-            "PAGE 9",
-            "PAGE 4"
-          ],
-          "retrievedSections": [
-            "PAGE 10",
-            "PAGE 1",
-            "PAGE 2",
-            "PAGE 7",
-            "PAGE 9",
-            "PAGE 4"
-          ],
+          "citedSections": ["PAGE 10", "PAGE 1", "PAGE 2", "PAGE 7", "PAGE 9", "PAGE 4"],
+          "retrievedSections": ["PAGE 10", "PAGE 1", "PAGE 2", "PAGE 7", "PAGE 9", "PAGE 4"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_968b9bda274cbf7284810f15"
-          ],
+          "citedDocuments": ["legal_968b9bda274cbf7284810f15"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "three years"
-          ],
+          "missingFacts": ["three years"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -1377,9 +1109,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 4709.742
         },
         {
@@ -1392,22 +1122,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The omnibus approval shall contain or indicate the following: - (a) name of the related parties; (b) nature and duration of the transaction; (c) maximum amount of transaction that can be entered into; (d) the indicative base price or current contracted price and the formula for variation in the price, if any; and IndiaCode\n- Provided that where the need for related party transaction cannot be foreseen and aforesaid details are not available, audit committee may make omnibus approval for such transactions subject to their value not exceeding rupees one crore per transaction.\n- pay sufficient attention and ensure that adequate deliberations are held before approving related party transactions and assure themselves that the same are in the interest of the company;",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 17",
-            "PAGE 36",
-            "PAGE 35",
-            "PAGE 3",
-            "PAGE 4",
-            "PAGE 359"
-          ],
-          "retrievedSections": [
-            "PAGE 17",
-            "PAGE 36",
-            "PAGE 35",
-            "PAGE 3",
-            "PAGE 4",
-            "PAGE 359"
-          ],
+          "citedSections": ["PAGE 17", "PAGE 36", "PAGE 35", "PAGE 3", "PAGE 4", "PAGE 359"],
+          "retrievedSections": ["PAGE 17", "PAGE 36", "PAGE 35", "PAGE 3", "PAGE 4", "PAGE 359"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1421,9 +1137,7 @@
           ],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "explanatory statement"
-          ],
+          "missingFacts": ["explanatory statement"],
           "verification": {
             "claimCount": 6,
             "supportedClaimCount": 6,
@@ -1436,10 +1150,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited",
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["acceptable_document_not_cited", "expected_fact_missing"],
           "latencyMs": 3416.44
         },
         {
@@ -1452,18 +1163,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- CIRCULAR SEBI/HO/MRD/MRD-PoD-2/P/CIR/2024/137 October 10, 2024 To All recognised Stock Exchanges All recognised Clearing Corporations All Recognised Depositories Dear Sir/ Madam, Sub: Change in timing for securities payout in the Activity schedule for T+1 Rolling Settlement. 1.\n- The extant Activity Schedule for T+1 Rolling Settlement, under Para 1.4 of the Chapter 3 of the SEBI Master circular on Stock Exchanges and Clearing Corporations dated October 16, 2023 also stands revised w.r.t to the timing of pay-out of securities. 5.\n- 1⁄4ããÀ¦ããè3⁄4ã 1ãÆãä¦ã1⁄4ãîãä¦ã ‚ããõÀ ãäÌããä¶ã1⁄2ã3⁄4ã oããñ¡Ã Securities and Exchange Board of India Page 4 of 50 SECTION – 1: ACTIVITY SCHEDULE 1.1 Rolling settlement In April 2002, the Indian capital markets introduced T+3 rolling settlement cycle.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 1",
-            "PAGE 2",
-            "PAGE 4",
-            "PAGE 5"
-          ],
-          "retrievedSections": [
-            "PAGE 1",
-            "PAGE 2",
-            "PAGE 4",
-            "PAGE 5"
-          ],
+          "citedSections": ["PAGE 1", "PAGE 2", "PAGE 4", "PAGE 5"],
+          "retrievedSections": ["PAGE 1", "PAGE 2", "PAGE 4", "PAGE 5"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1476,9 +1177,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "3:30 PM"
-          ],
+          "missingFacts": ["3:30 PM"],
           "verification": {
             "claimCount": 5,
             "supportedClaimCount": 5,
@@ -1491,9 +1190,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2134.835
         },
         {
@@ -1506,30 +1203,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The delisting offer obligations shall be fulfilled by the acquirer in the following manner: (a) the public announcement, the detailed public statement and the letter of offer shall mention the open offer price determined in accordance with regulation 8 of these regulations and the indicative price for delisting:\n- Notwithstanding anything contained in these regulations and the Delisting Regulations, in the event the acquirer makes a public announcement of an open offer for acquiring shares or voting rights or control of a target company in terms of sub-regulation (1) of regulation 3, regulation 4 or regulation 5, the acquirer may seek the delisting of the target company by making a delisting offer in accordance with this regulation:\n- Provided that if the open offer is for an indirect acquisition that is not a deemed direct acquisition under sub-regulation (2) of regulation 5, the open offer price and indicative price shall be notified by the acquirer at the time of making the detailed public statement and in the letter of offer:",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 2",
-            "PAGE 13",
-            "PAGE 39",
-            "PAGE 12",
-            "PAGE 24",
-            "PAGE 11"
-          ],
-          "retrievedSections": [
-            "PAGE 2",
-            "PAGE 13",
-            "PAGE 39",
-            "PAGE 12",
-            "PAGE 24",
-            "PAGE 11"
-          ],
+          "citedSections": ["PAGE 2", "PAGE 13", "PAGE 39", "PAGE 12", "PAGE 24", "PAGE 11"],
+          "retrievedSections": ["PAGE 2", "PAGE 13", "PAGE 39", "PAGE 12", "PAGE 24", "PAGE 11"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_177f70cf4edede1f9304a5cc",
-            "legal_f34866984eed83113ed920a7"
-          ],
+          "citedDocuments": ["legal_177f70cf4edede1f9304a5cc", "legal_f34866984eed83113ed920a7"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -1558,22 +1238,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Page 1 of 4 OFFICER ON SPECIAL DUTY INTEGRATED SURVEILLANCE DEPARTMENT EMAIL – ramanns@sebi.gov.in TEL : 022 26449450 Fax : 022 26449029 ISD/AML/CIR-1/2009 September 01, 2009 To all Intermediaries registered with SEBI under section 12 of the SEBI Act, 1992. (Through the stock exchanges for stock brokers, sub brokers and depositories for depository participants) Sub: Anti Money Laundering (AML) Standards/Combating Financing of Terrorism (CFT)/Obligations of Securities Market Intermediaries under Prevention of Money Laundering Act, 2002 and Rules framed there-under.\n- Page 19 of 34 thereby ensuring sound audit trail of all the transactions, PAN has been made sole identification number for all participants transacting in the securities market, irrespective of the amount of transaction vide SEBI Circular reference MRD/DoP/Cir-05/2007 dated April 27, 2007, subject to certain exemptions granted under circular reference MRD/DoP/MF/Cir-08/208 dated April 03, 2008 and MRD/DoP/Cir-20/2008 dated June 30, 2008. 3⁄4 All registered intermediaries should put in place necessary procedures to determine whether their existing/potential customer is a politically exposed person (PEP).\n- Politically exposed persons are individuals who are or have been entrusted with prominent public functions in a foreign country, e.g., Heads of States or of Governments, senior politicians, senior government/judicial/military",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 1",
-            "PAGE 20",
-            "PAGE 19",
-            "PAGE 16",
-            "PAGE 14",
-            "PAGE 3"
-          ],
-          "retrievedSections": [
-            "PAGE 1",
-            "PAGE 20",
-            "PAGE 19",
-            "PAGE 16",
-            "PAGE 14",
-            "PAGE 3"
-          ],
+          "citedSections": ["PAGE 1", "PAGE 20", "PAGE 19", "PAGE 16", "PAGE 14", "PAGE 3"],
+          "retrievedSections": ["PAGE 1", "PAGE 20", "PAGE 19", "PAGE 16", "PAGE 14", "PAGE 3"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1588,9 +1254,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "PML Rules"
-          ],
+          "missingFacts": ["PML Rules"],
           "verification": {
             "claimCount": 5,
             "supportedClaimCount": 5,
@@ -1603,9 +1267,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1850.874
         },
         {
@@ -1618,22 +1280,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Appeal to High Court. --(1) Any person aggrieved by any decision or order of the Appellate Tribunal, may, file an appeal to the High Court, within a period of sixty days from the date of communication of the decision or order of the Appellate Tribunal, to him, on any one or more of the grounds specified in section 100 of the Code of Civil Procedure, 1908 (5 of 1908):\n- It was pointed out that the impugned order was passed more than six months after being reserved, which violates Rule 150 of the NCLT Rules, 2016 which mandates that the orders have to be passed within 30 days of such order\n- If any adjudicating officer or the Regulatory Authority or the Appellate Tribunal, as the case may be, issues any order or directs any person to do any act, or refrain from doing any act, which it is empowered to do under this Act or the rules or regulations made thereunder, then in case of failure by any person to comply with such order or direction, the same shall be enforced, in such manner as may be prescribed. xxx xxx xxx 43.\n\n## Compliance checklist\n\n- [ ] Verify and document this source requirement: Appeal to High Court. --(1) Any person aggrieved by any decision or order of the Appellate Tribunal, may, file an appeal to the High Court, within a period of sixty days from the date of communication of the decision or order of the Appellate Tribunal, to him, on any one or more of the grounds specified in section 100 of the Code of Civil Procedure, 1908 (5 of 1908):\n- [ ] Verify and document this source requirement: It was pointed out that the impugned order was passed more than six months after being reserved, which violates Rule 150 of the NCLT Rules, 2016 which mandates that the orders have to be passed within 30 days of such order\n- [ ] Verify and document this source requirement: If any adjudicating officer or the Regulatory Authority or the Appellate Tribunal, as the case may be, issues any order or directs any person to do any act, or refrain from doing any act, which it is empowered to do under this Act or the rules or regulations made thereunder, then in case of failure by any person to comply with such order or direction, the same shall be enforced, in such manner as may be prescribed. xxx xxx xxx 43.\n- [ ] Verify and document this source requirement: The said Resolution Plan was further approved by the Adjudicating Authority/NCLT vide its Order dated July 20 2020, in conformity with Section 30 (2) of the I&B Code,2016 and the Rules and Regulations framed thereunder.\n- [ ] Verify the current official rule and applicable fee before filing.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 72",
-            "PAGE 5",
-            "PAGE 100",
-            "PAGE 102",
-            "PAGE 21",
-            "PAGE 14"
-          ],
-          "retrievedSections": [
-            "PAGE 72",
-            "PAGE 5",
-            "PAGE 100",
-            "PAGE 102",
-            "PAGE 21",
-            "PAGE 14"
-          ],
+          "citedSections": ["PAGE 72", "PAGE 5", "PAGE 100", "PAGE 102", "PAGE 21", "PAGE 14"],
+          "retrievedSections": ["PAGE 72", "PAGE 5", "PAGE 100", "PAGE 102", "PAGE 21", "PAGE 14"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1659,45 +1307,35 @@
               {
                 "text": "[ ] Verify and document this source requirement:",
                 "status": "unsupported",
-                "reasons": [
-                  "no_lexical_support"
-                ],
+                "reasons": ["no_lexical_support"],
                 "supportScore": 0.25,
                 "supportingText": null
               },
               {
                 "text": "[ ] Verify and document this source requirement:",
                 "status": "unsupported",
-                "reasons": [
-                  "no_lexical_support"
-                ],
+                "reasons": ["no_lexical_support"],
                 "supportScore": 0.25,
                 "supportingText": null
               },
               {
                 "text": "[ ] Verify and document this source requirement:",
                 "status": "unsupported",
-                "reasons": [
-                  "no_lexical_support"
-                ],
+                "reasons": ["no_lexical_support"],
                 "supportScore": 0.25,
                 "supportingText": null
               },
               {
                 "text": "[ ] Verify and document this source requirement:",
                 "status": "unsupported",
-                "reasons": [
-                  "no_lexical_support"
-                ],
+                "reasons": ["no_lexical_support"],
                 "supportScore": 0.25,
                 "supportingText": null
               },
               {
                 "text": "[ ] Verify the current official rule and applicable fee before filing.",
                 "status": "unsupported",
-                "reasons": [
-                  "no_lexical_support"
-                ],
+                "reasons": ["no_lexical_support"],
                 "supportScore": 0.143,
                 "supportingText": null
               }
@@ -1706,10 +1344,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited",
-            "unsupported_claims"
-          ],
+          "failureCategories": ["acceptable_document_not_cited", "unsupported_claims"],
           "latencyMs": 2952.872
         },
         {
@@ -1722,22 +1357,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- 12 The Gujarat Goods and Services Tax Act, 2017 [2017: Guj. 25 (100) “Schedule” means a Schedule appended to this Act;\n- “the Central Goods and Services Tax Act” means the Central Goods and Services Tax Act, 2017;\n- The audit under sub-section (1) shall be completed within a period of three months from the date of commencement of the audit: Audit by tax authorities.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 22",
-            "PAGE 150",
-            "PAGE 80",
-            "PAGE 62",
-            "PAGE 130",
-            "PAGE 58"
-          ],
-          "retrievedSections": [
-            "PAGE 22",
-            "PAGE 150",
-            "PAGE 80",
-            "PAGE 62",
-            "PAGE 130",
-            "PAGE 58"
-          ],
+          "citedSections": ["PAGE 22", "PAGE 150", "PAGE 80", "PAGE 62", "PAGE 130", "PAGE 58"],
+          "retrievedSections": ["PAGE 22", "PAGE 150", "PAGE 80", "PAGE 62", "PAGE 130", "PAGE 58"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1776,14 +1397,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The registered person shall execute a bond in accordance with the provisions of subsection (2) of section 60 in FORM GST ASMT-05 along with a security in the form of a bank guarantee for an amount as determined under sub-rule (3):\n- The registered person shall execute a bond in accordance with the provisions of subsection (2) of section 60 in FORM GST ASMT-05along with a security in the form of a bank guarantee for an amount as determined under sub-rule (3):\n- The registered person shall execute a bond in accordance with the provisions of sub-section (2) of section 60 in FORM GST ASMT-05 along with a security in the form of a bank guarantee for an amount as determined under sub-rule (3):",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 121",
-            "PAGE 161",
-            "PAGE 102",
-            "PAGE 74",
-            "PAGE 122",
-            "PAGE 69"
-          ],
+          "citedSections": ["PAGE 121", "PAGE 161", "PAGE 102", "PAGE 74", "PAGE 122", "PAGE 69"],
           "retrievedSections": [
             "PAGE 121",
             "PAGE 161",
@@ -1817,9 +1431,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited"
-          ],
+          "failureCategories": ["acceptable_document_not_cited"],
           "latencyMs": 6278.056
         },
         {
@@ -1832,20 +1444,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Where the tax invoices related to the inputs held in stock are not available, the registered person shall estimate the amount under sub-rule (1) based on the prevailing market price of the goods on the effective date of the occurrence of any of the events specified in sub-section (4) of section 18 or, as the case may be, sub-section (5) of section 29.\n- Details of inputs held in stock, inputs contained in semi-finished or finished goods held in stock, and capital goods/plant and machinery on which input tax credit is required to be reversed and paid back to Government 219 Inserted vide Notf no. 21/2018 -CT dt 18.04.2018 S r.\n- Details of inputs held in stock, inputs contained in semi-finished or finished goods held in stock, and capital goods/plant and machinery on which input tax credit is required to be reversed and paid back to Government 219 Inserted vide Notf no. 21/2018-CT dt 18.04.2018 S r.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 53",
-            "PAGE 39",
-            "PAGE 222",
-            "PAGE 364",
-            "PAGE 363"
-          ],
-          "retrievedSections": [
-            "PAGE 53",
-            "PAGE 39",
-            "PAGE 222",
-            "PAGE 364",
-            "PAGE 363"
-          ],
+          "citedSections": ["PAGE 53", "PAGE 39", "PAGE 222", "PAGE 364", "PAGE 363"],
+          "retrievedSections": ["PAGE 53", "PAGE 39", "PAGE 222", "PAGE 364", "PAGE 363"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1871,9 +1471,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited"
-          ],
+          "failureCategories": ["acceptable_document_not_cited"],
           "latencyMs": 4179.775
         },
         {
@@ -1886,20 +1484,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The detail of Shipping Bill shall be furnished in 13 digits capturing port code (six digits) followed by number of shipping bill. 9.\n- The same can be updated through submission of information in relation to amendment Table 9 in the tax period in which the details are available but before claiming any refund / rebate related to the said invoice.\n- Table 6 needs to capture information about shipping bill and its date.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 159",
-            "PAGE 189",
-            "PAGE 10",
-            "PAGE 114",
-            "PAGE 206"
-          ],
-          "retrievedSections": [
-            "PAGE 159",
-            "PAGE 189",
-            "PAGE 10",
-            "PAGE 114",
-            "PAGE 206"
-          ],
+          "citedSections": ["PAGE 159", "PAGE 189", "PAGE 10", "PAGE 114", "PAGE 206"],
+          "retrievedSections": ["PAGE 159", "PAGE 189", "PAGE 10", "PAGE 114", "PAGE 206"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1940,20 +1526,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Details of goods sent on approval basis.-Every person having sent goods on approval under the existing law and to whom sub-section (12) of section 142 applies shall, within ninety days of the appointed day, submit details of such goods sent on approval in FORM GST TRAN-1. 121.\n- Details of goods sent on approval basis.- Every person having sent goods on approval under the existing law and to whom sub-section !\n- Declaration of stock held by a principal and job-worker.-Every person to whom the provisions of section 141 apply shall, within ninety days of the appointed day, submit a declaration electronically in FORM GST TRAN-1, specifying therein, the stock of the inputs, semi-finished goods or finished goods, as applicable, held by him on the appointed day. 120.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 83",
-            "PAGE 133",
-            "PAGE 132",
-            "PAGE 256",
-            "PAGE 51"
-          ],
-          "retrievedSections": [
-            "PAGE 83",
-            "PAGE 133",
-            "PAGE 132",
-            "PAGE 256",
-            "PAGE 51"
-          ],
+          "citedSections": ["PAGE 83", "PAGE 133", "PAGE 132", "PAGE 256", "PAGE 51"],
+          "retrievedSections": ["PAGE 83", "PAGE 133", "PAGE 132", "PAGE 256", "PAGE 51"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -1981,9 +1555,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited"
-          ],
+          "failureCategories": ["acceptable_document_not_cited"],
           "latencyMs": 2139.698
         },
         {
@@ -1996,28 +1568,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Power to remove difficulties.— (1) If any difficulty arises in giving effect to the provisions of this Act, the Government may, as occasion arises, by an order, published in the Official Gazette, do anything, not inconsistent with the provisions of this Act, which appears to it to be necessary or expedient for the purpose of removing the difficulty :\n- Base year.— For the purpose of calculating the compensation amount payable in any financial year to a local authority, the financial year ending on the 31 st March 2017 shall be taken as the base year. 1 For Statement of Objects and Reasons (in English) see Maharashtra Government Gazette, Part V-A, Extraordinary No. 33, dated the 20 th May 2017, Page 6. 2 This Act was brought into force by G.\n- XLI] Maharashtra Goods and Services Tax (Compensation to 3 the Local Authorities) Act, 2017 MAHARASHTRA ACT No.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 6",
-            "PAGE 3",
-            "PAGE 4",
-            "PAGE 1",
-            "PAGE 7"
-          ],
-          "retrievedSections": [
-            "PAGE 6",
-            "PAGE 3",
-            "PAGE 4",
-            "PAGE 1",
-            "PAGE 7"
-          ],
+          "citedSections": ["PAGE 6", "PAGE 3", "PAGE 4", "PAGE 1", "PAGE 7"],
+          "retrievedSections": ["PAGE 6", "PAGE 3", "PAGE 4", "PAGE 1", "PAGE 7"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_e2d7cdc987fd5ada319123d2",
-            "legal_716b3de90028176e3615027f"
-          ],
+          "citedDocuments": ["legal_e2d7cdc987fd5ada319123d2", "legal_716b3de90028176e3615027f"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -2046,20 +1603,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Projects approved by Appraisal Committee shall be placed, as soon as possible but not later than 1 month from the date of recommendation by the appraisal committee, before the Selection Committee for their consideration.\n- The Central Consumer Protection Council and the Bureau of Indian Standards shall recommend to the Goods and Services Tax Council, the broad guidelines for considering the projects or proposals for the purpose of incurring expenditure from the Consumer Welfare Fund. 249 Inserted vide Notf no. 55/2107 -CT dt. 15.11.2017\n- The Central Consumer Protection Council and the Bureau of Indian Standards shall recommend to the Goods and Services Tax Council, the broad guidelines for considering the projects or proposals for the purpose of incurring expenditure from the Consumer Welfare Fund. 251 Inserted vide Notf no. 55/2107 -CT dt. 15.11.2017",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 67",
-            "PAGE 6",
-            "PAGE 4",
-            "PAGE 120",
-            "PAGE 121"
-          ],
-          "retrievedSections": [
-            "PAGE 67",
-            "PAGE 6",
-            "PAGE 4",
-            "PAGE 120",
-            "PAGE 121"
-          ],
+          "citedSections": ["PAGE 67", "PAGE 6", "PAGE 4", "PAGE 120", "PAGE 121"],
+          "retrievedSections": ["PAGE 67", "PAGE 6", "PAGE 4", "PAGE 120", "PAGE 121"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2099,22 +1644,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The property, thus attached, shall be removed only on the written instructions from the Commissioner. | 3.2.3 A copy of such attachment order shall be provided to the said taxable person as ea | ly as possible so that objections, if any, to the said attachment can be made by the taxable person | hin the time period prescribed under rule 159 of the CGST Rules.\n- In case, the Commissioner is satisfied that the property was or is no longer liable for attachment, he may release such property by issuing an order in FORM GST DRC- 23. 3.2.4 Even in cases where objection is not filed within the time prescribed under rule =\" of CGST Rules, the Commissioner may take the grounds mentioned in the |said objection/representation on record and pass a reasoned order.\n- Provided that the attachment of any property in a debt not secured by a negotiable instrument, a share in a corporation, or other movable property not in the possession of the defaulter except for property deposited in, or in the custody of any Court, shall be attached in the manner provided in rule 151.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 169",
-            "PAGE 171",
-            "PAGE 167",
-            "PAGE 3",
-            "PAGE 2",
-            "PAGE 168"
-          ],
-          "retrievedSections": [
-            "PAGE 169",
-            "PAGE 171",
-            "PAGE 167",
-            "PAGE 3",
-            "PAGE 2",
-            "PAGE 168"
-          ],
+          "citedSections": ["PAGE 169", "PAGE 171", "PAGE 167", "PAGE 3", "PAGE 2", "PAGE 168"],
+          "retrievedSections": ["PAGE 169", "PAGE 171", "PAGE 167", "PAGE 3", "PAGE 2", "PAGE 168"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2126,9 +1657,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "had some interest in, or was in possession of"
-          ],
+          "missingFacts": ["had some interest in, or was in possession of"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -2141,9 +1670,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2481.708
         },
         {
@@ -2156,12 +1683,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Application to the Appellate Tribunal.-(1)An application to the Appellate Tribunal under sub-section (3) of section 112 shall be made electronically or otherwise, in FORM GST APL-07, along with supporting documents on the commonportal.\n- Application to the Appellate Tribunal.- (1) An application to the Appellate Tribunal under sub-section (3) of section 112 shall be made electronically or otherwise, in FORM GST APL-07, along with the relevant documents on the common portal.\n- Application to the Appellate Tribunal.-(1)An application to the Appellate Tribunal under sub-section (3) of section 112 shall be madeelectronically or otherwise, in FORM GST APL-07, along with the relevant documents on the commonportal.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "112"
-          ],
-          "retrievedSections": [
-            "112"
-          ],
+          "citedSections": ["112"],
+          "retrievedSections": ["112"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2211,16 +1734,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "rule 89(4)"
-          ],
+          "missingFacts": ["rule 89(4)"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.106
         },
         {
@@ -2233,28 +1752,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Definitions.- In these rules, unless the context otherwise requires,- (a) “Act” means the Tamil Nadu Goods and Services Tax Act, 2017 (Tamil Nadu Act 19 of 2017); (b) “FORM” means a Form appended to these rules; (c) “section” means a section of the Act; (d) “Special Economic Zone” shall have the same meaning as assigned to it in clause (za) of section 2 of the Special Economic Zones Act, 2005 (Central Act 28 of 2005); (e) words and expressions used herein but not defined and defined in the Act shall have the meanings respectively assigned to them in the Act.\n- TAMIL NADU GOVERNMENT GAZETTE EXTRAORDINARY 101 (54) “Goods and Services Tax (Compensation to States) Act” means the Goods and Services Tax (Compensation to States) Act, 2017;\n- TAMIL NADU GOVERNMENT GAZETTE EXTRAORDINARY PUBLISHED BY AUTHORITY No. 201] CHENNAI, THURSDAY, JUNE 29, 2017 Aani 15, Hevilambi, Thiruvalluvar Aandu – 2048 COMMERCIAL TAXES AND REGISTRATION DEPARTMENT TAMIL NADU GOODS AND SERVICES TAX RULES, 2017. [G.O.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 18",
-            "PAGE 13",
-            "PAGE 10",
-            "PAGE 52",
-            "PAGE 1"
-          ],
-          "retrievedSections": [
-            "PAGE 18",
-            "PAGE 13",
-            "PAGE 10",
-            "PAGE 52",
-            "PAGE 1"
-          ],
+          "citedSections": ["PAGE 18", "PAGE 13", "PAGE 10", "PAGE 52", "PAGE 1"],
+          "retrievedSections": ["PAGE 18", "PAGE 13", "PAGE 10", "PAGE 52", "PAGE 1"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_27c343eb7848b94a5d0ad14b",
-            "legal_b35c9632764cca85e07fd311"
-          ],
+          "citedDocuments": ["legal_27c343eb7848b94a5d0ad14b", "legal_b35c9632764cca85e07fd311"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -2292,16 +1796,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "2,50,000"
-          ],
+          "missingFacts": ["2,50,000"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.083
         },
         {
@@ -2323,16 +1823,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "apply separately"
-          ],
+          "missingFacts": ["apply separately"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.06
         },
         {
@@ -2345,20 +1841,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Table 7J of the Annual Return (GSTR9) may be used for filing this Table. 15 Reasons for non-reconciliation between ITC availed on the various expenses declared in Table 14R and ITC declared in Table 14S shall be specified here. 16 Any amount which is payable due to reasons specified in Table 13 and 15 above shall be declared here. 7. [Part V consists of the additional liability to be discharged by the taxpayer due to nonreconciliation of turnover or non-reconciliation of input tax credit.\n- Towards the end of the return, taxpayers shall be given an option to pay any additional liability declared in this form, through FORM DRC-03.\n- Certification in cases where the reconciliation statement (FORM GSTR-9C) is drawn up by the person who had conducted the audit: 213 Substituted vide Notf no. 30/2021 – CT dt.30.07.2021 for ―2018-19 and 2019-20‖ 214 Substituted vide Notf no. 79/2020 – CT dt.15.10.2020 for ―FY 2017-18 and 2018-19.‖ 215 Inserted vide Notf no. 56/2019 – CT dt. 14.11.2019 216 Substituted vide Notf no. 30/2021 – CT dt.30.07.2021 for ―Part V consists of the auditor‘s recommendation on the additional liability to be discharged by the taxpayer due to non-reconciliation of turnover or nonreconciliation of input tax credit.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 1",
-            "PAGE 218",
-            "PAGE 38",
-            "PAGE 310",
-            "PAGE 30"
-          ],
-          "retrievedSections": [
-            "PAGE 1",
-            "PAGE 218",
-            "PAGE 38",
-            "PAGE 310",
-            "PAGE 30"
-          ],
+          "citedSections": ["PAGE 1", "PAGE 218", "PAGE 38", "PAGE 310", "PAGE 30"],
+          "retrievedSections": ["PAGE 1", "PAGE 218", "PAGE 38", "PAGE 310", "PAGE 30"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2398,16 +1882,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Effective date for composition levy.-(1) The option to pay tax under section 10 shall be effective from the beginning of the financial year, where the intimation is filed under subrule (3) of rule 3 and the appointed day where the intimation is filed under sub-rule (1) of the said rule. 1 Substituted for the word [sixty] with effect from 17.08.2017 vide Notification No. 22/2017 – Central Tax\n- The person referred to in sub-rule (1) shall be liable to pay tax under sub-section (1) of section 9 from the day he ceases to satisfy any of the conditions mentioned in section 10 or the provisions of this Chapter and shall issue tax invoice for every taxable supply made thereafter and he shall also file an intimation for withdrawal from the scheme in FORM GST CMP-04 within seven days of the occurrence of such event.\n- Any person who applies for registration under sub-rule (1) of rule 8 may give an option to pay tax under section 10 in Part B of FORM GST REG-01, which shall be considered as an intimation to pay tax under the said section.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 5",
-            "PAGE 7",
-            "PAGE 6"
-          ],
-          "retrievedSections": [
-            "PAGE 5",
-            "PAGE 7",
-            "PAGE 6"
-          ],
+          "citedSections": ["PAGE 5", "PAGE 7", "PAGE 6"],
+          "retrievedSections": ["PAGE 5", "PAGE 7", "PAGE 6"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2419,9 +1895,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "after the grant of registration"
-          ],
+          "missingFacts": ["after the grant of registration"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -2434,9 +1908,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 4505.744
         },
         {
@@ -2449,29 +1921,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- FORM TM-26 THE TRADE MARKS ACT, 1999 Agents Code No: Proprietor’s Code No: Fee: Rs.3000 Back Application for the rectification of the register or the removal of trade mark from the register. section 47 or 57 and rule 92. (To be filed in duplicate/ triplicate along with the statement of case in duplicate/triplicate and accompanied by as many copies of each of them as there are registered users under the registration).\n- Provided that the Registrar may furnish an expedited certified copies of the documents aforementioned within thirty working days on a request in Form TM-70 received to that effect on payment of five times the ordinary fees for such request. 120.\n- Certificate of registration.- (1) The certificate of registration of a trade mark to be issued by the Registrar under sub-section (2) of section 23 shall be in Form O-2. with such modification as the circumstances of any case may require, and the Registrar shall annex a copy of the trade mark to the certificate.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 150",
-            "PAGE 66",
-            "PAGE 51",
-            "PAGE 52",
-            "PAGE 29",
-            "PAGE 21"
-          ],
-          "retrievedSections": [
-            "PAGE 150",
-            "PAGE 66",
-            "PAGE 51",
-            "PAGE 52",
-            "PAGE 29",
-            "PAGE 21"
-          ],
+          "citedSections": ["PAGE 150", "PAGE 66", "PAGE 51", "PAGE 52", "PAGE 29", "PAGE 21"],
+          "retrievedSections": ["PAGE 150", "PAGE 66", "PAGE 51", "PAGE 52", "PAGE 29", "PAGE 21"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_537d7444982d6b409452c8be"
-          ],
+          "citedDocuments": ["legal_537d7444982d6b409452c8be"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -2500,30 +1956,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- For example, if an application for registration of trademark in respect of ‘cosmetics’ is filed in class 34, the Examiner shall require the applicant to correct the class as ‘3’ by a request on form TM- 16.\n- For example, if an application for registration of trademark in respect of ‘cosmetics’, ‘medicines’ and ‘readymade garments’ is filed in class 3, the Examiner shall require the applicant to delete items ‘medicines’ and ‘readymade garments’ from the specification of goods by a request on form TM-16.\n- Page | 41 the Trademarks Act, 1999, a single application can however be filed for registration of trademark in respect of goods and/or services falling in more than one of such classes. 10.3 Office action In case the class of goods or services mentioned in the application is other than the relevant class of the International Classification of Goods and Services, as published by the Registrar of trademarks, and no aspect of such goods or services falls in the class mentioned in the application, the Examiner shall suggest the appropriate class for those goods or services and require the applicant to correct the class through a request on form TM-16.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 15",
-            "PAGE 41",
-            "PAGE 26",
-            "PAGE 43",
-            "PAGE 25",
-            "PAGE 34"
-          ],
-          "retrievedSections": [
-            "PAGE 15",
-            "PAGE 41",
-            "PAGE 26",
-            "PAGE 43",
-            "PAGE 25",
-            "PAGE 34"
-          ],
+          "citedSections": ["PAGE 15", "PAGE 41", "PAGE 26", "PAGE 43", "PAGE 25", "PAGE 34"],
+          "retrievedSections": ["PAGE 15", "PAGE 41", "PAGE 26", "PAGE 43", "PAGE 25", "PAGE 34"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_537d7444982d6b409452c8be",
-            "legal_76b2cfb0231695467e3c130e"
-          ],
+          "citedDocuments": ["legal_537d7444982d6b409452c8be", "legal_76b2cfb0231695467e3c130e"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -2552,22 +1991,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Power of Registrar to notify International Non-proprietary names. — The Registrar shall from time to time publish in the Journal, the words which are declared by the World Health Organisation as international non-proprietary names referred to in sub-section (b) of section 13.\n- Power of Registrar to notify International Non-proprietary names.-The Registrar shall from time to time publish in the Journal, the words which are declared by the World Health Organisation as international non-proprietary names referred to in sub-section (b) of section 13.\n- (i) “International Bureau” means the International Bureau of the World Intellectual Property Organisation; (j) “international registration” means the registration of a trade mark in the register of the International Bureau effected under the Madrid Protocol; (k) “Madrid Agreement” means the Madrid Agreement Concerning the International Registration of Marks adopted at Madrid on the 14th day of April, 1891, as subsequently revised and amended; (l) “Madrid Protocol” means the Protocol relating to the Madrid Agreement Concerning the International Registration of Marks adopted at Madrid on the 27th day of June, 1989, as amended from time to time. 36C.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 76",
-            "PAGE 80",
-            "PAGE 79",
-            "PAGE 3",
-            "PAGE 51",
-            "PAGE 66"
-          ],
-          "retrievedSections": [
-            "PAGE 76",
-            "PAGE 80",
-            "PAGE 79",
-            "PAGE 3",
-            "PAGE 51",
-            "PAGE 66"
-          ],
+          "citedSections": ["PAGE 76", "PAGE 80", "PAGE 79", "PAGE 3", "PAGE 51", "PAGE 66"],
+          "retrievedSections": ["PAGE 76", "PAGE 80", "PAGE 79", "PAGE 3", "PAGE 51", "PAGE 66"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2605,20 +2030,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- For the purpose of this Act, “ existing registered Trade Mark” means a trade mark registered under the Trade and Merchandise Act, 1958 immediately before the commencement of this Act.\n- NEW ELEMENTS IN TRADE MARKS ACT, 1999 Major changes that have taken place in the Trade Marks Act, 1999 (in force since 15 th Sept. 2003) which has replaced the earlier Trade & Merchandise Marks Act, 1958 (now repealed) includes the following: a) It has enlarged the definition of trade mark.\n- The Central Government may by notification in the Official Gazette, appoint a person to be known as the Controller- General of Patents, Designs and Trade Marks, who shall be the Registrar of Trade Marks for the purposes of this Act.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 4",
-            "PAGE 5",
-            "PAGE 3",
-            "PAGE 53",
-            "PAGE 1"
-          ],
-          "retrievedSections": [
-            "PAGE 4",
-            "PAGE 5",
-            "PAGE 3",
-            "PAGE 53",
-            "PAGE 1"
-          ],
+          "citedSections": ["PAGE 4", "PAGE 5", "PAGE 3", "PAGE 53", "PAGE 1"],
+          "retrievedSections": ["PAGE 4", "PAGE 5", "PAGE 3", "PAGE 53", "PAGE 1"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2631,9 +2044,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "deemed to be also use"
-          ],
+          "missingFacts": ["deemed to be also use"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -2646,9 +2057,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2604.974
         },
         {
@@ -2670,9 +2079,7 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "twenty-one days"
-          ],
+          "missingFacts": ["twenty-one days"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 2,
@@ -2693,9 +2100,7 @@
               {
                 "text": "For the purposes of sub-section (5) of section 54K, the resolution professional shall publish brief particulars of the invitation for resolution plans in 24 [such format as notified by the Board] not later than twenty-one days from the pre-packaged insolvency commencement date.",
                 "status": "contradicted",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "(1) For the purposes of sub-section (5) of section 54K, the resolution professional shall publish brief particulars of the invitation for resolution plans in such format as notified by the Board not later than twenty-one days from the pre-packaged insolvency commencement date."
               }
@@ -2704,9 +2109,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "withheld_by_verifier"
-          ],
+          "failureCategories": ["withheld_by_verifier"],
           "latencyMs": 2467.621
         },
         {
@@ -2719,35 +2122,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- An insolvency professional shall be eligible to be appointed as a resolution professionalfor a fast track process of a corporate debtor if he, and all partners and directors of the insolvency professional entity of which he is a partner or director,are independent of the corporate debtor.\n- An insolvency professional shall be eligible to be appointed as a resolution professional for a fast track process of a corporate debtor if he, and all partners and directors of the insolvency professional entity of which he is a partner or director, are independent of the corporate debtor.\n- An insolvency professional shall not continue as a resolution professional if the insolvency professional entity of which he is a director or a partner, or any other partner or director of such insolvency professional entity represents any other stakeholders in the same fast track process. 4.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 3",
-            "PAGE 22",
-            "PAGE 15",
-            "PAGE 28",
-            "PAGE 13",
-            "PAGE 29"
-          ],
-          "retrievedSections": [
-            "PAGE 3",
-            "PAGE 22",
-            "PAGE 15",
-            "PAGE 28",
-            "PAGE 13",
-            "PAGE 29"
-          ],
+          "citedSections": ["PAGE 3", "PAGE 22", "PAGE 15", "PAGE 28", "PAGE 13", "PAGE 29"],
+          "retrievedSections": ["PAGE 3", "PAGE 22", "PAGE 15", "PAGE 28", "PAGE 13", "PAGE 29"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_b765b23d4af47c02b5645164",
-            "legal_4debc3a1fe4d52df9f4d4cc8"
-          ],
+          "citedDocuments": ["legal_b765b23d4af47c02b5645164", "legal_4debc3a1fe4d52df9f4d4cc8"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "forty -eight hours"
-          ],
+          "missingFacts": ["forty -eight hours"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -2760,9 +2144,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1765.698
         },
         {
@@ -2775,14 +2157,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- For example, the Board shall invite expression of interest by December 12, 2022 from IPs for inclusion in the Panel for January 1, 2023 to June 30, 2023.The IPs shall express their interest by December 25, 2022.\n- For example, the first Panel under these Guidelines will be valid for appointments during January – June 2023, and the next Panel will be valid for appointments during July – December 2023, and so on. 7.4 The NCLT may pick up any name from the Panel for appointment of IRP, Liquidator, RP or BT, for a CIRP, Liquidation Process, Insolvency Resolution or Bankruptcy Process relating to a corporate debtors and personal guarantors to corporate debtors, as the case may be. 7.5 The DRT may pick up any name from the Panel for appointment as RP or BT, for an Insolvency Resolution or Bankruptcy Process for personal guarantors to corporate debtors, as the case may be.\n- For example, the first panel under these Guidelines will be valid for appointments during January - June, 2020, the next panel will be valid for July – December, 2020 and so on. 7.4 The NCLT may pick up any name from the Panel for appointment of IRP, Liquidator, RP or BT, for a CIRP or Liquidation process relating to a corporate or individual debtor, as the case may be. 7.5 The DRT may pick up any name from the Panel for appointment as RP or BT, as the case may be, for an insolvency resolution or bankruptcy process for individuals and partnership firms, respectively.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 4",
-            "PAGE 3"
-          ],
-          "retrievedSections": [
-            "PAGE 4",
-            "PAGE 3"
-          ],
+          "citedSections": ["PAGE 4", "PAGE 3"],
+          "retrievedSections": ["PAGE 4", "PAGE 3"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2821,22 +2197,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Short title and commencement.- (1) These rules may be called the Insolvency and Bankruptcy Board of India (Annual Report) Rules, 2018.\n- In these regulations, unless the context otherwise requires:— (a) “Board” means the Insolvency and Bankruptcy Board of India established under section 188(1) of the Code; (b) “Chairperson” means the Chairperson of the Board; (c) “Code” means the Insolvency and Bankruptcy Code, 2016; (d) “Governing Board” means the Board of Members constituted under section 189(1) of the Code; (e) “Member” means a Member of the Board and includes the Chairperson, appointed under section 189 of the Code; (f) “Schedule” means schedule attached to these Regulations; (g) “Secretary” means Secretary to the Governing Board designated under regulation 9(1) of these Regulations.\n- Definitions: (I) In these rules, unless the context otherwise requires, — (a) \"Code\" means the Insolvency and Bankruptcy Code, 2016 (31 of 2016); (b) words and expressions used in these rules but not defined, and defined in the Code shall have the meanings respectively assigned to them in the Code. 3.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 3",
-            "PAGE 1",
-            "PAGE 157",
-            "PAGE 136",
-            "PAGE 8",
-            "PAGE 12"
-          ],
-          "retrievedSections": [
-            "PAGE 3",
-            "PAGE 1",
-            "PAGE 157",
-            "PAGE 136",
-            "PAGE 8",
-            "PAGE 12"
-          ],
+          "citedSections": ["PAGE 3", "PAGE 1", "PAGE 157", "PAGE 136", "PAGE 8", "PAGE 12"],
+          "retrievedSections": ["PAGE 3", "PAGE 1", "PAGE 157", "PAGE 136", "PAGE 8", "PAGE 12"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -2886,9 +2248,7 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "electronic platform"
-          ],
+          "missingFacts": ["electronic platform"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 3,
@@ -2909,9 +2269,7 @@
               {
                 "text": "FORM PGIRP 2A (To be submitted to the Board by the Resolution Professional o n or before the 10th day of the subsequent month, after of order of rejection of application under section 100) A.",
                 "status": "unverified_citation",
-                "reasons": [
-                  "cited_section_mismatch"
-                ],
+                "reasons": ["cited_section_mismatch"],
                 "supportScore": 0.286,
                 "supportingText": null
               }
@@ -2920,9 +2278,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "withheld_by_verifier"
-          ],
+          "failureCategories": ["withheld_by_verifier"],
           "latencyMs": 1704.685
         },
         {
@@ -2944,10 +2300,7 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "fifty lakh rupees",
-            "fifteen days"
-          ],
+          "missingFacts": ["fifty lakh rupees", "fifteen days"],
           "verification": {
             "claimCount": 5,
             "supportedClaimCount": 3,
@@ -2968,18 +2321,14 @@
               {
                 "text": "(d) pay a fee of 16 [one crore] rupees to the Board, within fifteen days of receipt of intimation of registration or renewal from the Board, as applicable;",
                 "status": "contradicted",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "(d) pay a fee of one crore rupees to the Board, within fifteen days of receipt of intimation of registration or renewal from the Board, as applicable;"
               },
               {
                 "text": "(e) 17 [ pay to the Board, a fee calculated at the rate of ten per cent. of the turnover from the services as an information utility rendered in the preceding financial year, on or before 30 th April every year:",
                 "status": "contradicted",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "of the turnover from the services as an information utility rendered in the preceding financial year, on or before 30 th April every year:"
               }
@@ -2988,9 +2337,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "withheld_by_verifier"
-          ],
+          "failureCategories": ["withheld_by_verifier"],
           "latencyMs": 1426.568
         },
         {
@@ -3003,28 +2350,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- An individual enrolled with an insolvency professional agency as a professional member may make an application to the Board in Form A of the Second Schedule to these Regulations, along with a non-refundable application fee of 10 [twenty] thousand rupees to the Board. 11 [(1A) An insolvency professional entity eligible for registration as an insolvency professional under sub-regulation (2) of regulation 4 may make an application to the Board in Form AA of Second Schedule along with a non-refundable application fee of two lakh rupees.] (2) The Board shall acknowledge an application made under this Regulation within seven days of its receipt.\n- If the Board is satisfied, after such inspection or inquiry as it deems necessary that the applicant is eligible under these Regulations, it may grant a certificate of registration to the applicant to carry on the activities of an insolvency professional in Form B of the Second Schedule to these Regulations, within sixty days of receipt of the application, excluding the time given by the Board for presenting additional documents, information or clarification, or appearing in person, as the case may be.\n- Sub - regulation (2), before substitution, stood as under: “(2) A person eligible under sub-regulation (1) may make an application for recognition as an insolvency professional entity to the Board in Form C of the Second Schedule to these Regulations.” 38 Substituted by Notification No.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 23",
-            "PAGE 21",
-            "PAGE 5",
-            "PAGE 12",
-            "PAGE 14"
-          ],
-          "retrievedSections": [
-            "PAGE 23",
-            "PAGE 21",
-            "PAGE 5",
-            "PAGE 12",
-            "PAGE 14"
-          ],
+          "citedSections": ["PAGE 23", "PAGE 21", "PAGE 5", "PAGE 12", "PAGE 14"],
+          "retrievedSections": ["PAGE 23", "PAGE 21", "PAGE 5", "PAGE 12", "PAGE 14"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_6a68bbcaa1a20975893e8537",
-            "legal_4d6313e5eb3c8445aa7dbc62"
-          ],
+          "citedDocuments": ["legal_6a68bbcaa1a20975893e8537", "legal_4d6313e5eb3c8445aa7dbc62"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -3039,9 +2371,7 @@
               {
                 "text": "An individual enrolled with an insolvency professional agency as a professional member may make an application to the Board in Form A of the Second Schedule to these Regulations, along with a non-refundable application fee of 10 [twenty] thousand rupees to the Board. 11 [(1A) An insolvency professional entity eligible for registration as an insolvency professional under sub-regulation (2) of regulation 4 may make an application to the Board in Form AA of Second Schedule along with a non-refundable application fee of two lakh rupees.] (2) The Board shall acknowledge an application made under this Regulation within seven days of its receipt.",
                 "status": "unsupported",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 0.871,
                 "supportingText": "(2) of regulation 4 may make an application to the Board through the insolvency professional agency of which it is a member, in Part – II of Form AA of Second Schedule to these Regulations, along with a non-refundable application fee of two lakh rupees to the Board."
               }
@@ -3050,9 +2380,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unsupported_claims"
-          ],
+          "failureCategories": ["unsupported_claims"],
           "latencyMs": 1318.121
         },
         {
@@ -3074,9 +2402,7 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "exorbitant payments"
-          ],
+          "missingFacts": ["exorbitant payments"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 2,
@@ -3097,9 +2423,7 @@
               {
                 "text": "Type of Transaction Date of Filing with Adjudicating Authority Date of Order of the Adjudicating Authority Brief of the Order (1) (2) (3) (4) (5) 1 Preferential transactions under section 43 2 Undervalued transactions under section 45 3 Extortionate credit transactions under section 50 4 Fraudulent transactions under section 66 9.",
                 "status": "contradicted",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "Type of Transaction Date of Filing with Adjudicating Authority Date of Order of the Adjudicating Authority Brief of the Order 1 Preferential transactions under section 43 2 Undervalued transactions under section 45 3 Extortionate credit transactions under section 50 4 Fraudulent transactions under s"
               }
@@ -3108,9 +2432,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "withheld_by_verifier"
-          ],
+          "failureCategories": ["withheld_by_verifier"],
           "latencyMs": 1553.815
         },
         {
@@ -3132,9 +2454,7 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "reasoned order"
-          ],
+          "missingFacts": ["reasoned order"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 2,
@@ -3155,9 +2475,7 @@
               {
                 "text": "The authorisation for assignment shall stand suspended upon initiation of disciplinary proceedings by the Agency or by the Board, as the case may be.] 54 [Explanation.- A disciplinary proceeding shall be considered as pending against the professional member from the date he has been issued a show cause notice by the Agency or the Board, as the case may be, till its disposal by the Disciplinary Committee of the Agency or the Board, as the case may be.] 24.",
                 "status": "contradicted",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "Explanation.- A disciplinary proceeding shall be considered as pending against the professional member from the date he has been issued a show cause notice by the Agency or the Board, as the case may be, till its disposal by the Disciplinary Committee of the Agency or the Board, as the case may be. "
               }
@@ -3166,9 +2484,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "withheld_by_verifier"
-          ],
+          "failureCategories": ["withheld_by_verifier"],
           "latencyMs": 1586.239
         },
         {
@@ -3181,22 +2497,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Regulation 14 of the IBBI (Voluntary Liquidation Process) Regulations, 2017 (the Regulations) mandates the liquidator to make the public announcement within five days of his appointment, calling for submission of claims by stakeholders within thirty days from the liquidation commencement date.\n- The liquidator shall make a public announcement in Form A of Schedule I within five days from his appointment.\n- The liquidator shall make a public announcement in Form A of Schedule I within five days from his appointment. 16 Substituted by Notification No.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 9",
-            "PAGE 36",
-            "PAGE 8",
-            "PAGE 1",
-            "PAGE 41",
-            "PAGE 25"
-          ],
-          "retrievedSections": [
-            "PAGE 9",
-            "PAGE 36",
-            "PAGE 8",
-            "PAGE 1",
-            "PAGE 41",
-            "PAGE 25"
-          ],
+          "citedSections": ["PAGE 9", "PAGE 36", "PAGE 8", "PAGE 1", "PAGE 41", "PAGE 25"],
+          "retrievedSections": ["PAGE 9", "PAGE 36", "PAGE 8", "PAGE 1", "PAGE 41", "PAGE 25"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3236,28 +2538,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The financial creditor or operational creditor shall, while filing application under section 7 or 9, as the case may be, also furnish details of his/ its — (a) Permanent Account Number; and (b) Email-ID.] 11 [2D.\n- 5 While filing an application under section 7 or 9, the financial creditor or the operational creditor, as the case may be, shall also submit along with evidence, chronology of the debt and default including the date when the debt became due, date of default, dates of part payments, if any, date of last acknowledgment of debt and the limitation applicable.] 12 [2E.\n- An operational creditor shall furnish the following information along with an application under sub-section (1) of section 9, namely : — (a) copies of relevant extracts of Form GSTR-1 and Form GSTR-3B filed under the provisions of the relevant laws relating to Goods and Services Tax and the copy of e-way bill wherever applicable:",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "7",
-            "PAGE 17",
-            "PAGE 6",
-            "PAGE 39",
-            "PAGE 47"
-          ],
-          "retrievedSections": [
-            "7",
-            "PAGE 17",
-            "PAGE 6",
-            "PAGE 39",
-            "PAGE 47"
-          ],
+          "citedSections": ["7", "PAGE 17", "PAGE 6", "PAGE 39", "PAGE 47"],
+          "retrievedSections": ["7", "PAGE 17", "PAGE 6", "PAGE 39", "PAGE 47"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_2cb9430e783ccc570d592f8b",
-            "legal_66b862b8adb5b2eb2c7ac316"
-          ],
+          "citedDocuments": ["legal_2cb9430e783ccc570d592f8b", "legal_66b862b8adb5b2eb2c7ac316"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -3286,22 +2573,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Fast track corporation insolvency resolution process. - (1) A corporate insolvency resolution process carried out in accordance with this Chapter shall be called as fast track corporate insolvency resolution process.\n- An application for fast track corporate insolvency resolution process may be made in respect of the following corporate debtors, namely: - (a) a corporate debtor with assets and income below a level as may be notified by the Central Government; or (b) a corporate debtor with such class of creditors or such amount of debt as may be notified by the Central Government; or (c) such other category of corporate persons as may be notified by the Central Government. 56.\n- Time period for completion of fast track corporate insolvency resolution process. - (1) Subject to the provisions of sub-section (3), the fast track corporate insolvency resolution process shall be completed within a period of ninety days from the insolvency commencement date.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 54",
-            "PAGE 73",
-            "PAGE 22",
-            "PAGE 4",
-            "PAGE 18",
-            "PAGE 45"
-          ],
-          "retrievedSections": [
-            "PAGE 54",
-            "PAGE 73",
-            "PAGE 22",
-            "PAGE 4",
-            "PAGE 18",
-            "PAGE 45"
-          ],
+          "citedSections": ["PAGE 54", "PAGE 73", "PAGE 22", "PAGE 4", "PAGE 18", "PAGE 45"],
+          "retrievedSections": ["PAGE 54", "PAGE 73", "PAGE 22", "PAGE 4", "PAGE 18", "PAGE 45"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3340,20 +2613,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Provided that the following persons shall not be appointed as registered valuers, namely:- (a) a related party of the corporate debtor; (b) an auditor of the corporate debtor at any time during the five years preceding the pre-packaged insolvency commencement date; (c) a partner or director of the insolvency professional entity of which the resolution professional is a partner or director; or (d) a relative of the resolution professional or of a partner or director of the insolvency professional entity of which the resolution professional is a partner or director. 39.\n- Explanation.- For the purposes of these Regulations,- (a) the expressions ‘‘voting by electronic means’’ or ‘‘electronic voting system’’ means a “secured system” based process of display of electronic ballots, recording of votes of the members of the committee and the number of votes polled in favour or against, such that the voting exercised by way of electronic means gets registered and counted in an electronic registry in a centralised server with adequate cyber security; (b) the expression ‘‘secured system’’ means computer hardware, software, and procedure that – (i) are reasonably secure from unauthorised access and misuse;\n- The resolution professional shall- (a) circulate the minutes of the meeting by electronic means to all members of the committee and authorised representative, within twenty-four hours of the conclusion of the meeting; and (b) seek a vote of the members who did not vote at the meeting on the matters listed for voting, by electronic voting system in accordance with regulation 37 where the voting shall be kept open for at least twenty-four hours from the circulation of the minutes.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 14",
-            "PAGE 54",
-            "PAGE 34",
-            "PAGE 15",
-            "PAGE 25"
-          ],
-          "retrievedSections": [
-            "PAGE 14",
-            "PAGE 54",
-            "PAGE 34",
-            "PAGE 15",
-            "PAGE 25"
-          ],
+          "citedSections": ["PAGE 14", "PAGE 54", "PAGE 34", "PAGE 15", "PAGE 25"],
+          "retrievedSections": ["PAGE 14", "PAGE 54", "PAGE 34", "PAGE 15", "PAGE 25"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3393,22 +2654,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- New Assignments: For all cases commencing from the date of issuance of this circular, the IP shall add the assignment to the designated system within three (3) days of his/her appointment. b.\n- Presently, IPs add their assignments on the IBBI portal for appointments as Interim Resolution Professionals or Resolution Professionals under the Corporate Insolvency Resolution Process (CIRP), as well as for liquidators in liquidation and voluntary liquidation processes.\n- The IPs are henceforth mandated to add assignments on the IBBI’s electronic portal upon their appointment in the following processes and capacities: a.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 21",
-            "PAGE 23",
-            "PAGE 2",
-            "PAGE 16",
-            "PAGE 1",
-            "PAGE 3"
-          ],
-          "retrievedSections": [
-            "PAGE 21",
-            "PAGE 23",
-            "PAGE 2",
-            "PAGE 16",
-            "PAGE 1",
-            "PAGE 3"
-          ],
+          "citedSections": ["PAGE 21", "PAGE 23", "PAGE 2", "PAGE 16", "PAGE 1", "PAGE 3"],
+          "retrievedSections": ["PAGE 21", "PAGE 23", "PAGE 2", "PAGE 16", "PAGE 1", "PAGE 3"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3448,20 +2695,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Where the debtor is a personal guarantor who is undergoing an insolvency resolution process, the resolution professional of such debtor who has given the personal guarantee shall coordinate with the resolution professional of the corporate debtor in respect of whom such guarantee has been given, regarding transfer of assets in the corporate insolvency resolution process of the corporate debtor in respect of whom such guarantee has been given for the purposes of section 28A.\n- For the purposes of section 28A, the resolution professional shall obtain approval from the meeting of creditors of the debtor who has given the personal guarantee for transfer of assets in the corporate insolvency resolution process of the corporate debtor in respect of whom such guarantee has been given.\n- Page 7 of 7 FORM C Proxy Form (Under regulation 16(2) of the Insolvency and Bankruptcy Board of India (Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Regulations, 2019) Full name of the guarantor - [Insert matter name / application number for the resolution process] I being [insert name of creditor] holding [insert % of voting share] in the debt of the guarantor, hereby appoint- 1.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 6",
-            "PAGE 16",
-            "PAGE 24",
-            "PAGE 7",
-            "PAGE 14"
-          ],
-          "retrievedSections": [
-            "PAGE 6",
-            "PAGE 16",
-            "PAGE 24",
-            "PAGE 7",
-            "PAGE 14"
-          ],
+          "citedSections": ["PAGE 6", "PAGE 16", "PAGE 24", "PAGE 7", "PAGE 14"],
+          "retrievedSections": ["PAGE 6", "PAGE 16", "PAGE 24", "PAGE 7", "PAGE 14"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3473,9 +2708,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "forty-eight hours"
-          ],
+          "missingFacts": ["forty-eight hours"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -3488,9 +2721,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1740.676
         },
         {
@@ -3503,22 +2734,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The restrictions contained in Rule 5 of the Foreign Exchange Management (Current Account Transactions) Rules, 2000 will not be applicable for use of International Credit Cards (ICCs) by residents for making payment towards expenses, while on a visit outside India. ii.\n- The resident Power of Attorney holder is not allowed to (a) open a NRE account; (b) repatriate outside India funds held in the account other than to the account holder himself; (c) make payment by way of gift to a resident on behalf of the account holder; (d) transfer funds from the account to another NRE account. 4.12 Income from interest on balances standing to the credit of NRE Accounts is exempt from Income Tax.\n- ADs may issue ICCs to NRIs/PIOs, without prior approval of the Reserve Bank, subject to the condition that charges on the use of ICCs should be settled by the concerned NRIs/PIOs only out of inward remittances or balances held in their Non-Resident External (NRE) Accounts/ Foreign Currency Non-Resident (FCNR) Accounts. 3.4.2.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 16",
-            "PAGE 7",
-            "PAGE 1",
-            "PAGE 3",
-            "PAGE 8",
-            "PAGE 9"
-          ],
-          "retrievedSections": [
-            "PAGE 16",
-            "PAGE 7",
-            "PAGE 1",
-            "PAGE 3",
-            "PAGE 8",
-            "PAGE 9"
-          ],
+          "citedSections": ["PAGE 16", "PAGE 7", "PAGE 1", "PAGE 3", "PAGE 8", "PAGE 9"],
+          "retrievedSections": ["PAGE 16", "PAGE 7", "PAGE 1", "PAGE 3", "PAGE 8", "PAGE 9"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3543,9 +2760,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited"
-          ],
+          "failureCategories": ["acceptable_document_not_cited"],
           "latencyMs": 1445.452
         },
         {
@@ -3558,35 +2773,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- FEMA 3(R)(5)/2026-RB. — In exercise of the powers conferred by sub-section (2) of section 6, subsection (2) of section 47 of the Foreign Exchange Management Act, 1999 (42 of 1999), the Reserve Bank of India hereby makes the following amendments to the Foreign Exchange Management (Borrowing and Lending) Regulations, 2018 (Notification No.\n- Short title and commencement – (1) These regulations shall be called the Foreign Exchange Management (Borrowing and Lending) (First Amendment) Regulations, 2026.\n- Security – (1) ECBs may be secured by – (a) Creation of charge on immovable assets, movable assets, financial assets and intangible assets (including intellectual property rights) in favour of the non-resident lender or security trustee; and (b) Issue of guarantee in favour of the lender or security trustee in accordance with the Foreign Exchange Management (Guarantees) Regulations, 2026.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 2",
-            "PAGE 12",
-            "PAGE 19",
-            "PAGE 28",
-            "PAGE 3",
-            "PAGE 13"
-          ],
-          "retrievedSections": [
-            "PAGE 2",
-            "PAGE 12",
-            "PAGE 19",
-            "PAGE 28",
-            "PAGE 3",
-            "PAGE 13"
-          ],
+          "citedSections": ["PAGE 2", "PAGE 12", "PAGE 19", "PAGE 28", "PAGE 3", "PAGE 13"],
+          "retrievedSections": ["PAGE 2", "PAGE 12", "PAGE 19", "PAGE 28", "PAGE 3", "PAGE 13"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_fb10dddb789511e7dddfcbb5",
-            "legal_1f38cea90b8393559c054f13"
-          ],
+          "citedDocuments": ["legal_fb10dddb789511e7dddfcbb5", "legal_1f38cea90b8393559c054f13"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "Government Securities Act, 2006"
-          ],
+          "missingFacts": ["Government Securities Act, 2006"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -3599,9 +2795,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 949.41
         },
         {
@@ -3614,34 +2808,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- 3 Master Direction - Borrowing and Lending transactions in Indian Rupee (INR) between Persons Resident in India and Non-Resident Indians / Persons of Indian Origin PART I 1.\n- Important Terms Used in the Master Direction 1.1 Unless the context requires otherwise, the terms 'Authorised dealer', 'Authorised bank', 'Non-resident Indian (NRI)', 'Person of Indian origin (PIO)', 'NRE account', 'NRO account', 'NRNR account' 1 , 'NRSR account' 1 , and 'FCNR (B) account' shall have the same meanings as assigned to them respectively in Foreign Exchange Management (Deposits) Regulations, 2000 notified vide Notification No.\n- 8 7.2 Change of the status of the lender to a person resident outside India: In case a rupee loan was granted by a person resident in India to another person resident in India and the lender subsequently becomes a person resident outside India, the repayment of the loan by the resident borrower should be made by credit to the NRO account of the lender.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 6",
-            "PAGE 1",
-            "PAGE 2",
-            "PAGE 9",
-            "PAGE 4",
-            "PAGE 8"
-          ],
-          "retrievedSections": [
-            "PAGE 6",
-            "PAGE 1",
-            "PAGE 2",
-            "PAGE 9",
-            "PAGE 4",
-            "PAGE 8"
-          ],
+          "citedSections": ["PAGE 6", "PAGE 1", "PAGE 2", "PAGE 9", "PAGE 4", "PAGE 8"],
+          "retrievedSections": ["PAGE 6", "PAGE 1", "PAGE 2", "PAGE 9", "PAGE 4", "PAGE 8"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_d9a1db332471091203890955"
-          ],
+          "citedDocuments": ["legal_d9a1db332471091203890955"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "2(v) and 2(w)"
-          ],
+          "missingFacts": ["2(v) and 2(w)"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 4,
@@ -3654,9 +2830,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1625.297
         },
         {
@@ -3669,22 +2843,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The Escrow account shall remain operational for a maximum period of six months only and the account shall be closed immediately after completing the requirements as outlined above or on completion of six months from the date of opening of such account, whichever is earlier.\n- Acquisition/ transfer shall be in accordance with the provisions of Foreign Exchange Management (Transfer or Issue of Security by a person resident Outside India) Regulation 2017, as amended from time to time and Security Exchange Board of India (Substantial Acquisition of Shares and Takeover) Regulations, 1997 [SEBI (SAST) Regulations] or other relevant regulations issued by the SEBI. 4.\n- Foreign Inward remittance through banking channels ii. by way of a guarantee issued by an authorised dealer bank subject to terms and conditions as specified in the Foreign Exchange Management (Guarantee) Regulations 2000, as amended from time to time. b.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 21",
-            "PAGE 2",
-            "PAGE 3",
-            "PAGE 55",
-            "PAGE 20",
-            "PAGE 1"
-          ],
-          "retrievedSections": [
-            "PAGE 21",
-            "PAGE 2",
-            "PAGE 3",
-            "PAGE 55",
-            "PAGE 20",
-            "PAGE 1"
-          ],
+          "citedSections": ["PAGE 21", "PAGE 2", "PAGE 3", "PAGE 55", "PAGE 20", "PAGE 1"],
+          "retrievedSections": ["PAGE 21", "PAGE 2", "PAGE 3", "PAGE 55", "PAGE 20", "PAGE 1"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3723,14 +2883,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Short title and commencement:- i) These regulations may be called the Foreign Exchange Management (Deposit) Regulations, 2016. ii) These regulations shall come into force from the date of their publication in the Official Gazette except sub-regulation (2) of Regulation 7.\n- Short title and commencement:- i) These Regulations may be called the Foreign Exchange Management (Remittance of Assets) Regulations, 2016. ii) They shall come into force from the date of their publication in the official Gazette. 2.\n- Short title and commencement:- (i) These regulations may be called the Foreign Exchange Management (Crystallization of Inoperative Foreign Currency Deposits) Regulations, 2014. (ii) They shall come into force from the date of their publication in the Official Gazette. 2.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 1",
-            "PAGE 3"
-          ],
-          "retrievedSections": [
-            "PAGE 1",
-            "PAGE 3"
-          ],
+          "citedSections": ["PAGE 1", "PAGE 3"],
+          "retrievedSections": ["PAGE 1", "PAGE 3"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3771,35 +2925,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Overseas Investment.– (1) Save as otherwise provided in these rules or the Foreign Exchange Management (Overseas Investment) Regulations, 2022, any investment made outside India by a person resident in India shall be made in a foreign entity engaged in a bona fide business activity, directly or through step down subsidiary or the special-purpose vehicle, subject to the limits and the conditions laid down in these rules and the said regulations:\n- Rights issue and bonus shares.– (1) Any person resident in India who has acquired and continues to hold equity capital of any foreign entity in accordance with the provisions of the Act or the rules or regulations made thereunder– (a) may invest in the equity capital issued by such entity as a rights issue; or (b) may be granted bonus shares subject to the terms and conditions under these rules.\n- Provided that the structure of such subsidiary or step down subsidiary of the foreign entity shall comply with the structural requirements of a foreign entity:",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 12",
-            "PAGE 26",
-            "PAGE 19",
-            "PAGE 5",
-            "PAGE 4",
-            "PAGE 18"
-          ],
-          "retrievedSections": [
-            "PAGE 12",
-            "PAGE 26",
-            "PAGE 19",
-            "PAGE 5",
-            "PAGE 4",
-            "PAGE 18"
-          ],
+          "citedSections": ["PAGE 12", "PAGE 26", "PAGE 19", "PAGE 5", "PAGE 4", "PAGE 18"],
+          "retrievedSections": ["PAGE 12", "PAGE 26", "PAGE 19", "PAGE 5", "PAGE 4", "PAGE 18"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_5f2098b0ef3ca33400aacfdc",
-            "legal_58100faf836b9d89b878ea2e"
-          ],
+          "citedDocuments": ["legal_5f2098b0ef3ca33400aacfdc", "legal_58100faf836b9d89b878ea2e"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "two layers"
-          ],
+          "missingFacts": ["two layers"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -3812,9 +2947,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1652.016
         },
         {
@@ -3827,20 +2960,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Notwithstanding anything contained in these directions, an authorised person shall not enter into any fresh franchisee arrangements henceforth, and the existing franchisee arrangements shall be discontinued gradually, in any case within two years from May 06, 2026.\n- Notwithstanding anything contained in these directions, an authorised person shall not enter into any fresh franchisee arrangements henceforth, and the existing franchisee arrangements shall be discontinued gradually, in any case within two years from May 6, 2026. 7 (b) Foreign Exchange Counters/branches in the departure halls in international airports in India shall be established before the Customs Desk or the immigration desk, whichever comes first.\n- Franchisees - (1) An authorised person shall not enter into any fresh franchisee arrangements in terms of ‘Guidelines for Appointment of Agents / Franchisees by AD Category-I, AD Category-II and FFMC’, contained in Section III of ‘Master Direction – Money Changing Activities’ as amended from time to time.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 1",
-            "PAGE 9",
-            "PAGE 2",
-            "PAGE 3",
-            "PAGE 14"
-          ],
-          "retrievedSections": [
-            "PAGE 1",
-            "PAGE 9",
-            "PAGE 2",
-            "PAGE 3",
-            "PAGE 14"
-          ],
+          "citedSections": ["PAGE 1", "PAGE 9", "PAGE 2", "PAGE 3", "PAGE 14"],
+          "retrievedSections": ["PAGE 1", "PAGE 9", "PAGE 2", "PAGE 3", "PAGE 14"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3880,22 +3001,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Provided that where the declarant intends to continue to hold the asset so declared, he shall apply to the Reserve Bank within 180 days from the date of declaration, for permission under the relevant provisions of the Act, or rules and regulations framed thereunder, if such permission is necessary as on the date of application.\n- In exercise of the powers conferred by section 47 of the Foreign Exchange Management Act, 1999 (42 of 1999), the Reserve Bank makes the following regulations relating to regularization of assets held abroad by a person resident in India, namely:- 1.\n- Short title and commencement:- (i) These regulations may be called the Foreign Exchange Management (Regularization of assets held abroad by a person resident in India) Regulations, 2015. (ii) They shall come into force from the date of their publication in the Official Gazette. 2.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 2",
-            "PAGE 7",
-            "PAGE 1",
-            "PAGE 10",
-            "PAGE 12",
-            "PAGE 230"
-          ],
-          "retrievedSections": [
-            "PAGE 2",
-            "PAGE 7",
-            "PAGE 1",
-            "PAGE 10",
-            "PAGE 12",
-            "PAGE 230"
-          ],
+          "citedSections": ["PAGE 2", "PAGE 7", "PAGE 1", "PAGE 10", "PAGE 12", "PAGE 230"],
+          "retrievedSections": ["PAGE 2", "PAGE 7", "PAGE 1", "PAGE 10", "PAGE 12", "PAGE 230"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -3935,14 +3042,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Designing of Notes The design, form and material of bank notes are decided by the Government of India based on the recommendations of the Central Board of RBI, as specified in Section 25 of the RBI Act, 1934.\n- Issue of special bank notes and special one rupee notes in certain cases. — (1) For the purpose of controlling the circulation of bank notes without India, the Bank may, notwithstanding anything contained in any other provision of this Act, issue bank notes of such design, form and material as may be approved under sub-section (3) (hereinafter in this section referred to as special bank notes) of the denominational values of five rupees, ten rupees and one hundred rupees.\n- For the purpose of controlling the circulation of Government of India one rupee notes without India, the Central Government may, notwithstanding anything contained in any other provision of this Act or in the Currency Ordinance, 1940 (Ord. 4 of 1940) issue Government of India notes of the denominational value of one rupee of such design, form and material as may be adopted under sub-section (3) (hereinafter in this section referred to as special one rupee notes).",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 28",
-            "PAGE 30",
-            "PAGE 29",
-            "PAGE 178",
-            "PAGE 179",
-            "PAGE 207"
-          ],
+          "citedSections": ["PAGE 28", "PAGE 30", "PAGE 29", "PAGE 178", "PAGE 179", "PAGE 207"],
           "retrievedSections": [
             "PAGE 28",
             "PAGE 30",
@@ -3955,10 +3055,7 @@
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_638a66835c20826021b078ee",
-            "legal_511b8cb35c969e63701b4480"
-          ],
+          "citedDocuments": ["legal_638a66835c20826021b078ee", "legal_511b8cb35c969e63701b4480"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -3987,18 +3084,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Prior to deletion, it read as “Authorised Dealers shall ensure that all the operations in the SNRR account are in accordance with the provisions of the Act, rules and regulations made thereunder.” 41 Modified vide Foreign Exchange Management (Deposit) (Amendment) Regulations, 2018 Notification No.\n- The balances in the SNRR account 24 in India shall be eligible for repatriation. 10. 25 Transfer from NRO account to SNRR account shall be in accordance with the Schedule 3 of these regulations. 11.\n- 20 7.3 39 7.4 40 7.5 41 42 43 . 7.6 The operations in the SNRR account shall not result in the account holder making available foreign exchange to any person resident in India against reimbursement in rupees or in any other manner. 7.7 The balances in the SNRR account 44 in India shall be eligible for repatriation.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 2",
-            "PAGE 19",
-            "PAGE 15",
-            "PAGE 20"
-          ],
-          "retrievedSections": [
-            "PAGE 2",
-            "PAGE 19",
-            "PAGE 15",
-            "PAGE 20"
-          ],
+          "citedSections": ["PAGE 2", "PAGE 19", "PAGE 15", "PAGE 20"],
+          "retrievedSections": ["PAGE 2", "PAGE 19", "PAGE 15", "PAGE 20"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -4038,22 +3125,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Authorised person. — (1) The Reserve Bank may, on an application made to it in this behalf, authorise any person to be known as authorised person to deal in foreign exchange or in foreign securities, as an authorised dealer, money changer or off-shore banking unit or in any other manner as it deems fit.\n- Any person, other than an authorised person, who has acquired or purchased foreign exchange for any purpose mentioned in the declaration made by him to authorised person under sub-section (5) does not use it for such purpose or does not surrender it to authorised person within the specified period or uses the foreign exchange so acquired or purchased for any other purpose for which purchase or acquisition of foreign exchange is not permissible under the provisions of the Act or the rules or regulations or direction IndiaCode\n- An authorised person shall, in all his dealings in foreign exchange or foreign security, comply with such general or special directions or orders as the Reserve Bank may, from time to time, think fit to give, and, except with the previous permission of the Reserve Bank, an authorised person shall not engage in any transaction involving any foreign exchange or foreign security which is not in conformity with the terms of his authorisation under this section.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 4",
-            "PAGE 11",
-            "PAGE 10",
-            "PAGE 5",
-            "PAGE 12",
-            "PAGE 2"
-          ],
-          "retrievedSections": [
-            "PAGE 4",
-            "PAGE 11",
-            "PAGE 10",
-            "PAGE 5",
-            "PAGE 12",
-            "PAGE 2"
-          ],
+          "citedSections": ["PAGE 4", "PAGE 11", "PAGE 10", "PAGE 5", "PAGE 12", "PAGE 2"],
+          "retrievedSections": ["PAGE 4", "PAGE 11", "PAGE 10", "PAGE 5", "PAGE 12", "PAGE 2"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -4065,9 +3138,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "two months before expiry"
-          ],
+          "missingFacts": ["two months before expiry"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -4080,9 +3151,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1716.59
         },
         {
@@ -4104,16 +3173,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "Payment and Settlement Systems Act, 2007"
-          ],
+          "missingFacts": ["Payment and Settlement Systems Act, 2007"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.085
         },
         {
@@ -4126,22 +3191,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Explanation. – For the purposes of this clause, the expression “equity capital” shall have the same meaning as assigned to it in the Foreign Exchange Management, (Overseas Investment) Rules, 2022, as amended from time to time. 27 27 Inserted by Foreign Exchange Management (Non-debt Instruments) (Fourth Amendment) Rules, 2024 vide S.O. 3492(E) dated 16.08.2024.\n- FEMA 396/2019-RB October 17, 2019 (Amended up to October 01, 2025) Foreign Exchange Management (Debt Instruments) Regulations, 2019 In exercise of the powers conferred by clause (a) of sub-section (2) of section 6 and section 47 of the Foreign Exchange Management Act, 1999 (42 of 1999), and in supersession of the Foreign Exchange Management (Transfer of Issue of Security by a Person Resident outside India) Regulations, 2017, the Reserve Bank makes the following regulations to regulate investment in India by a Person Resident Outside India, namely:- CHAPTER I PRELIMINARY 1.\n- Short title and commencement:- (1) These Regulations may be called the Foreign Exchange Management (Debt Instruments) Regulations, 2019.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 4",
-            "PAGE 1",
-            "PAGE 6",
-            "PAGE 3",
-            "PAGE 19",
-            "PAGE 15"
-          ],
-          "retrievedSections": [
-            "PAGE 4",
-            "PAGE 1",
-            "PAGE 6",
-            "PAGE 3",
-            "PAGE 19",
-            "PAGE 15"
-          ],
+          "citedSections": ["PAGE 4", "PAGE 1", "PAGE 6", "PAGE 3", "PAGE 19", "PAGE 15"],
+          "retrievedSections": ["PAGE 4", "PAGE 1", "PAGE 6", "PAGE 3", "PAGE 19", "PAGE 15"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -4153,9 +3204,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "Foreign Portfolio Investors) Regulations, 2019"
-          ],
+          "missingFacts": ["Foreign Portfolio Investors) Regulations, 2019"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -4168,9 +3217,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1303.723
         },
         {
@@ -4192,16 +3239,12 @@
           "citedDocuments": [],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "Antique and Art Treasure Act, 1972"
-          ],
+          "missingFacts": ["Antique and Art Treasure Act, 1972"],
           "verification": null,
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unnecessary_abstention"
-          ],
+          "failureCategories": ["unnecessary_abstention"],
           "latencyMs": 0.099
         },
         {
@@ -4214,22 +3257,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Twenty-five per cent of the total consideration amount (including share premium, if any) shall be received upfront. (iii) In case of share warrants, at least twenty-five per cent of the consideration shall be received upfront and the balance amount within eighteen months of the issuance of share warrants. 2 Substituted by Foreign Exchange Management (Non-debt Instruments) (Amendment) Rules, 2022 vide S.O. 1802 (E) dated 12.04.2022. 3 Substituted by Foreign Exchange Management (Non-debt Instruments) (Amendment) Rules, 2022 vide S.O. 1802 (E) dated 12.04.2022.\n- Any extension of maturity prior to April 30, 2007 will be considered as original maturity. 4.7.4 Non-convertible/ optionally convertible/ partially convertible preference shares funds for which have been received after April 30, 2007 shall be treated as debt and shall conform to guidelines framed under Foreign Exchange Management (Borrowing and Lending in Foreign Exchange) Regulations, 2018, as amended from time to time. 4.8 Equity instruments issued on or after December 30, 2013 can contain an optionality clause subject to a minimum lock-in period of one year or as prescribed for the specific sector, whichever is higher, but without any option or right to exit at an assured price. 5.\n- 11 than the fair value worked out, at the time of issuance of such instruments, in accordance with the NDI rules. 4.6.2 Convertible debentures which are not fully, compulsorily and mandatorily convertible are debt instruments in terms of the notification no.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 2",
-            "PAGE 3",
-            "PAGE 4",
-            "PAGE 6",
-            "PAGE 20",
-            "PAGE 11"
-          ],
-          "retrievedSections": [
-            "PAGE 2",
-            "PAGE 3",
-            "PAGE 4",
-            "PAGE 6",
-            "PAGE 20",
-            "PAGE 11"
-          ],
+          "citedSections": ["PAGE 2", "PAGE 3", "PAGE 4", "PAGE 6", "PAGE 20", "PAGE 11"],
+          "retrievedSections": ["PAGE 2", "PAGE 3", "PAGE 4", "PAGE 6", "PAGE 20", "PAGE 11"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -4267,14 +3296,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The immunity granted to a person under sub-section (3) may, at any time, be withdrawn by the Principal Commissioner or Commissioner, if he is satisfied that such person had, in the course of any proceedings, after abatement, concealed any particulars material to the assessment from the income-tax authority or had given false evidence, and thereupon such person shall become liable to the imposition of any penalty under this Act to which such person would have been liable, had not such immunity been granted.\n- A person may make an application to the Principal Commissioner or Commissioner for granting immunity from penalty, if (a) he has made an application for settlement under section 245C and the proceedings for settlement have abated under section 245HA; and (b) the penalty proceedings have been initiated under this Act.\n- In section 270A of the Income-tax Act, after sub-section (11), the following sub-section shall be inserted and shall be deemed to have been inserted with effect from the 1st day of March, 2026, namely:–– “(11A) Where additional income-tax is paid in accordance with sub-section (3A) of section 140B, the income on which such additional income-tax is paid shall not form the basis of imposition of penalty under this section.”. 21.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 72",
-            "PAGE 60",
-            "PAGE 35",
-            "PAGE 539",
-            "PAGE 977",
-            "PAGE 1003"
-          ],
+          "citedSections": ["PAGE 72", "PAGE 60", "PAGE 35", "PAGE 539", "PAGE 977", "PAGE 1003"],
           "retrievedSections": [
             "PAGE 72",
             "PAGE 60",
@@ -4294,9 +3316,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "one month from the end of the month"
-          ],
+          "missingFacts": ["one month from the end of the month"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -4309,9 +3329,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 5044.063
         },
         {
@@ -4324,35 +3342,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Prior to their substitution, sub-sections (1), (2), (3) and (4) read as under : “(1) An assessee may make an application to the Assessing Officer for granting immunity from penalty under section 439 and initiation of proceedings under section 478 or section 479, if–– (a) the tax and interest payable as per the order of assessment or reassessment under section 270(10) or section 279, has been paid within the period specified in the notice of demand; and (b) no appeal against the order referred to in clause (a) has been filed.\n- Q7.5 If an appeal is filed after 1 April 2026 in respect of Assessment Year 2026 – 27 or any earlier assessment year, will it be governed by the Income-tax Act, 1961 or the Income-tax Act, 2025?\n- Accordingly, even if an appeal is filed after the commencement of the Income-tax Act, 2025, where it relates to Assessment Year 2026 – 27 or any earlier assessment year, such appeal shall be governed by and disposed of under the provisions of the Income-tax Act, 1961.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 539",
-            "PAGE 463",
-            "PAGE 17",
-            "356",
-            "PAGE 66",
-            "PAGE 67"
-          ],
-          "retrievedSections": [
-            "PAGE 539",
-            "PAGE 463",
-            "PAGE 17",
-            "356",
-            "PAGE 66",
-            "PAGE 67"
-          ],
+          "citedSections": ["PAGE 539", "PAGE 463", "PAGE 17", "356", "PAGE 66", "PAGE 67"],
+          "retrievedSections": ["PAGE 539", "PAGE 463", "PAGE 17", "356", "PAGE 66", "PAGE 67"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_d54a0ed6a91673d1a4fbcef9",
-            "legal_cf1d4ad8e7c7bc144dae8102"
-          ],
+          "citedDocuments": ["legal_d54a0ed6a91673d1a4fbcef9", "legal_cf1d4ad8e7c7bc144dae8102"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "No appeal under section 356 or 357"
-          ],
+          "missingFacts": ["No appeal under section 356 or 357"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 4,
@@ -4365,9 +3364,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 3436.816
         },
         {
@@ -4380,14 +3377,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The profits and gains arising from a construction contract or a contract for providing services shall be determined on the basis of percentage of completion method in accordance with the income computation and disclosure standards notified under sub-section (2) of section 145:\n- The profits and gains arising from a construction contract or a contract for providing services, shall be determined on the basis of percentage of completion method, subject to provisions of sub-section (2), as per the income computation and disclosure standards notified under section 276(2).\n- Computation of income from construction and service contracts. 43CB.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 174",
-            "PAGE 285",
-            "PAGE 176",
-            "PAGE 356",
-            "PAGE 103",
-            "PAGE 270"
-          ],
+          "citedSections": ["PAGE 174", "PAGE 285", "PAGE 176", "PAGE 356", "PAGE 103", "PAGE 270"],
           "retrievedSections": [
             "PAGE 174",
             "PAGE 285",
@@ -4433,14 +3423,7 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The application shall be made in Form No. 171 and shall be accompanied by documentary evidence regarding his eligibility for income -tax practice under section 515(3)(a)(v) or (vi) or (vii) or (viii).\n- Where a person is already registered as income -tax practitioner under the Income -tax Act, 1961(43 of 1961) (as it existed prior to its repeal) holding a valid certificate of registration as on 31st March, 2026, he shall continue to be a registered income -tax practitioner under section 515, but he shall be required to update his details by filing application referred in sub -rule (1) by the 30th September, 2026, and in such a case, upon filing such application, the registration shall be granted by the concerned authority under section 515, if the application is complete in all respects. 257.\n- Where a person is already registered as a valuer under Wealth-tax Act, 1957 (27 of 1957) holding a valid certificate of registration as on the 31st March, 2026, he will continue to be a registered valuer under section 514, but that he is required to update his details by filing application as referred in sub-rule (1) by the 30th September, 2026, and in such a case, upon filing such application the registration shall be granted by the concerned authority in section 514, if the application is complete in all respects.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 171",
-            "PAGE 223",
-            "PAGE 315",
-            "PAGE 233",
-            "PAGE 235",
-            "PAGE 4"
-          ],
+          "citedSections": ["PAGE 171", "PAGE 223", "PAGE 315", "PAGE 233", "PAGE 235", "PAGE 4"],
           "retrievedSections": [
             "PAGE 171",
             "PAGE 223",
@@ -4453,15 +3436,10 @@
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_2f862294becce46f05c26661",
-            "legal_35d24654acbbb489dcfaf24d"
-          ],
+          "citedDocuments": ["legal_2f862294becce46f05c26661", "legal_35d24654acbbb489dcfaf24d"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "247"
-          ],
+          "missingFacts": ["247"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -4474,9 +3452,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2439.073
         },
         {
@@ -4489,18 +3465,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The intimation of any order referred to in section 358(3)(b), shall be served in the same manner as is laid down in section 501 for the service of a notice or requisition.\n- Mode of service of any order referred to in section 358(3)(b). — (1) The intimation of any order referred to in section 358(3)(b), shall be served in the same manner as is laid down in section 501 for the service of a notice or requisition.\n- The order of assess - ment or any inti - mation or deemed intimation under section 270(1), to be amended, to give credit for in - come-tax for the year in which such income is offered to tax or assessed to tax in India.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "358",
-            "PAGE 205",
-            "PAGE 206",
-            "PAGE 385"
-          ],
-          "retrievedSections": [
-            "358",
-            "PAGE 205",
-            "PAGE 206",
-            "PAGE 385"
-          ],
+          "citedSections": ["358", "PAGE 205", "PAGE 206", "PAGE 385"],
+          "retrievedSections": ["358", "PAGE 205", "PAGE 206", "PAGE 385"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -4538,22 +3504,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Q6.18 Is there any change in the time-limits for passing an order deeming the deductor as assessee-in-default under the new Act?\n- The time-limit for passing an order deeming the deductor as assessee-indefault under the new Act remains same as provided in the old Act.\n- Under Section 398(2) of the new Act (corresponding to the proviso to Section 201(1) of the old Act), the deductor shall not be deemed to be an assessee-in-default if the deductee has furnished a return of income, considered the amount on which tax was deductible while computing the income, and paid the tax due thereon subject to furnishing a certificate to this effect in the prescribed form (Form 26A).",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 512",
-            "PAGE 317",
-            "PAGE 370",
-            "398",
-            "PAGE 875",
-            "PAGE 60"
-          ],
-          "retrievedSections": [
-            "PAGE 512",
-            "PAGE 317",
-            "PAGE 370",
-            "398",
-            "PAGE 875",
-            "PAGE 60"
-          ],
+          "citedSections": ["PAGE 512", "PAGE 317", "PAGE 370", "398", "PAGE 875", "PAGE 60"],
+          "retrievedSections": ["PAGE 512", "PAGE 317", "PAGE 370", "398", "PAGE 875", "PAGE 60"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -4565,10 +3517,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "six years",
-            "two years"
-          ],
+          "missingFacts": ["six years", "two years"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -4581,9 +3530,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 4201.259
         },
         {

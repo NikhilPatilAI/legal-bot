@@ -4,7 +4,11 @@ import {
   type HistoricalProvisionStore,
   type HistoricalResolution,
 } from './temporal/historical-provision-store.js';
-import { contentTokens, type AnswerVerifier } from './verification/claim-verifier.js';
+import {
+  contentTokens,
+  type AnswerVerificationReport,
+  type AnswerVerifier,
+} from './verification/claim-verifier.js';
 
 export type LegalStatus = 'current' | 'historical' | 'amended' | 'superseded' | 'unknown';
 
@@ -73,6 +77,9 @@ export interface RagQueryResult {
   corpusLimitations: string[];
   requestId: string;
   disclaimer: string;
+  // 0-1 score of how well the verifier matched the answer to its sources; null
+  // when no answer was drafted or no verifier is configured.
+  confidence: number | null;
 }
 
 export type RagProgressStage = 'checking_scope' | 'retrieving_sources' | 'drafting_answer';
@@ -119,10 +126,15 @@ export class LegalRagService implements LegalRagClient {
     private readonly verifier?: AnswerVerifier,
     private readonly verificationThreshold = 0.5,
     private readonly history?: HistoricalProvisionStore,
+    // Selective answering: a verified answer whose confidence is below this is
+    // replaced by the sources alone. 0 disables it.
+    private readonly minimumConfidence = 0,
   ) {
     if (!Number.isSafeInteger(timeoutMs) || timeoutMs <= 0) throw new Error('Invalid RAG deadline');
     if (this.verificationThreshold <= 0 || this.verificationThreshold > 1)
       throw new Error('Invalid verification threshold');
+    if (!(minimumConfidence >= 0 && minimumConfidence <= 1))
+      throw new Error('Invalid minimum confidence');
   }
 
   status(): Promise<RagCorpusStatus> {
@@ -347,6 +359,7 @@ export class LegalRagService implements LegalRagClient {
     // verifier could not check (for example, an unavailable semantic
     // classifier) count as not supported: the policy fails closed. This runs
     // inside the shared request deadline.
+    let confidence: number | null = null;
     if (this.verifier) {
       signal.throwIfAborted();
       const verification = await this.verifier.verify(answer, selected, signal);
@@ -363,6 +376,19 @@ export class LegalRagService implements LegalRagClient {
           limitations,
           applicableDate,
         );
+      }
+      confidence = answerConfidence(answer, verification);
+      if (confidence < this.minimumConfidence) {
+        return {
+          ...this.abstention(
+            requestId,
+            'The answer could not be confirmed with enough confidence, so it is not shown. The most relevant official sources are listed below.',
+            limitations,
+            applicableDate,
+          ),
+          citations: citationsOf(selected),
+          confidence,
+        };
       }
       warnings.push(
         `Answer verification (${verification.verifierMode}, lexical screen, not legal review): ${verification.supportedClaimCount} of ${verification.claimCount} statements were matched to retrieved sources.`,
@@ -385,19 +411,7 @@ export class LegalRagService implements LegalRagClient {
       answer,
       abstained: false,
       answerMode: this.composer.mode,
-      citations: uniqueCitationEvidence(selected).map((item) => ({
-        documentId: item.documentId,
-        title: item.title,
-        authority: item.authority,
-        sectionIdentifier: item.sectionIdentifier,
-        sectionHeading: item.sectionHeading,
-        pageStart: item.pageStart,
-        pageEnd: item.pageEnd,
-        officialSourceUrl: item.officialSourceUrl,
-        effectiveDate: item.effectiveDate,
-        retrievalDate: item.retrievalDate,
-        sha256: item.sha256,
-      })),
+      citations: citationsOf(selected),
       retrievedSources: selected.map((item) => ({
         chunkId: item.chunkId,
         sectionIdentifier: item.sectionIdentifier,
@@ -408,6 +422,7 @@ export class LegalRagService implements LegalRagClient {
       corpusLimitations: limitations,
       requestId,
       disclaimer,
+      confidence,
     };
   }
 
@@ -507,8 +522,48 @@ export class LegalRagService implements LegalRagClient {
       corpusLimitations: limitations,
       requestId,
       disclaimer,
+      confidence: null,
     };
   }
+}
+
+function citationsOf(selected: RagEvidence[]): RagQueryResult['citations'] {
+  return uniqueCitationEvidence(selected).map((item) => ({
+    documentId: item.documentId,
+    title: item.title,
+    authority: item.authority,
+    sectionIdentifier: item.sectionIdentifier,
+    sectionHeading: item.sectionHeading,
+    pageStart: item.pageStart,
+    pageEnd: item.pageEnd,
+    officialSourceUrl: item.officialSourceUrl,
+    effectiveDate: item.effectiveDate,
+    retrievalDate: item.retrievalDate,
+    sha256: item.sha256,
+  }));
+}
+
+// Phrases with which a drafted answer admits that the evidence does not settle
+// the question. Such answers are often "correct" about the evidence but do not
+// answer the user.
+const HEDGE_PATTERN =
+  /\b(?:does not (?:state|specify|say|mention|provide)|do not (?:state|specify|say|mention)|is not (?:stated|specified|clear)|not (?:specified|stated) in|cannot be (?:confirmed|determined)|unclear from)\b/iu;
+
+/**
+ * Confidence in a verified answer, from 0 to 1:
+ *   share of claims supported × mean support score of the supported claims,
+ * halved when the answer hedges. Deterministic and explainable: every factor
+ * is visible in the verification report.
+ */
+export function answerConfidence(answer: string, report: AnswerVerificationReport): number {
+  if (report.claimCount === 0) return 0;
+  const supported = report.claims.filter((claim) => claim.status === 'supported');
+  if (supported.length === 0) return 0;
+  const meanSupport =
+    supported.reduce((sum, claim) => sum + Math.min(1, Math.max(0, claim.supportScore)), 0) /
+    supported.length;
+  const hedgePenalty = HEDGE_PATTERN.test(answer) ? 0.5 : 1;
+  return Math.round(report.supportedClaimRate * meanSupport * hedgePenalty * 1000) / 1000;
 }
 
 export class DeterministicExtractComposer implements RagComposer {

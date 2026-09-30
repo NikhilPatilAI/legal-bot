@@ -22,6 +22,7 @@ export type PipelineFailureCategory =
   | 'missed_abstention'
   | 'unnecessary_abstention'
   | 'withheld_by_verifier'
+  | 'low_confidence'
   | 'expected_provision_not_cited'
   | 'connected_provision_not_cited'
   | 'acceptable_document_not_cited'
@@ -38,6 +39,14 @@ export interface PipelineCaseResult {
   expectAbstention: boolean;
   errorCode: string | null;
   answer: string;
+  // Service confidence in a verified answer (null without a verifier).
+  confidence: number | null;
+  // Answer replaced by its sources because confidence was below the threshold.
+  lowConfidence: boolean;
+  // Fact coverage of that suppressed draft, so a risk-coverage curve can be
+  // drawn. The draft itself never reached a user.
+  suppressedDraftFactCoverage: number | null;
+  suppressedDraftDocumentCited: boolean | null;
   answerMode: string | null;
   citedSections: string[];
   retrievedSections: string[];
@@ -82,6 +91,7 @@ export interface PipelineEvalMetrics {
   missedAbstentionRate: number | null;
   unnecessaryAbstentionRate: number | null;
   withheldByVerifierRate: number | null;
+  lowConfidenceRate: number | null;
   citedProvisionRecall: number | null;
   connectedProvisionRecall: number | null;
   acceptableDocumentHitRate: number | null;
@@ -143,6 +153,7 @@ export class RecordingAnswerVerifier implements AnswerVerifier {
 }
 
 const VERIFIER_WITHHELD_PREFIX = 'The drafted answer could not be verified';
+const LOW_CONFIDENCE_PREFIX = 'The answer could not be confirmed with enough confidence';
 
 export async function runPipelineEvaluation(
   service: LegalRagClient,
@@ -209,7 +220,16 @@ async function evaluateCase(
   );
   const report = recorder?.last ?? null;
   const withheld = abstained && answer.startsWith(VERIFIER_WITHHELD_PREFIX);
+  const lowConfidence = abstained && answer.startsWith(LOW_CONFIDENCE_PREFIX);
   const answered = result !== null && !abstained;
+  const suppressedDraft = lowConfidence ? (recorder?.lastAnswer ?? null) : null;
+  const suppressedDraftFactCoverage =
+    suppressedDraft === null || testCase.expectedFacts.length === 0
+      ? null
+      : round(
+          testCase.expectedFacts.filter((fact) => factPresent(suppressedDraft, fact)).length /
+            testCase.expectedFacts.length,
+        );
 
   const expectedProvisionRecall =
     testCase.expectedSections.length > 0 && !testCase.expectAbstention
@@ -232,6 +252,10 @@ async function evaluateCase(
       ? answered &&
         testCase.acceptableDocuments.some((documentId) => citedDocuments.includes(documentId))
       : null;
+  const suppressedDraftDocumentCited =
+    lowConfidence && testCase.acceptableDocuments.length > 0
+      ? testCase.acceptableDocuments.some((documentId) => citedDocuments.includes(documentId))
+      : null;
   const selectedVersionId = result ? versionFromResult(result) : null;
   const expectedVersionId = testCase.expectedVersionId ?? null;
 
@@ -239,7 +263,13 @@ async function evaluateCase(
   if (errorCode) failures.push('error');
   else if (testCase.expectAbstention && !abstained) failures.push('missed_abstention');
   else if (!testCase.expectAbstention && abstained) {
-    failures.push(withheld ? 'withheld_by_verifier' : 'unnecessary_abstention');
+    failures.push(
+      withheld
+        ? 'withheld_by_verifier'
+        : lowConfidence
+          ? 'low_confidence'
+          : 'unnecessary_abstention',
+    );
   }
   if (answered && !testCase.expectAbstention) {
     if (expectedProvisionRecall !== null && expectedProvisionRecall < 1)
@@ -263,6 +293,10 @@ async function evaluateCase(
     expectAbstention: testCase.expectAbstention,
     errorCode,
     answer,
+    confidence: result?.confidence ?? null,
+    lowConfidence,
+    suppressedDraftFactCoverage,
+    suppressedDraftDocumentCited,
     answerMode: result?.answerMode ?? null,
     citedSections,
     retrievedSections,
@@ -331,6 +365,7 @@ export function summarizePipeline(cases: readonly PipelineCaseResult[]): Pipelin
     missedAbstentionRate: rateOrNull(refusals, (item) => !item.abstained && !item.errorCode),
     unnecessaryAbstentionRate: rateOrNull(answerable, (item) => item.abstained),
     withheldByVerifierRate: rateOrNull(answerable, (item) => item.verification?.withheld === true),
+    lowConfidenceRate: rateOrNull(answerable, (item) => item.lowConfidence),
     citedProvisionRecall: meanOrNull(withSections.map((item) => item.expectedProvisionRecall!)),
     connectedProvisionRecall: meanOrNull(
       withConnected.map((item) => item.connectedProvisionRecall!),

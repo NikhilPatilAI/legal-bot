@@ -8,9 +8,7 @@
   "resultLimit": 6,
   "repeats": 1,
   "indexWarmUpMs": 370,
-  "splits": [
-    "all"
-  ],
+  "splits": ["all"],
   "dataset": {
     "path": "data/eval/full-corpus-heldout-2.eval.json",
     "sha256": "62f916c141901a21a96b02790db423702826a4826504b31c6cbb62716a2801e9",
@@ -18,7 +16,7 @@
   },
   "corpus": {
     "mode": "index",
-    "path": "(outside project)/qvo-legal-fts.sqlite",
+    "path": "(outside project)/full-corpus-index.sqlite",
     "builtAt": "2026-09-02T11:52:00.000Z"
   },
   "history": {
@@ -67,26 +65,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- A One Person Company, small company and dormant company shall be deemed to have complied with the provisions of this section if at least one meeting of the Board of Directors has been conducted in each half of a calendar year and the gap between the two meetings is not less than ninety days:\n- Provided that the Central Government may, by notification, direct that the provisions of this subsection shall not apply in relation to any class or description of companies or shall apply subject to such exceptions, modifications or conditions as may be specified in the notification.\n- Annual general meeting. —(1) Every company other than a One Person Company shall in each year hold in addition to any other meetings, a general meeting as its annual general meeting and shall specify the meeting as such in the notices calling it, and not more than fifteen months shall elapse between the date of one annual general meeting of a company and that of the next:",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 71",
-            "PAGE 213",
-            "PAGE 81",
-            "PAGE 117"
-          ],
-          "retrievedSections": [
-            "PAGE 71",
-            "PAGE 213",
-            "PAGE 81",
-            "PAGE 117"
-          ],
+          "citedSections": ["PAGE 71", "PAGE 213", "PAGE 81", "PAGE 117"],
+          "retrievedSections": ["PAGE 71", "PAGE 213", "PAGE 81", "PAGE 117"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_863b1cf5dc33bc395fe55647",
-            "legal_d6e286d2a3feec89a7d432a5"
-          ],
+          "citedDocuments": ["legal_863b1cf5dc33bc395fe55647", "legal_d6e286d2a3feec89a7d432a5"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -115,33 +100,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Subject to the provisions of sub-section (1) and the rules made thereunder, are tiring auditor may be re-appointed at an annual general meeting, if— (a) he is not disqualified for re-appointment; (b) he has not given the company a notice in writing of his unwillingness to be re-appointed; and (c) a special resolution has not been passed at that meeting appointing some other auditor or providing expressly that he shall not be re-appointed.\n- Where at any annual general meeting, no auditor is appointed or re-appointed, the existing auditor shall continue to be the auditor of the company.\n- The notice calling the annual general meeting shall be accompanied by the following documents, namely:— (a) the agenda of the annual general meeting; (b) the minutes of the previous annual general meeting or the extraordinary general meeting; (c) the names of candidates for election, if any, to the office of director including a statement of qualifications in respect of each candidate; (d) the audited balance-sheet and profit and loss accounts of the Producer Company and its subsidiary, if any, together with a report of the Board of Directors of such Company with respect to—",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 213",
-            "PAGE 71",
-            "PAGE 104",
-            "PAGE 98",
-            "PAGE 96"
-          ],
-          "retrievedSections": [
-            "PAGE 213",
-            "PAGE 71",
-            "PAGE 104",
-            "PAGE 98",
-            "PAGE 96"
-          ],
+          "citedSections": ["PAGE 213", "PAGE 71", "PAGE 104", "PAGE 98", "PAGE 96"],
+          "retrievedSections": ["PAGE 213", "PAGE 71", "PAGE 104", "PAGE 98", "PAGE 96"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_863b1cf5dc33bc395fe55647",
-            "legal_d6e286d2a3feec89a7d432a5"
-          ],
+          "citedDocuments": ["legal_863b1cf5dc33bc395fe55647", "legal_d6e286d2a3feec89a7d432a5"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "sixth annual general meeting"
-          ],
+          "missingFacts": ["sixth annual general meeting"],
           "verification": {
             "claimCount": 7,
             "supportedClaimCount": 7,
@@ -154,9 +122,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 3491.181
         },
         {
@@ -169,18 +135,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Number of directorships. —(1) No person, after the commencement of this Act, shall hold office as a director, including any alternate directorship, in more than twenty companies at the same time:\n- Appointment of additional director, alternate director and nominee director. —(1) The articles of a company may confer on its Board of Directors the power to appoint any person, other than a person who fails to get appointed as a director in a general meeting, as an additional director at any time who shall hold office up to the date of the next annual general meeting or the last date on which the annual general meeting should have been held, whichever is earlier.\n- Any person holding office as director in companies more than the limits as specified in subsection (1), immediately before the commencement of this Act shall, within a period of one year from such commencement,— (a) choose not more than the specified limit of those companies, as companies in which he wishes to continue to hold the office of director; (b) resign his office as director in the other remaining companies; and (c) intimate the choice made by him under clause (a), to each of the companies in which he was holding the office of director before such commencement and to the Registrar having jurisdiction in respect of each such company.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 111",
-            "PAGE 210",
-            "PAGE 113",
-            "PAGE 235"
-          ],
-          "retrievedSections": [
-            "PAGE 111",
-            "PAGE 210",
-            "PAGE 113",
-            "PAGE 235"
-          ],
+          "citedSections": ["PAGE 111", "PAGE 210", "PAGE 113", "PAGE 235"],
+          "retrievedSections": ["PAGE 111", "PAGE 210", "PAGE 113", "PAGE 235"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -218,22 +174,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- It is hereby certified that I have gone through the provisions of the Companies Act, 2013 and Rules thereunder for the subject matter of this form and matters incidental thereto and I have verified the above particulars (including attachment(s)) from the original/certified records maintained by the Company/applicant which is subject matter of this form and found them to be true, correct and complete and no information material to this form has been suppressed.\n- The said records have been properly prepared, signed by the required officers of the Company and maintained as per the relevant provisions of the Companies Act, 2013 and were found to be in order; 2.\n- The applicant hereby makes reference to the National Company Law Tribunal, -----, Bench, under section ................. of the Companies Act, 2013 2.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 221",
-            "PAGE 23",
-            "PAGE 24",
-            "PAGE 33",
-            "PAGE 47",
-            "PAGE 214"
-          ],
-          "retrievedSections": [
-            "PAGE 221",
-            "PAGE 23",
-            "PAGE 24",
-            "PAGE 33",
-            "PAGE 47",
-            "PAGE 214"
-          ],
+          "citedSections": ["PAGE 221", "PAGE 23", "PAGE 24", "PAGE 33", "PAGE 47", "PAGE 214"],
+          "retrievedSections": ["PAGE 221", "PAGE 23", "PAGE 24", "PAGE 33", "PAGE 47", "PAGE 214"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -246,10 +188,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "two or more persons",
-            "private company"
-          ],
+          "missingFacts": ["two or more persons", "private company"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -262,9 +201,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2538.307
         },
         {
@@ -277,29 +214,13 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Annual return.— (1) Every limited liability partnership shall file an annual return duly authenticated with the Registrar within sixty days of closure of its financial year in such form and manner and accompanied by such fee as may be prescribed. 3 [(2) If any limited liability partnership fails to file its annual return under sub-section (1) before the expiry of the period specified therein, such limited liability partnership and its designated partners shall be liable to a penalty of one hundred rupees for each day during which such failure continues, subject to a maximum of one lakh rupees for the limited liability partnership and fifty thousand rupees for designated partners.] 36.\n- Inspection of documents kept by Registrar.— The incorporation document, names of partners and changes, if any, made therein, Statement of Account and Solvency and annual return filed by each limited liability partnership with the Registrar shall be available for inspection by any person in such manner and on payment of such fee as may be prescribed. 37.\n- 18 (a) any provisions of this Act or of any other law which requires the filing in any manner with the Registrar of any return, account or other document or the giving of notice to him of any matter; or (b) any request of the Registrar to amend or complete and resubmit any document or to submit a fresh document, and fails to make good the default within fourteen days after the service on the limited liability partnership of a notice requiring it to be done, the Tribunal may, on application by the Registrar, make an order directing that limited liability partnership or its designated partners or its partners to make good the default within such time as specified in the order.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 28",
-            "PAGE 25",
-            "PAGE 38",
-            "PAGE 18",
-            "PAGE 41",
-            "PAGE 16"
-          ],
-          "retrievedSections": [
-            "PAGE 28",
-            "PAGE 25",
-            "PAGE 38",
-            "PAGE 18",
-            "PAGE 41",
-            "PAGE 16"
-          ],
+          "citedSections": ["PAGE 28", "PAGE 25", "PAGE 38", "PAGE 18", "PAGE 41", "PAGE 16"],
+          "retrievedSections": ["PAGE 28", "PAGE 25", "PAGE 38", "PAGE 18", "PAGE 41", "PAGE 16"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_343686ae15225fa3c565700e"
-          ],
+          "citedDocuments": ["legal_343686ae15225fa3c565700e"],
           "acceptableDocumentCited": true,
           "factCoverage": 1,
           "missingFacts": [],
@@ -314,9 +235,7 @@
               {
                 "text": "Annual return.— (1) Every limited liability partnership shall file an annual return duly authenticated with the Registrar within sixty days of closure of its financial year in such form and manner and accompanied by such fee as may be prescribed. 3 [(2) If any limited liability partnership fails to file its annual return under sub-section (1) before the expiry of the period specified therein, such limited liability partnership and its designated partners shall be liable to a penalty of one hundred rupees for each day during which such failure continues, subject to a maximum of one lakh rupees for the limited liability partnership and fifty thousand rupees for designated partners.] 36.",
                 "status": "unsupported",
-                "reasons": [
-                  "number_not_in_source"
-                ],
+                "reasons": ["number_not_in_source"],
                 "supportScore": 1,
                 "supportingText": "(2) If any limited liability partnership fails to file its annual return under sub-section (1) before the expiry of the period specified therein, such limited liability partnership and its designated partners shall be liable to a penalty of one hundred rupees for each day during which such failure c"
               }
@@ -325,9 +244,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "unsupported_claims"
-          ],
+          "failureCategories": ["unsupported_claims"],
           "latencyMs": 818.703
         },
         {
@@ -340,22 +257,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- 8 ANNEXURE EXTRACTS FROM THE INSOLVENCY AND BANKRUPTCY CODE, 2016 (31 OF 2016) * * * * * 5.\n- On receipt of an application under sub-section (2), if the Adjudicating Authority is satisfied that the subject matter of the case is such that fast track corporate insolvency resolution process cannot be completed within a period of ninety days, it may, by order, extend the duration of such process beyond the said period of ninety days by such further period, as it thinks fit, but not exceeding forty-five days:\n- Time period for completion of fast track corporate insolvency resolution process. - (1) Subject to the provisions of sub-section (3), the fast track corporate insolvency resolution process shall be completed within a period of ninety days from the insolvency commencement date.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 74",
-            "PAGE 73",
-            "PAGE 59",
-            "PAGE 54",
-            "PAGE 8",
-            "PAGE 13"
-          ],
-          "retrievedSections": [
-            "PAGE 74",
-            "PAGE 73",
-            "PAGE 59",
-            "PAGE 54",
-            "PAGE 8",
-            "PAGE 13"
-          ],
+          "citedSections": ["PAGE 74", "PAGE 73", "PAGE 59", "PAGE 54", "PAGE 8", "PAGE 13"],
+          "retrievedSections": ["PAGE 74", "PAGE 73", "PAGE 59", "PAGE 54", "PAGE 8", "PAGE 13"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -368,9 +271,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "one hundred and eighty days from the date of admission"
-          ],
+          "missingFacts": ["one hundred and eighty days from the date of admission"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -383,9 +284,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2784.853
         },
         {
@@ -398,18 +297,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- For the purpose of this Act, “ existing registered Trade Mark” means a trade mark registered under the Trade and Merchandise Act, 1958 immediately before the commencement of this Act.\n- The Central Government may by notification in the Official Gazette, appoint a person to be known as the Controller- General of Patents, Designs and Trade Marks, who shall be the Registrar of Trade Marks for the purposes of this Act.\n- Principal place of business in India. - Principal place of business in India means- (i) where a person carries on business in the goods or services concerned in a trade mark- (a) if the business is carried on in India at only one place, that place; (b) if the business is carried on in India at more places than one, the place mentioned by him as the principal place of business in India; (ii) where a person is not carrying on a business in the goods or services concerned in a trade mark -",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 4",
-            "PAGE 5",
-            "PAGE 3",
-            "PAGE 53"
-          ],
-          "retrievedSections": [
-            "PAGE 4",
-            "PAGE 5",
-            "PAGE 3",
-            "PAGE 53"
-          ],
+          "citedSections": ["PAGE 4", "PAGE 5", "PAGE 3", "PAGE 53"],
+          "retrievedSections": ["PAGE 4", "PAGE 5", "PAGE 3", "PAGE 53"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -438,9 +327,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1525.603
         },
         {
@@ -453,35 +340,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The application shall give particulars of the registration in the case of a registered trade mark, and in the case of an unregistered mark shall show the mark and give particulars including user of the unregistered trade mark that has been assigned therewith.\n- Section 38 of the Trade Marks Act 1999 2.4 Requirement from the subsequent Proprietor Registration of assignments and transmissions: Any person who becomes entitled by assignment or transmission to a registered trademark should apply for registration of the assignment/transmission, as the case may be, in the prescribed manner.\n- Section 48 (2) of the Trade Marks Act 1999 3.3 Requirement from the applicant Application for registration of registered user: An Application for registration of registered user will be filed by the registered proprietor and proposed user jointly on form TM-28.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 17",
-            "PAGE 4",
-            "PAGE 3",
-            "PAGE 131",
-            "PAGE 136",
-            "PAGE 133"
-          ],
-          "retrievedSections": [
-            "PAGE 17",
-            "PAGE 4",
-            "PAGE 3",
-            "PAGE 131",
-            "PAGE 136",
-            "PAGE 133"
-          ],
+          "citedSections": ["PAGE 17", "PAGE 4", "PAGE 3", "PAGE 131", "PAGE 136", "PAGE 133"],
+          "retrievedSections": ["PAGE 17", "PAGE 4", "PAGE 3", "PAGE 131", "PAGE 136", "PAGE 133"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_07aa58f3262a4d764c087577",
-            "legal_76b2cfb0231695467e3c130e"
-          ],
+          "citedDocuments": ["legal_07aa58f3262a4d764c087577", "legal_76b2cfb0231695467e3c130e"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "exclusive right to the use of the trade mark"
-          ],
+          "missingFacts": ["exclusive right to the use of the trade mark"],
           "verification": {
             "claimCount": 5,
             "supportedClaimCount": 5,
@@ -494,9 +362,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 2731.14
         },
         {
@@ -509,22 +375,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Regulatory framework under FEMA 1999 Under the Foreign Exchange Management Act, 1999, with current account fully convertible, except the restrictions imposed by Central Govt in public interest and in consultation with RBI, the focus of the regulatory framework for forex transactions has mostly been on the capital account transactions.\n- Authorised Dealers have, therefore, advised to take necessary steps to ensure that checks and balances are incorporated in systems relating to dealing with and reporting of foreign exchange transactions so that contraventions of provisions of FEMA, 1999 attributable to the Authorised Dealers do not occur. 10.2 In this connection, it is reiterated that in terms of Section 11(3) of FEMA, 1999, the Reserve Bank may impose on the authorized person a penalty for contravening any direction given by the Reserve Bank under this Act or failing to file any return as directed by the Reserve Bank. 11.\n- In terms of section 13 of FEMA, 1999 any person contravening the provisions of FEMA, 1999 upon adjudication, be liable to a monetary penalty.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 6",
-            "PAGE 8",
-            "PAGE 9",
-            "PAGE 223",
-            "PAGE 15",
-            "PAGE 23"
-          ],
-          "retrievedSections": [
-            "PAGE 6",
-            "PAGE 8",
-            "PAGE 9",
-            "PAGE 223",
-            "PAGE 15",
-            "PAGE 23"
-          ],
+          "citedSections": ["PAGE 6", "PAGE 8", "PAGE 9", "PAGE 223", "PAGE 15", "PAGE 23"],
+          "retrievedSections": ["PAGE 6", "PAGE 8", "PAGE 9", "PAGE 223", "PAGE 15", "PAGE 23"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -537,10 +389,7 @@
           ],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "thrice the sum involved",
-            "two lakh rupees"
-          ],
+          "missingFacts": ["thrice the sum involved", "two lakh rupees"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -553,9 +402,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 3128.825
         },
         {
@@ -568,35 +415,16 @@
           "errorCode": null,
           "answer": "## Summary\n\n- The onus of showing that a certain person was in possession of or had access to unpublished price sensitive information at the time of trading would, therefore, be on the person leveling the charge after which the person who has traded when in possession of or having access to unpublished price sensitive information may demonstrate that he was not in such possession or that he has not traded or he could not access or that his trading when in possession of such information was squarely covered by the exonerating circumstances.”] 13 Omitted by the Securities and Exchange Board of India (Prohibition of Insider Trading) (Third Amendment) Regulations, 2024 (w.e.f.\n- Such a construction is intended to curb the activities based on unpublished price sensitive information which are strictly not buying, selling or subscribing, such as pledging etc when in possession of unpublished price sensitive information. (m) “trading day” means a day on which the recognized stock exchanges are open for trading; 20 Omitted by the Securities and Exchange Board of India (Prohibition of Insider Trading) (Amendment) Regulations, 2022 (w.e.f.\n- The onus of showing that a certain person was in possession of or had access to unpublished price sensitive information at the time of trading would, therefore, be on the person leveling the charge after which the person who has traded when in possession of or having access to unpublished price sensitive information may demonstrate that he was not in such possession or that he has not traded or or he could not access or that his trading when in possession of such information was squarely covered by the exonerating circumstances.”",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 59",
-            "PAGE 8",
-            "PAGE 5",
-            "PAGE 4",
-            "PAGE 26",
-            "PAGE 7"
-          ],
-          "retrievedSections": [
-            "PAGE 59",
-            "PAGE 8",
-            "PAGE 5",
-            "PAGE 4",
-            "PAGE 26",
-            "PAGE 7"
-          ],
+          "citedSections": ["PAGE 59", "PAGE 8", "PAGE 5", "PAGE 4", "PAGE 26", "PAGE 7"],
+          "retrievedSections": ["PAGE 59", "PAGE 8", "PAGE 5", "PAGE 4", "PAGE 26", "PAGE 7"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
           "connectedProvisionRecall": null,
-          "citedDocuments": [
-            "legal_3e14632093a11d5ced286205"
-          ],
+          "citedDocuments": ["legal_3e14632093a11d5ced286205"],
           "acceptableDocumentCited": true,
           "factCoverage": 0,
-          "missingFacts": [
-            "not generally available",
-            "materially affect the price"
-          ],
+          "missingFacts": ["not generally available", "materially affect the price"],
           "verification": {
             "claimCount": 4,
             "supportedClaimCount": 4,
@@ -609,9 +437,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["expected_fact_missing"],
           "latencyMs": 1546.991
         },
         {
@@ -624,20 +450,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Meeting of Board of Directors Date(s) of Meeting (if any) in the previous quarter Date(s) of Meeting (if any) in the relevant quarter Whether requirement of Quorum met* Number of Directors present* Number of independent directors present* Maximum gap between any two consecutive (in number of days) Yes/ No * to be filled in only for the current quarter meetings IV.\n- Meeting of Board of Directors Date(s) of Meeting (if any) in the previous quarter Date(s) of Meeting (if any) in the relevant quarter Whether requirement of Quorum met* Number of Directors present* Number of independent directors present* Maximum gap between any two consecutive meetings (in number of days) Yes / No * to be filled in only for the current quarter meetings IV.\n- Meetings of Committees Date(s) of meeting of the committee in the relevant quarter Whether requirement of quorum met (details)* Number of directors present* Number of independent directors present* Date(s) of meeting of the committee in the previous quarter Maximum gap between any two consecutive meetings in number of days* Yes/ No *To be filled in only for the current quarter meetings.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 45",
-            "PAGE 52",
-            "PAGE 51",
-            "PAGE 44",
-            "PAGE 76"
-          ],
-          "retrievedSections": [
-            "PAGE 45",
-            "PAGE 52",
-            "PAGE 51",
-            "PAGE 44",
-            "PAGE 76"
-          ],
+          "citedSections": ["PAGE 45", "PAGE 52", "PAGE 51", "PAGE 44", "PAGE 76"],
+          "retrievedSections": ["PAGE 45", "PAGE 52", "PAGE 51", "PAGE 44", "PAGE 76"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,
@@ -652,10 +466,7 @@
           ],
           "acceptableDocumentCited": false,
           "factCoverage": 0,
-          "missingFacts": [
-            "at least four times",
-            "one hundred and twenty days"
-          ],
+          "missingFacts": ["at least four times", "one hundred and twenty days"],
           "verification": {
             "claimCount": 3,
             "supportedClaimCount": 3,
@@ -668,10 +479,7 @@
           "applicableDate": null,
           "expectedVersionId": null,
           "selectedVersionId": null,
-          "failureCategories": [
-            "acceptable_document_not_cited",
-            "expected_fact_missing"
-          ],
+          "failureCategories": ["acceptable_document_not_cited", "expected_fact_missing"],
           "latencyMs": 1462.688
         },
         {
@@ -684,20 +492,8 @@
           "errorCode": null,
           "answer": "## Summary\n\n- Levy and collection.— (1) Subject to the provisions of sub-section (2), there shall be levied a tax called the central goods and services tax on all intra-State supplies of goods or services or both, except on the supply of alcoholic liquor for human consumption, on the value determined under section 15 and at such rates, not exceeding twenty per cent., as may be notified by the Government on the recommendations of the Council and collected in such manner as may be prescribed and shall be paid by the taxable person.\n- The central tax on the supply of petroleum crude, high speed diesel, motor of 2018) – Brought into force on 01 st February, 2019. 17 Substituted for ―sub-sections (1) and (2)‖ w.e.f. 01 st July, 2017 by The Central Goods and Services Tax (Amendment) Act, 2018 (No. 31 of 2018) – Brought into force on 01 st February, 2019.\n- Amendments to taxable outward supplies to unregistered persons furnished in returns for earlier tax periods in Table 7 Rate of tax Total Taxable value Amount Integrated Tax Central Tax State/UT Tax UT Tax Cess 1 2 3 4 5 6 Tax period for which the details are being revised <Month> 10A.",
           "answerMode": "deterministic_extract",
-          "citedSections": [
-            "PAGE 25",
-            "PAGE 82",
-            "PAGE 26",
-            "PAGE 110",
-            "PAGE 18"
-          ],
-          "retrievedSections": [
-            "PAGE 25",
-            "PAGE 82",
-            "PAGE 26",
-            "PAGE 110",
-            "PAGE 18"
-          ],
+          "citedSections": ["PAGE 25", "PAGE 82", "PAGE 26", "PAGE 110", "PAGE 18"],
+          "retrievedSections": ["PAGE 25", "PAGE 82", "PAGE 26", "PAGE 110", "PAGE 18"],
           "expectedSections": [],
           "connectedSections": [],
           "expectedProvisionRecall": null,

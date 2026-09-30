@@ -47,7 +47,11 @@ const environmentSchema = z
     // Every drafted answer is checked claim by claim against the evidence and
     // withheld when it fails. Only switch off to measure the verifier's effect.
     VERIFICATION: z.enum(['deterministic', 'off']).default('deterministic'),
-    ANSWER_TIMEOUT_MS: z.coerce.number().int().min(1_000).max(120_000).default(30_000),
+    // Azure OpenAI latency varies under quota pressure; 30 s cut off 15% of
+    // answers in the blind test, so the default is 60 s.
+    ANSWER_TIMEOUT_MS: z.coerce.number().int().min(1_000).max(120_000).default(60_000),
+    // Unset: 0.7 with the Azure OpenAI composer (chosen on the dev set), off otherwise.
+    CONFIDENCE_THRESHOLD: z.coerce.number().min(0).max(1).optional(),
 
     AZURE_OPENAI_ENDPOINT: z.url().optional(),
     AZURE_OPENAI_GENERATION_DEPLOYMENT: z.string().min(1).optional(),
@@ -137,6 +141,9 @@ export function loadConfig(source: NodeJS.ProcessEnv = process.env) {
       composer: env.COMPOSER,
       verification: env.VERIFICATION,
       answerTimeoutMs: env.ANSWER_TIMEOUT_MS,
+      confidenceThreshold:
+        env.CONFIDENCE_THRESHOLD ??
+        (env.COMPOSER === 'azure_openai' || env.RETRIEVER === 'azure_search' ? 0.7 : 0),
       azure: {
         openAiEndpoint: env.AZURE_OPENAI_ENDPOINT,
         generationDeployment: env.AZURE_OPENAI_GENERATION_DEPLOYMENT,

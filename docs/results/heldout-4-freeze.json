@@ -1,0 +1,10 @@
+{
+  "frozenAt": "2026-09-30T06:01:33.000Z",
+  "dataset": "data/eval/full-corpus-heldout-4.eval.json",
+  "sha256": "eb48f568085503b992a7a122b02779550ae82d2d5e8e780eab277496b0cae03e",
+  "cases": 109,
+  "answerable": 94,
+  "refusals": 15,
+  "sampling": "scripts/sample-provisions.ts --seed 20260930 --per-area 18 --spares 12; first 18 eligible provisions per area after exclusions E1-E4",
+  "note": "Frozen before any run. Protocol: the final system (60 s deadline, selective answering with the threshold chosen on dev-3 only) is run once with Azure OpenAI; no tuning uses this set."
+}

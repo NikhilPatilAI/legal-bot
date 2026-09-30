@@ -16,7 +16,7 @@
   },
   "corpus": {
     "mode": "index",
-    "path": "(outside project)/qvo-legal-fts.sqlite",
+    "path": "(outside project)/full-corpus-index.sqlite",
     "builtAt": "2026-09-02T11:52:00.000Z"
   },
   "history": {

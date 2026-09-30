@@ -9,6 +9,16 @@
 | `data/history/companies-act-2013.history.json`   | Dated versions of Companies Act section 135(5)–(6), each with the Gazette source proving its commencement    | Act 22 of 2019 and S.O. 324(E) (eGazette)                                                                                                                                                                                                       |
 | `data/eval/`                                     | Evaluation sets                                                                                              | See [EVALUATION.md](EVALUATION.md)                                                                                                                                                                                                              |
 
+Evaluation files in `data/eval/`:
+
+| File                                                                                                                  | Purpose                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `companies-act-2013.eval.json`, `full-corpus.eval.json`, `full-corpus-heldout-2.eval.json`, `sample-corpus.eval.json` | Hand-written question sets (dev / test / held-out)                                                                |
+| `heldout-3.sample.json`, `heldout-3.questions.json`, `full-corpus-heldout-3.eval.json`                                | Frozen held-out set from a seeded random sample of provisions (sample, questions with exclusion rules, built set) |
+| `dev-3.sample.json`, `dev-3.questions.json`, `full-corpus-dev-3.eval.json`                                            | Development set from a second random sample, used for tuning                                                      |
+| `unseen-laws.sections.json`                                                                                           | Sections of the four bundled Acts, for the verifier's unseen-law benchmark                                        |
+| `claim-verifier-paraphrases.json`, `claim-verifier-paraphrases-unseen.json`                                           | Hand-written paraphrases (true claims) for the verifier benchmark                                                 |
+
 Indian Acts are reproduced here under section 52(1)(q) of the Copyright Act, 1957, which permits reproduction of Acts of the legislature. Rules, regulations and circulars you add yourself may carry other terms; check before redistributing them.
 
 Every indexed text has `legalStatus: unknown`: it is an official publication, but not verified as the current consolidated law.

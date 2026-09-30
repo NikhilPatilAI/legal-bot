@@ -98,3 +98,50 @@ describe('LegalRagService with post-generation verification', () => {
     expect(result.citations).toEqual([]);
   });
 });
+
+describe('confidence-based selective answering', () => {
+  const grounded =
+    '## Summary\nUnder Section 188, a company needs the consent of the Board of Directors by resolution for a related party contract, except transactions in the ordinary course of business on an arm length basis.';
+  const hedged = `${grounded}\nThe evidence does not state the approval deadline.`;
+  const input = {
+    question: 'Explain Section 188',
+    legalCategory: 'corporate' as const,
+    jurisdiction: 'India' as const,
+    resultLimit: 5,
+  };
+  const serviceFor = (answer: string, minimumConfidence: number) =>
+    new LegalRagService(
+      new StubRetriever(),
+      { mode: 'azure_openai', compose: async () => answer },
+      30_000,
+      new DeterministicClaimVerifier(),
+      0.5,
+      undefined,
+      minimumConfidence,
+    );
+
+  it('reports a confidence for every verified answer', async () => {
+    const result = await serviceFor(grounded, 0).query(input, 'request-confidence');
+    expect(result.abstained).toBe(false);
+    expect(result.confidence).toBeGreaterThan(0.5);
+    expect(result.confidence).toBeLessThanOrEqual(1);
+  });
+
+  it('lowers confidence when the answer admits the evidence is silent', async () => {
+    const plain = await serviceFor(grounded, 0).query(input, 'request-plain');
+    const hedging = await serviceFor(hedged, 0).query(input, 'request-hedged');
+    expect(hedging.confidence).toBeLessThan(plain.confidence!);
+  });
+
+  it('returns sources instead of the answer below the threshold', async () => {
+    const result = await serviceFor(hedged, 0.99).query(input, 'request-low-confidence');
+    expect(result.abstained).toBe(true);
+    expect(result.answer).toContain('could not be confirmed with enough confidence');
+    expect(result.citations.map((item) => item.sectionIdentifier)).toEqual(['188']);
+    expect(result.confidence).not.toBeNull();
+  });
+
+  it('rejects an invalid threshold', () => {
+    expect(() => serviceFor(grounded, 1.5)).toThrow('Invalid minimum confidence');
+  });
+});

@@ -64,7 +64,18 @@ function inline(node, text) {
 function renderResult(turn, result) {
   turn.querySelector('.progress')?.remove();
   const card = element('article', `answer${result.abstained ? ' declined' : ''}`);
-  card.append(element('span', 'badge', result.abstained ? 'Declined' : 'Grounded answer'));
+  const sourcesOnly = result.abstained && result.citations.length > 0;
+  const confidence =
+    typeof result.confidence === 'number' && !result.abstained
+      ? ` · confidence ${Math.round(result.confidence * 100)}%`
+      : '';
+  card.append(
+    element(
+      'span',
+      'badge',
+      sourcesOnly ? 'Sources only' : result.abstained ? 'Declined' : `Grounded answer${confidence}`,
+    ),
+  );
   card.append(renderAnswer(result.answer));
   if (result.citations.length) {
     const sources = element('ol', 'sources');

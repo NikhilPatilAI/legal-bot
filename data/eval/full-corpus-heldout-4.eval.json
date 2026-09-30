@@ -1,0 +1,3153 @@
+{
+  "schemaVersion": "legal-bot-legal-eval-v2",
+  "act": "Indian regulatory corpus (5,082 official PDFs): fourth held-out set, randomly sampled provisions",
+  "corpus": "full-corpus-index",
+  "reviewStatus": "source_reviewed",
+  "reviewNote": "Third held-out set, built on 2026-09-29 from a seeded random sample of provisions (seed 20260929) across eight legal areas, with fixed exclusion rules (see heldout-3.questions.json). Frozen before any run. Facts are verbatim in the sampled provision; accepted documents were computed mechanically. Not lawyer-reviewed; facts describe the indexed text, not verified current law.",
+  "cases": [
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-1",
+      "family": "ho4-companies-1",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Registered Valuers and Valuation) Rules, 2017, within how many days must the Appellate Panel dispose of an appeal?",
+      "expectedFacts": [
+        "within thirty days of the receipt of the appeal"
+      ],
+      "acceptableDocuments": [
+        "legal_00290bef6603b30310a1f749",
+        "legal_5022fb6531e71762b6f3fd4e",
+        "legal_509adaf580b25c4119a2583d",
+        "legal_682f357dcd4a038e2ddb5746",
+        "legal_71fbd6694337fa2bea44e1da",
+        "legal_d400d20e8f36819656646f99",
+        "legal_d5b7a8fb13906308b8f47600"
+      ],
+      "note": "Sampled provision #1: Companies (Registered Valuers and Valuation) Rules, 2017, page 67.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_d400d20e8f36819656646f99, page 67"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-5",
+      "family": "ho4-companies-5",
+      "type": "direct_lookup",
+      "question": "How does the National Company Law Tribunal Rules, 2016 define an \"applicant\"?",
+      "expectedFacts": [
+        "a petitioner or an appellant"
+      ],
+      "acceptableDocuments": [
+        "legal_6fa78c025891892934a0ad64"
+      ],
+      "note": "Sampled provision #5: National Company Law Tribunal Rules, 2016, page 56.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_6fa78c025891892934a0ad64, page 56"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-6",
+      "family": "ho4-companies-6",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Registered Valuers and Valuation) Rules, 2017, on whose recommendations does the Central Government notify valuation standards?",
+      "expectedFacts": [
+        "recommendations of the Committee set up under rule 19"
+      ],
+      "acceptableDocuments": [
+        "legal_00290bef6603b30310a1f749",
+        "legal_5022fb6531e71762b6f3fd4e",
+        "legal_509adaf580b25c4119a2583d",
+        "legal_682f357dcd4a038e2ddb5746",
+        "legal_71fbd6694337fa2bea44e1da",
+        "legal_d400d20e8f36819656646f99",
+        "legal_d5b7a8fb13906308b8f47600"
+      ],
+      "note": "Sampled provision #6: The Companies (Registered Valuers and Valuation) Rules, 2017 (upto 13-11-2018), page 13.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_00290bef6603b30310a1f749, page 13"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-8",
+      "family": "ho4-companies-8",
+      "type": "direct_lookup",
+      "question": "Through which MCA web service does the Registrar extend the period of a reserved company name under the Companies (Incorporation) Rules?",
+      "expectedFacts": [
+        "SPICe+"
+      ],
+      "acceptableDocuments": [
+        "legal_3e28818ace64ec72146816ff"
+      ],
+      "note": "Sampled provision #8: Companies (Incorporation) 3rd Amdt Rules 2020, page 3.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_3e28818ace64ec72146816ff, page 3"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-9",
+      "family": "ho4-companies-9",
+      "type": "direct_lookup",
+      "question": "Under the Companies Act, 2013, how long did whole-time key managerial personnel holding office in more than one company at commencement have to choose one company?",
+      "expectedFacts": [
+        "within a period of six months from such commencement"
+      ],
+      "acceptableDocuments": [
+        "legal_863b1cf5dc33bc395fe55647"
+      ],
+      "note": "Sampled provision #9: CompaniesAct2013, page 137.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_863b1cf5dc33bc395fe55647, page 137"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-10",
+      "family": "ho4-companies-10",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016, when is a notice of meeting sent by post deemed to have been served?",
+      "expectedFacts": [
+        "forty eight hours after the letter containing the same is posted"
+      ],
+      "acceptableDocuments": [
+        "legal_4ed87ef39f1d768511984c3e"
+      ],
+      "note": "Sampled provision #10: Companies (Compromises, Arrangements and Amalgamations) Rules, 2016, page 28.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_4ed87ef39f1d768511984c3e, page 28"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-15",
+      "family": "ho4-companies-15",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Management and Administration) Rules, 2014, how must notice be given if a resolution is to be proposed as a special resolution?",
+      "expectedFacts": [
+        "sub-section (2) of section 114"
+      ],
+      "acceptableDocuments": [
+        "legal_9ad66541f090bd2a299922b1"
+      ],
+      "note": "Sampled provision #15: Companies (Management and Administration) Rules,2014, page 14.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9ad66541f090bd2a299922b1, page 14"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-19",
+      "family": "ho4-companies-19",
+      "type": "direct_lookup",
+      "question": "In which form must a director disclose his concern or interest in other companies, firms or bodies corporate under the Companies (Meetings of Board and its Powers) Rules?",
+      "expectedFacts": [
+        "Form MBP 1"
+      ],
+      "acceptableDocuments": [
+        "legal_9305628de01153b746af5a1c"
+      ],
+      "note": "Sampled provision #19: NCARules Chapter12, page 16.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9305628de01153b746af5a1c, page 16"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-23",
+      "family": "ho4-companies-23",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Adjudication of Penalties) Rules, can a single appeal in Form ADJ seek relief against more than one order?",
+      "expectedFacts": [
+        "shall not seek relief(s) therein against more than one order unless the reliefs prayed for are consequential"
+      ],
+      "acceptableDocuments": [
+        "legal_42a26afacc5323c98d77ce52"
+      ],
+      "note": "Sampled provision #23: NCARules Chapter29II AdjudicationRule, page 32.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_42a26afacc5323c98d77ce52, page 32"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-24",
+      "family": "ho4-companies-24",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Registration of Charges) Rules, which rule applies to the registration of a charge on property acquired subject to such charge?",
+      "expectedFacts": [
+        "rule 4"
+      ],
+      "acceptableDocuments": [
+        "legal_f79f206b21163ccbd8e40787"
+      ],
+      "note": "Sampled provision #24: NCARules Chapter6, page 27.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_f79f206b21163ccbd8e40787, page 27"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-26",
+      "family": "ho4-companies-26",
+      "type": "direct_lookup",
+      "question": "Under the Nidhi Rules, whose prior permission does a Nidhi need to open more than three branches within its district?",
+      "expectedFacts": [
+        "prior permission of the Regional Director"
+      ],
+      "acceptableDocuments": [
+        "legal_43b1039377214fb8239e3f78"
+      ],
+      "note": "Sampled provision #26: NCARules Chapter26, page 17.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_43b1039377214fb8239e3f78, page 17"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-27",
+      "family": "ho4-companies-27",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Mediation and Conciliation) Rules, when must a mediator or conciliator disclose circumstances affecting independence to the parties?",
+      "expectedFacts": [
+        "without any delay"
+      ],
+      "acceptableDocuments": [
+        "legal_78f51fae660a088604717c90"
+      ],
+      "note": "Sampled provision #27: Companies (Mediation and Conciliation) Rules, page 10.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_78f51fae660a088604717c90, page 10"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-28",
+      "family": "ho4-companies-28",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Arrests in connection with Investigation by Serious Fraud Investigation Office) Rules, 2017, where is the entry regarding an arrest made?",
+      "expectedFacts": [
+        "arrest register"
+      ],
+      "acceptableDocuments": [
+        "legal_1889aede7c26c205c80cfc38"
+      ],
+      "note": "Sampled provision #28: Companies (Arrests in connection with investigation by SFIO) Rules 2017, page 5.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_1889aede7c26c205c80cfc38, page 5"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-companies-29",
+      "family": "ho4-companies-29",
+      "type": "direct_lookup",
+      "question": "Under the Producer Companies Rules, 2021, which rules of the Companies (Incorporation) Rules, 2014 apply when a Producer Company shifts its registered office from one State to another?",
+      "expectedFacts": [
+        "rules 27, 30 and 31"
+      ],
+      "acceptableDocuments": [
+        "legal_e520bb64800d2a42d6d8feb1"
+      ],
+      "note": "Sampled provision #29: G.S.R. 112(E)-Producer Companies Rules, 2021, page 3.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_e520bb64800d2a42d6d8feb1, page 3"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-llp-32",
+      "family": "ho4-llp-32",
+      "type": "direct_lookup",
+      "question": "Under the Limited Liability Partnership Rules, 2009, in which form does a designated partner give consent to become a designated partner?",
+      "expectedFacts": [
+        "Form 9"
+      ],
+      "acceptableDocuments": [
+        "legal_ea1d64e5641bb4e4b454c906"
+      ],
+      "note": "Sampled provision #32: Limited Liability Partnership Rules, 2009: G.S.R. 229(E) (6.8 MB), page 110.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_ea1d64e5641bb4e4b454c906, page 110"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-llp-35",
+      "family": "ho4-llp-35",
+      "type": "direct_lookup",
+      "question": "Under the Limited Liability Partnership (Winding up and Dissolution) Rules, 2010, in which forms are the returns to the Registrar made after the final meeting and on dissolution in a voluntary winding up?",
+      "expectedFacts": [
+        "Forms Nos 10 and 11"
+      ],
+      "acceptableDocuments": [
+        "legal_a6e61ccf523809f4c1ff708e"
+      ],
+      "note": "Sampled provision #35: LLP Winding Rules, 2010: G.S.R 266(E) (14.3 MB), page 343.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_a6e61ccf523809f4c1ff708e, page 343"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-40",
+      "family": "ho4-sebi-40",
+      "type": "direct_lookup",
+      "question": "Under SEBI's rules on issuing observations on draft offer documents pending regulatory action, for how much further time can observations be kept in abeyance when SEBI cannot conclude proceedings for reasons beyond its control?",
+      "expectedFacts": [
+        "forty five days"
+      ],
+      "acceptableDocuments": [
+        "legal_0c1586a86edbba7328b46a4c"
+      ],
+      "note": "Sampled provision #40: SEBI (Issuing Observations On Draft Offer Documents Pending Regulatory Actions) Order, 2020, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_0c1586a86edbba7328b46a4c, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-41",
+      "family": "ho4-sebi-41",
+      "type": "direct_lookup",
+      "question": "For employee stock options under the Companies (Share Capital and Debentures) Rules, 2014, who is an \"Employee\"?",
+      "expectedFacts": [
+        "a permanent employee of the company who has been working in India or outside India"
+      ],
+      "acceptableDocuments": [
+        "legal_640393992f3e8acfcb4d8fb4"
+      ],
+      "note": "Sampled provision #41: Companies (Share Capital and debentures) Rules, 2014, page 10.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_640393992f3e8acfcb4d8fb4, page 10"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-42",
+      "family": "ho4-sebi-42",
+      "type": "direct_lookup",
+      "question": "How must mutual funds execute corporate bond and commercial paper trades where a mutual fund is on both sides of the trade?",
+      "expectedFacts": [
+        "RFQ platform of stock exchanges"
+      ],
+      "acceptableDocuments": [
+        "legal_ea1df9b20153db208e0fc460"
+      ],
+      "note": "Sampled provision #42: Circular on Transaction in Corporate Bonds/Commercial Papers through RFQ platform and enhancing transparency pertaining to debt schemes, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_ea1df9b20153db208e0fc460, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-44",
+      "family": "ho4-sebi-44",
+      "type": "direct_lookup",
+      "question": "Until what date were VCFs with expired liquidation periods that migrate to the AIF Regulations granted an additional liquidation period?",
+      "expectedFacts": [
+        "July 19, 2025"
+      ],
+      "acceptableDocuments": [
+        "legal_8047fb8febb991aac95454e2"
+      ],
+      "note": "Sampled provision #44: Extension of timeline of additional liquidation period for VCFs migrating to SEBI (Alternative Investment Funds) Regulations, 2012, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_8047fb8febb991aac95454e2, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-45",
+      "family": "ho4-sebi-45",
+      "type": "direct_lookup",
+      "question": "What is a \"zero coupon zero principal instrument\" under the notification declaring it a security?",
+      "expectedFacts": [
+        "Not for Profit Organisation"
+      ],
+      "acceptableDocuments": [
+        "legal_326eae69e4e9a14910a58df9"
+      ],
+      "note": "Sampled provision #45: Declaration of zero coupon zero principal instruments as securities under the Securities Contracts (Regulation) Act, 1956, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_326eae69e4e9a14910a58df9, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-46",
+      "family": "ho4-sebi-46",
+      "type": "direct_lookup",
+      "question": "Who must sign and date every order of the Securities Appellate Tribunal under the Securities Contracts (Regulation) (Appeal to Securities Appellate Tribunal) Rules?",
+      "expectedFacts": [
+        "Presiding Officer and the two other Members"
+      ],
+      "acceptableDocuments": [
+        "legal_a553139b7f51feb3c74bd7e9"
+      ],
+      "note": "Sampled provision #46: Securities Contracts (Regulations) (Appeal to Securities Appellate Tribunal) Rules, 2000, page 6.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_a553139b7f51feb3c74bd7e9, page 6"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-48",
+      "family": "ho4-sebi-48",
+      "type": "direct_lookup",
+      "question": "Within how many days must a non-compliant listed entity pay the fine after the stock exchange's notice under the SEBI circular on non-compliance with the ICDR Regulations?",
+      "expectedFacts": [
+        "within 15 days from the date of the notice"
+      ],
+      "acceptableDocuments": [
+        "legal_b6b76f6091d967e39036d6b7"
+      ],
+      "note": "Sampled provision #48: Non-compliance with certain provisions of SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2009, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_b6b76f6091d967e39036d6b7, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-50",
+      "family": "ho4-sebi-50",
+      "type": "direct_lookup",
+      "question": "On what basis do Regulations 15 to 27 of the SEBI LODR Regulations apply to high value debt listed entities?",
+      "expectedFacts": [
+        "comply or explain"
+      ],
+      "acceptableDocuments": [
+        "legal_44f1ae48b3e3f1a0f98e8ce2"
+      ],
+      "note": "Sampled provision #50: Disclosure obligations of high value debt listed entities in relation to Related Party Transactions, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_44f1ae48b3e3f1a0f98e8ce2, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-51",
+      "family": "ho4-sebi-51",
+      "type": "direct_lookup",
+      "question": "Under the SEBI (Form of Annual Statement of Accounts and Records) Rules, 1994, for how long must SEBI preserve its Balance Sheet and accounts?",
+      "expectedFacts": [
+        "minimum period of five years"
+      ],
+      "acceptableDocuments": [
+        "legal_055f473055c733e82a7fe984"
+      ],
+      "note": "Sampled provision #51: SEBI (Form of Annual Statement of Accounts and Records) Rules, 1994, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_055f473055c733e82a7fe984, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-52",
+      "family": "ho4-sebi-52",
+      "type": "direct_lookup",
+      "question": "Through whom must SEBI regulated entities conduct annual accessibility audits of their digital platforms?",
+      "expectedFacts": [
+        "IAAP certified accessibility professionals"
+      ],
+      "acceptableDocuments": [
+        "legal_6a7d06c2fda017e52e94c11e"
+      ],
+      "note": "Sampled provision #52: Rights of Persons with Disabilities Act, 2016 and rules made thereunder- mandatory compliance by all Regulated Entities, page 10.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_6a7d06c2fda017e52e94c11e, page 10"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-53",
+      "family": "ho4-sebi-53",
+      "type": "direct_lookup",
+      "question": "Under SEBI's guidance on issue and listing of municipal debt securities, for which period must issuers disclose details of all borrowings?",
+      "expectedFacts": [
+        "three years"
+      ],
+      "acceptableDocuments": [
+        "legal_06e8e9c93836736935668ebf"
+      ],
+      "note": "Sampled provision #53: Guidance Note on SEBI (Issue and Listing of Municipal Debt Securities) Regulations, 2015, page 3.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_06e8e9c93836736935668ebf, page 3"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-54",
+      "family": "ho4-sebi-54",
+      "type": "direct_lookup",
+      "question": "Which law governs the limitation period for filing an arbitration reference under the stock exchange arbitration mechanism?",
+      "expectedFacts": [
+        "Limitation Act, 1963"
+      ],
+      "acceptableDocuments": [
+        "legal_369a08d72789034114f1ec8e"
+      ],
+      "note": "Sampled provision #54: Arbitration mechanism of stock exchanges - Applicability of the provisions of the Limitation Act, 1963, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_369a08d72789034114f1ec8e, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-55",
+      "family": "ho4-sebi-55",
+      "type": "direct_lookup",
+      "question": "What minimum share of their secondary market corporate bond trades must portfolio managers place through the stock exchanges' Request for Quote platform each month?",
+      "expectedFacts": [
+        "at least 10%"
+      ],
+      "acceptableDocuments": [
+        "legal_584434330d18ef0139cee3d9"
+      ],
+      "note": "Sampled provision #55: Transaction in Corporate Bonds through Request for Quote platform by Portfolio Management Services (PMS), page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_584434330d18ef0139cee3d9, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-56",
+      "family": "ho4-sebi-56",
+      "type": "direct_lookup",
+      "question": "Under the SEBI (Alternative Investment Funds) Regulations, within what time must an applicant with in-principle approval comply with regulation 4 before registration?",
+      "expectedFacts": [
+        "within six months from the date of grant of in-principle approval"
+      ],
+      "acceptableDocuments": [
+        "legal_3963e499746ab0398eda9558"
+      ],
+      "note": "Sampled provision #56: Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012 [Last amended on Last amended on July 14, 2026], page 19.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_3963e499746ab0398eda9558, page 19"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-57",
+      "family": "ho4-sebi-57",
+      "type": "direct_lookup",
+      "question": "Under the SEBI (Registrars to an Issue and Share Transfer Agents) Regulations, the grant of a certificate of registration is subject to payment of the fee specified in which regulation?",
+      "expectedFacts": [
+        "regulation 14"
+      ],
+      "acceptableDocuments": [
+        "legal_fb0f6c966dfa9c3c27dcd668"
+      ],
+      "note": "Sampled provision #57: Securities and Exchange Board of India (Registrars to an Issue and Share Transfer Agents) Regulations, 2025, page 28.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_fb0f6c966dfa9c3c27dcd668, page 28"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-58",
+      "family": "ho4-sebi-58",
+      "type": "direct_lookup",
+      "question": "From when does SEBI's advertisement code for Investment Advisers and Research Analysts apply?",
+      "expectedFacts": [
+        "May 01, 2023"
+      ],
+      "acceptableDocuments": [
+        "legal_f7c580f684ff88ab87e6383d"
+      ],
+      "note": "Sampled provision #58: Advertisement code for Investment Advisers (IA) and Research Analysts (RA), page 5.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_f7c580f684ff88ab87e6383d, page 5"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-61",
+      "family": "ho4-sebi-61",
+      "type": "direct_lookup",
+      "question": "Under the Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, for how long is an in-principle approval granted by SEBI valid?",
+      "expectedFacts": [
+        "valid for a period of one year"
+      ],
+      "acceptableDocuments": [
+        "legal_6183aba9ac085ca1931b581e"
+      ],
+      "note": "Sampled provision #61: Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, 2018 [Last amended on November 22, 2025], page 8.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_6183aba9ac085ca1931b581e, page 8"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-sebi-63",
+      "family": "ho4-sebi-63",
+      "type": "direct_lookup",
+      "question": "Under SEBI's circular on applicability of the Delisting Regulations, within what time must the book building process have been opened for a delisting offer to count as \"acted upon\"?",
+      "expectedFacts": [
+        "within three months from the date of this circular"
+      ],
+      "acceptableDocuments": [
+        "legal_ccbb3fc76423ceab6f9a7901"
+      ],
+      "note": "Sampled provision #63: Applicability of Securities and Exchange Board of India (Delisting of Equity Shares) Regulations, 2009 (Delisting Regulations)- Transitional Provisions, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_ccbb3fc76423ceab6f9a7901, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-71",
+      "family": "ho4-gst-71",
+      "type": "direct_lookup",
+      "question": "In which form does an electronic commerce operator collecting tax at source under section 52 furnish its annual statement under the CGST Rules?",
+      "expectedFacts": [
+        "FORM GSTR -9B"
+      ],
+      "acceptableDocuments": [
+        "legal_01064e47c2f1c997e6597ec7",
+        "legal_1ded0b167e5ee5f27fa2afd4",
+        "legal_2a5d2e59022ac1a5e7ce898a",
+        "legal_3ae742d1f27dd7bd10d7bd49",
+        "legal_5262dff288c5db3f4bd6b6e5",
+        "legal_5d6d20ff301aedf16d988bc3",
+        "legal_828925ae96dffe1d17bb179a",
+        "legal_be7dcefe7b22683ef765fcdc",
+        "legal_fea0f15e22d9a9524a0deb44"
+      ],
+      "note": "Sampled provision #71: 03042020-CGST-Rules-2017-Part-A-Rules.pdf, page 78.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_5262dff288c5db3f4bd6b6e5, page 78"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-72",
+      "family": "ho4-gst-72",
+      "type": "direct_lookup",
+      "question": "Under the CGST Rules, in which form does the Appellate Authority issue a summary of its order showing the final demand confirmed?",
+      "expectedFacts": [
+        "FORM GST APL-04"
+      ],
+      "acceptableDocuments": [
+        "legal_9b617a6503706f98bf3e560b"
+      ],
+      "note": "Sampled provision #72: 01012022-CGST-Rules-2017-amended_Part-A.pdf, page 130.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9b617a6503706f98bf3e560b, page 130"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-73",
+      "family": "ho4-gst-73",
+      "type": "direct_lookup",
+      "question": "Under the CGST Act, by when must a person deducting tax at source under section 51 file the return for a month?",
+      "expectedFacts": [
+        "within ten days after the end of such month"
+      ],
+      "acceptableDocuments": [
+        "legal_1ff27caaf1293da6578e4184",
+        "legal_4db47a4ed2af6e61864049fa",
+        "legal_f7317f3ae40c2f41ab777acb"
+      ],
+      "note": "Sampled provision #73: CGST-Act-Updated-30092020.pdf, page 71.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_4db47a4ed2af6e61864049fa, page 71"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-74",
+      "family": "ho4-gst-74",
+      "type": "direct_lookup",
+      "question": "For recovery under section 79 of the CGST Act, what does \"self-assessed tax\" include?",
+      "expectedFacts": [
+        "outward supplies furnished under section 37"
+      ],
+      "acceptableDocuments": [
+        "legal_9c86af8dc08409d082190791"
+      ],
+      "note": "Sampled provision #74: Guidelines-recovery-section-79-CGST-Act-2017.pdf, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9c86af8dc08409d082190791, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-75",
+      "family": "ho4-gst-75",
+      "type": "direct_lookup",
+      "question": "Under the CGST Rules, at what rate is tax paid on an advance received when the rate of tax is not determinable?",
+      "expectedFacts": [
+        "eighteen per cent"
+      ],
+      "acceptableDocuments": [
+        "legal_01064e47c2f1c997e6597ec7",
+        "legal_1ded0b167e5ee5f27fa2afd4",
+        "legal_2a5d2e59022ac1a5e7ce898a",
+        "legal_3ae742d1f27dd7bd10d7bd49",
+        "legal_5262dff288c5db3f4bd6b6e5",
+        "legal_5c9739664b2a304ae54e1a82",
+        "legal_5d6d20ff301aedf16d988bc3",
+        "legal_828925ae96dffe1d17bb179a",
+        "legal_93a378e34cad271eef0bfed2",
+        "legal_be7dcefe7b22683ef765fcdc",
+        "legal_f8a15a34eaa40671ad717689",
+        "legal_fea0f15e22d9a9524a0deb44"
+      ],
+      "note": "Sampled provision #75: 15102020_CGST-Rules-2017-Part-A-Rules.pdf, page 59.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_828925ae96dffe1d17bb179a, page 59"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-76",
+      "family": "ho4-gst-76",
+      "type": "direct_lookup",
+      "question": "Under the CGST Act, where is the National Bench of the GST Appellate Tribunal situated?",
+      "expectedFacts": [
+        "New Delhi"
+      ],
+      "acceptableDocuments": [
+        "legal_1ff27caaf1293da6578e4184",
+        "legal_4db47a4ed2af6e61864049fa",
+        "legal_f7317f3ae40c2f41ab777acb"
+      ],
+      "note": "Sampled provision #76: CGST-Act-Updated-01082021.pdf, page 136.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_f7317f3ae40c2f41ab777acb, page 136"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-77",
+      "family": "ho4-gst-77",
+      "type": "direct_lookup",
+      "question": "Under the Tamil Nadu GST Rules, to whom must the Director General of Safeguards make available the evidence presented by one interested party?",
+      "expectedFacts": [
+        "other interested parties"
+      ],
+      "acceptableDocuments": [
+        "legal_b35c9632764cca85e07fd311"
+      ],
+      "note": "Sampled provision #77: TAMIL NADU GOODS AND SERVICES TAX RULES, 2017, page 68.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_b35c9632764cca85e07fd311, page 68"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-79",
+      "family": "ho4-gst-79",
+      "type": "direct_lookup",
+      "question": "Under the CGST Rules, where does a registered person declare ineligible input tax credit that cannot be determined at invoice level?",
+      "expectedFacts": [
+        "FORM GSTR-2"
+      ],
+      "acceptableDocuments": [
+        "legal_2405bdc0fdf85351963c2cab",
+        "legal_2749c6a929b2d68341f8a276",
+        "legal_5c0d8b0c504a518451417048"
+      ],
+      "note": "Sampled provision #79: cgst-rules-18042018.pdf, page 53.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_5c0d8b0c504a518451417048, page 53"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-80",
+      "family": "ho4-gst-80",
+      "type": "direct_lookup",
+      "question": "In which form does the concerned officer appeal against an advance ruling under the GST advance ruling rules, and is a fee payable?",
+      "expectedFacts": [
+        "FORM GST ARA-3",
+        "no fee shall be payable"
+      ],
+      "acceptableDocuments": [
+        "legal_4eae5aa31e6f0ea60e7ffefc"
+      ],
+      "note": "Sampled provision #80: advance-ruling-authority-rules.pdf, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_4eae5aa31e6f0ea60e7ffefc, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-82",
+      "family": "ho4-gst-82",
+      "type": "direct_lookup",
+      "question": "Under the GST anti-profiteering rules, at what age is a person no longer eligible to be selected as a Technical Member?",
+      "expectedFacts": [
+        "sixty-two years"
+      ],
+      "acceptableDocuments": [
+        "legal_c4cda53ec366be6cc56fbce5"
+      ],
+      "note": "Sampled provision #82: anti-profiteering-rules.pdf, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_c4cda53ec366be6cc56fbce5, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-85",
+      "family": "ho4-gst-85",
+      "type": "direct_lookup",
+      "question": "Under the Maharashtra GST (Compensation to the Local Authorities) Act, how is the projected revenue for the first year of a local authority calculated?",
+      "expectedFacts": [
+        "projected growth rate over the base year revenue"
+      ],
+      "acceptableDocuments": [
+        "legal_e2d7cdc987fd5ada319123d2"
+      ],
+      "note": "Sampled provision #85: The Maharashtra Goods and Services Tax (Compensation to the Local Authorities) Act, 2017, page 4.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_e2d7cdc987fd5ada319123d2, page 4"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-86",
+      "family": "ho4-gst-86",
+      "type": "direct_lookup",
+      "question": "Under the Maharashtra GST Rules, 2017, from when is the option to pay tax under composition levy effective where intimation is filed under sub-rule (3) of rule 3?",
+      "expectedFacts": [
+        "beginning of the financial year"
+      ],
+      "acceptableDocuments": [
+        "legal_9f94a270c0a7922f42888808"
+      ],
+      "note": "Sampled provision #86: Maharashtra Goods and Services Tax Rules, 2017., page 17.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9f94a270c0a7922f42888808, page 17"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-87",
+      "family": "ho4-gst-87",
+      "type": "direct_lookup",
+      "question": "Under section 73 of the CGST Act, what does the proper officer do if the amount paid falls short of the amount actually payable?",
+      "expectedFacts": [
+        "issue the notice as provided for in sub-section (1)"
+      ],
+      "acceptableDocuments": [
+        "legal_04f1a718758ad47178cc62f5"
+      ],
+      "note": "Sampled provision #87: CGST Act, 2017 as amended up to 01.01.2022, page 109.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_04f1a718758ad47178cc62f5, page 109"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-89",
+      "family": "ho4-gst-89",
+      "type": "direct_lookup",
+      "question": "Under the Delhi GST Act, in what manner is the amount in default determined for tax collected but not paid?",
+      "expectedFacts": [
+        "section 73 or section 74"
+      ],
+      "acceptableDocuments": [
+        "legal_6277b73c3566d6a92eaa1afc"
+      ],
+      "note": "Sampled provision #89: THE DELHI GOODS AND SERVICES TAX ACT, 2017, page 49.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_6277b73c3566d6a92eaa1afc, page 49"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-90",
+      "family": "ho4-gst-90",
+      "type": "direct_lookup",
+      "question": "Under the CGST Rules, how is duplication of claims for reduction in output tax liability communicated to the registered person?",
+      "expectedFacts": [
+        "FORM GST MIS-1"
+      ],
+      "acceptableDocuments": [
+        "legal_01064e47c2f1c997e6597ec7",
+        "legal_1ded0b167e5ee5f27fa2afd4",
+        "legal_2a5d2e59022ac1a5e7ce898a",
+        "legal_3ae742d1f27dd7bd10d7bd49",
+        "legal_5262dff288c5db3f4bd6b6e5",
+        "legal_5c9739664b2a304ae54e1a82",
+        "legal_5d6d20ff301aedf16d988bc3",
+        "legal_828925ae96dffe1d17bb179a",
+        "legal_93a378e34cad271eef0bfed2",
+        "legal_be7dcefe7b22683ef765fcdc",
+        "legal_f8a15a34eaa40671ad717689",
+        "legal_fea0f15e22d9a9524a0deb44"
+      ],
+      "note": "Sampled provision #90: 05052020-CGST-Rules-2017-Part-A-Rules.pdf, page 77.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_be7dcefe7b22683ef765fcdc, page 77"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-94",
+      "family": "ho4-gst-94",
+      "type": "direct_lookup",
+      "question": "Under the CGST Rules, how is input tax credit on capital goods used for more than one project assigned?",
+      "expectedFacts": [
+        "assigned to each project on a reasonable basis"
+      ],
+      "acceptableDocuments": [
+        "legal_01064e47c2f1c997e6597ec7",
+        "legal_1ded0b167e5ee5f27fa2afd4",
+        "legal_2a5d2e59022ac1a5e7ce898a",
+        "legal_3ae742d1f27dd7bd10d7bd49",
+        "legal_5262dff288c5db3f4bd6b6e5",
+        "legal_5c9739664b2a304ae54e1a82",
+        "legal_5d6d20ff301aedf16d988bc3",
+        "legal_828925ae96dffe1d17bb179a",
+        "legal_93a378e34cad271eef0bfed2",
+        "legal_be7dcefe7b22683ef765fcdc",
+        "legal_f8a15a34eaa40671ad717689",
+        "legal_fea0f15e22d9a9524a0deb44"
+      ],
+      "note": "Sampled provision #94: 01062021-CGST-Rules-2017-Part-A-Rules.pdf, page 50.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_5c9739664b2a304ae54e1a82, page 50"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-95",
+      "family": "ho4-gst-95",
+      "type": "direct_lookup",
+      "question": "Under the Telangana GST Act, what is the last date for rectifying an omission or incorrect particulars in a statement?",
+      "expectedFacts": [
+        "thirtieth day of November"
+      ],
+      "acceptableDocuments": [
+        "legal_466ccb2908baca3632bc90d9"
+      ],
+      "note": "Sampled provision #95: The Telangana Goods and Services Tax Act, 2017., page 113.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_466ccb2908baca3632bc90d9, page 113"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-gst-98",
+      "family": "ho4-gst-98",
+      "type": "direct_lookup",
+      "question": "Under the GST return rules, where are the details of tax collected at source furnished by an e-commerce operator in GSTR-8 made available to the recipient?",
+      "expectedFacts": [
+        "Part C of FORM GSTR-2A"
+      ],
+      "acceptableDocuments": [
+        "legal_3be95a3de08b937e65ed3eb7"
+      ],
+      "note": "Sampled provision #98: 03062017-return-rules.pdf, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_3be95a3de08b937e65ed3eb7, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-trademarks-99",
+      "family": "ho4-trademarks-99",
+      "type": "direct_lookup",
+      "question": "In which form is a request for adjournment of a trade mark hearing made?",
+      "expectedFacts": [
+        "Form TM-56"
+      ],
+      "acceptableDocuments": [
+        "legal_76b2cfb0231695467e3c130e"
+      ],
+      "note": "Sampled provision #99: Draft manual of Trademarks Practice and Procedure inviting Comments/Suggestion, page 112.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_76b2cfb0231695467e3c130e, page 112"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-trademarks-100",
+      "family": "ho4-trademarks-100",
+      "type": "direct_lookup",
+      "question": "Under the Trade Marks Rules, 2002, what must an applicant state when the specification of goods or services exceeds five hundred characters?",
+      "expectedFacts": [
+        "exact number of excess characters"
+      ],
+      "acceptableDocuments": [
+        "legal_537d7444982d6b409452c8be"
+      ],
+      "note": "Sampled provision #100: Trade Marks Rules 2002, Forms & Fee, page 235.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_537d7444982d6b409452c8be, page 235"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-trademarks-102",
+      "family": "ho4-trademarks-102",
+      "type": "direct_lookup",
+      "question": "Under the Trade Marks Act, 1999, how is a Bench of the Appellate Board constituted?",
+      "expectedFacts": [
+        "one Judicial Member and one Technical Member"
+      ],
+      "acceptableDocuments": [
+        "legal_07aa58f3262a4d764c087577"
+      ],
+      "note": "Sampled provision #102: Trade Marks Act 1999, page 32.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_07aa58f3262a4d764c087577, page 32"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-104",
+      "family": "ho4-ibbi-104",
+      "type": "direct_lookup",
+      "question": "Under the Insolvency and Bankruptcy Code, within how many days must the Adjudicating Authority refer an application for replacement of a resolution professional to the Board?",
+      "expectedFacts": [
+        "within seven days"
+      ],
+      "acceptableDocuments": [
+        "legal_9947ee636a425f4468e6a8d5",
+        "legal_ad096739006d213252534b91",
+        "legal_e402ef3843e853c504c7dda1",
+        "legal_e6eb19b921aeecfd88e47e68",
+        "legal_f0ed6353d3ad61805b828418",
+        "legal_f99be52c9836c2e7fb46f63f",
+        "legal_fa46e849cd1da1118aeb43d8"
+      ],
+      "note": "Sampled provision #104: The Insolvency and Bankruptcy Code, 2016 (Upto 12.08.2021), page 95.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_f99be52c9836c2e7fb46f63f, page 95"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-106",
+      "family": "ho4-ibbi-106",
+      "type": "direct_lookup",
+      "question": "Under the IBBI (Mechanism for Issuing Regulations) Regulations, 2018, when are regulations ordinarily enforced after notification?",
+      "expectedFacts": [
+        "after thirty days from the date of notification"
+      ],
+      "acceptableDocuments": [
+        "legal_2b6596dd1b258d8ca98b11a5"
+      ],
+      "note": "Sampled provision #106: IBBI (Mechanism for Issuing Regulations) Regulations, 2018, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_2b6596dd1b258d8ca98b11a5, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-109",
+      "family": "ho4-ibbi-109",
+      "type": "direct_lookup",
+      "question": "Under the IBBI CIRP Regulations, when must a resolution professional place a proposal from committee members before a meeting?",
+      "expectedFacts": [
+        "at least thirty three per cent of the voting rights"
+      ],
+      "acceptableDocuments": [
+        "legal_087acc74123f87be62aba65d",
+        "legal_26fe84a326b8d39ca213ca08",
+        "legal_271f84162290a18f64739740",
+        "legal_2cb9430e783ccc570d592f8b",
+        "legal_374f6c130f037083bafc69ff",
+        "legal_42a475eb8447a50556c8a79a",
+        "legal_741f3c5a69d315e9370abd89",
+        "legal_874d47e4660b66962c65e729",
+        "legal_8e5e7f115b1f1dd718504b02",
+        "legal_95b5f039fe174a422034733c",
+        "legal_a2a1b6c6c3a99194118f9466",
+        "legal_bc2161127cfdec4755b9530d",
+        "legal_d2ec9d454e834c97c822880a",
+        "legal_decd9f4e3ed292e8ce773ead",
+        "legal_e27fccef5e68817b9fd965c6",
+        "legal_f8ef9aac5e38d414e613afe2",
+        "legal_fdd2b2815bea3f6e281d6583"
+      ],
+      "note": "Sampled provision #109: IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 (Amended upto 14.06.2022), page 17.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_decd9f4e3ed292e8ce773ead, page 17"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-111",
+      "family": "ho4-ibbi-111",
+      "type": "direct_lookup",
+      "question": "Under the IBBI CIRP Regulations, how many Form CIRP 7 may be filed at any time?",
+      "expectedFacts": [
+        "Only one Form CIRP 7"
+      ],
+      "acceptableDocuments": [
+        "legal_087acc74123f87be62aba65d",
+        "legal_31473f46211a26329c43a704",
+        "legal_374f6c130f037083bafc69ff",
+        "legal_42a475eb8447a50556c8a79a",
+        "legal_741f3c5a69d315e9370abd89",
+        "legal_874d47e4660b66962c65e729",
+        "legal_a2a1b6c6c3a99194118f9466",
+        "legal_a86919f6399c5e4fb515efbe",
+        "legal_bc2161127cfdec4755b9530d",
+        "legal_c77c3a9c6c37a538c2661b03",
+        "legal_decd9f4e3ed292e8ce773ead",
+        "legal_fdd2b2815bea3f6e281d6583"
+      ],
+      "note": "Sampled provision #111: IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 (Amended upto 09.02.2022), page 50.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_42a475eb8447a50556c8a79a, page 50"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-113",
+      "family": "ho4-ibbi-113",
+      "type": "direct_lookup",
+      "question": "Under the IBBI bankruptcy process regulations for personal guarantors, what must the bankruptcy trustee record about consultations?",
+      "expectedFacts": [
+        "record and maintain the particulars of any consultation"
+      ],
+      "acceptableDocuments": [
+        "legal_3e91b9a6e8853fbf09a85a66",
+        "legal_a2009507308b541d70173464",
+        "legal_bc7b882649e67c52766fa6e9",
+        "legal_ddc698ef24344a5a901c3468"
+      ],
+      "note": "Sampled provision #113: IBBI (Bankruptcy Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (Amended upto 25-02-2026), page 6.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_ddc698ef24344a5a901c3468, page 6"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-114",
+      "family": "ho4-ibbi-114",
+      "type": "direct_lookup",
+      "question": "Under the IBBI (Grievance and Complaint Handling Procedure) Regulations, 2017, within what time must a grievance or complaint be filed?",
+      "expectedFacts": [
+        "within forty-five days of the occurrence of the cause of action"
+      ],
+      "acceptableDocuments": [
+        "legal_7514d44dd260dab4aad39cd8",
+        "legal_ae91d7ad1e4abd8fa842321b",
+        "legal_fbf62d4fad43d47646d566a3"
+      ],
+      "note": "Sampled provision #114: IBBI (Grievance and Complaint Handling Procedure) Regulations, 2017 (amended upto 14.06.2022), page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_fbf62d4fad43d47646d566a3, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-115",
+      "family": "ho4-ibbi-115",
+      "type": "direct_lookup",
+      "question": "Under the IBBI (Grievance and Complaint Handling Procedure) Regulations, 2017, within how many days must the complainant and service provider submit information sought by the Board?",
+      "expectedFacts": [
+        "seven"
+      ],
+      "acceptableDocuments": [
+        "legal_7514d44dd260dab4aad39cd8",
+        "legal_ae91d7ad1e4abd8fa842321b",
+        "legal_fbf62d4fad43d47646d566a3"
+      ],
+      "note": "Sampled provision #115: IBBI (Grievance and Complaint Handling Procedure) Regulations, 2017 (Amended upto 03-06-2026), page 4.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_ae91d7ad1e4abd8fa842321b, page 4"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-116",
+      "family": "ho4-ibbi-116",
+      "type": "direct_lookup",
+      "question": "Under the Companies (Registered Valuers and Valuation) Rules, 2017, how must a valuer value until valuation standards are notified?",
+      "expectedFacts": [
+        "internationally accepted valuation"
+      ],
+      "acceptableDocuments": [
+        "legal_00290bef6603b30310a1f749",
+        "legal_5022fb6531e71762b6f3fd4e",
+        "legal_509adaf580b25c4119a2583d",
+        "legal_682f357dcd4a038e2ddb5746",
+        "legal_71fbd6694337fa2bea44e1da",
+        "legal_d400d20e8f36819656646f99",
+        "legal_d5b7a8fb13906308b8f47600"
+      ],
+      "note": "Sampled provision #116: The Companies (Registered Valuers and Valuation) Rules, 2017 (upto 22-11-2022) (1005.21 KB), page 7.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_5022fb6531e71762b6f3fd4e, page 7"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-117",
+      "family": "ho4-ibbi-117",
+      "type": "direct_lookup",
+      "question": "In which form does a corporate applicant apply to initiate the pre-packaged insolvency resolution process?",
+      "expectedFacts": [
+        "in Form 1"
+      ],
+      "acceptableDocuments": [
+        "legal_a4f979f8a1a1cd371c7c5e29"
+      ],
+      "note": "Sampled provision #117: The Insolvency and Bankruptcy (pre-packaged insolvency resolution process) Rules, 2021 (1.87 MB), page 6.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_a4f979f8a1a1cd371c7c5e29, page 6"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-118",
+      "family": "ho4-ibbi-118",
+      "type": "direct_lookup",
+      "question": "Under the IBBI CIRP Regulations, within what time must the resolution professional circulate the record of voting to participants?",
+      "expectedFacts": [
+        "within twenty four hours of the conclusion of the voting"
+      ],
+      "acceptableDocuments": [
+        "legal_087acc74123f87be62aba65d",
+        "legal_26fe84a326b8d39ca213ca08",
+        "legal_271f84162290a18f64739740",
+        "legal_2cb9430e783ccc570d592f8b",
+        "legal_31473f46211a26329c43a704",
+        "legal_374f6c130f037083bafc69ff",
+        "legal_42a475eb8447a50556c8a79a",
+        "legal_448f06cc926c4ecd562d971f",
+        "legal_734226e387bae4fc5ecfc0e3",
+        "legal_741f3c5a69d315e9370abd89",
+        "legal_7716cfbb2e5a595dfa13f9a0",
+        "legal_7a09b18351bcb42cdfc550c3",
+        "legal_874d47e4660b66962c65e729",
+        "legal_89cf91cc884a398adb1ff6fd",
+        "legal_8e5e7f115b1f1dd718504b02",
+        "legal_95b5f039fe174a422034733c",
+        "legal_98c8a8f5a60c027dfc23e48b",
+        "legal_a2a1b6c6c3a99194118f9466",
+        "legal_a86919f6399c5e4fb515efbe",
+        "legal_bc2161127cfdec4755b9530d",
+        "legal_c10b54e4567d5bb5a4d8cfb1",
+        "legal_c77c3a9c6c37a538c2661b03",
+        "legal_d2ec9d454e834c97c822880a",
+        "legal_dc5313f9669b10436bdff7a9",
+        "legal_decd9f4e3ed292e8ce773ead",
+        "legal_e27fccef5e68817b9fd965c6",
+        "legal_e35d3f52a66b4baf5ec1f4f4",
+        "legal_e50110cb4ba50f2fd96b7d29",
+        "legal_e7399e7a058026291eca4342",
+        "legal_f088ccf9da67ec596b85aee6",
+        "legal_f8ef9aac5e38d414e613afe2",
+        "legal_fdd2b2815bea3f6e281d6583",
+        "legal_ff5ccfc012447c3c54e070ce"
+      ],
+      "note": "Sampled provision #118: IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 (Amended upto 30.09.2021), page 23.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_31473f46211a26329c43a704, page 23"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-119",
+      "family": "ho4-ibbi-119",
+      "type": "direct_lookup",
+      "question": "Under the IBBI insolvency resolution regulations for personal guarantors, until when may the resolution professional modify the amounts of claims admitted?",
+      "expectedFacts": [
+        "till the approval of a repayment plan by the creditors"
+      ],
+      "acceptableDocuments": [
+        "legal_26e01ba0e7b4701e29ddc626",
+        "legal_8759ed16f724b1aa358463a6",
+        "legal_953102f118d0b9c79452391a",
+        "legal_9744ed85025d0ab964266ec0",
+        "legal_afbfbb03ad7349c9d892039c"
+      ],
+      "note": "Sampled provision #119: IBBI (Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (Amended upto 19-05-2025), page 3.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_8759ed16f724b1aa358463a6, page 3"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-120",
+      "family": "ho4-ibbi-120",
+      "type": "direct_lookup",
+      "question": "Under the IBBI (Information Utilities) Regulations, 2017, within what time must an existing information utility comply with regulations 9 and 9A?",
+      "expectedFacts": [
+        "within one year from the date of such commencement"
+      ],
+      "acceptableDocuments": [
+        "legal_6a75f4a776cbfb706471149e",
+        "legal_72e788a0cde946c805ae9bc5",
+        "legal_73e67426b1b6d6c02fd91474",
+        "legal_8d2408466f3103d81f74abbe",
+        "legal_bbd124deb420a9b570de3926",
+        "legal_c5452892e0144ddc19550224",
+        "legal_f7819ef4d95cf860c2756822"
+      ],
+      "note": "Sampled provision #120: IBBI (Information Utilities) Regulations, 2017 (Amended upto 25.07.2019), page 11.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_bbd124deb420a9b570de3926, page 11"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-121",
+      "family": "ho4-ibbi-121",
+      "type": "direct_lookup",
+      "question": "Under the Insolvency and Bankruptcy (Application to Adjudicating Authority) Rules, what certificate must accompany an application proposing an insolvency professional?",
+      "expectedFacts": [
+        "certificate confirming the eligibility of the proposed insolvency professional"
+      ],
+      "acceptableDocuments": [
+        "legal_0a9d4fc3b3333dc10a927754",
+        "legal_3b87c02dfbe36d1efac1cdc4",
+        "legal_5b41222308f4cac18a427b22"
+      ],
+      "note": "Sampled provision #121: The Insolvency and Bankruptcy (Application to Adjudicating Authority) Rules, 2016., page 15.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_3b87c02dfbe36d1efac1cdc4, page 15"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-123",
+      "family": "ho4-ibbi-123",
+      "type": "direct_lookup",
+      "question": "Under IBBI's guidelines for appointment of insolvency professionals as administrators, for how long is a panel valid?",
+      "expectedFacts": [
+        "valid for six months"
+      ],
+      "acceptableDocuments": [
+        "legal_1da266e136460fefd11972a0"
+      ],
+      "note": "Sampled provision #123: Guidelines for Appointment of Insolvency Professionals as Administrators under the Securities and Exchange Board of India (Appointment of Administrator and Procedure for Refunding to the Investors) Regulations, 2018 (381.06 KB), page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_1da266e136460fefd11972a0, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-124",
+      "family": "ho4-ibbi-124",
+      "type": "direct_lookup",
+      "question": "Under the Insolvency and Bankruptcy Code, within how many days of appointment must the resolution professional examine an application under section 94 or 95?",
+      "expectedFacts": [
+        "within ten days of his appointment"
+      ],
+      "acceptableDocuments": [
+        "legal_cdc723a50ddd781a6510b4fd"
+      ],
+      "note": "Sampled provision #124: The Insolvency and Bankrutpcy Code, 2016 (Upto 06.08.2019), page 79.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_cdc723a50ddd781a6510b4fd, page 79"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-125",
+      "family": "ho4-ibbi-125",
+      "type": "direct_lookup",
+      "question": "Under the IBBI (Voluntary Liquidation Process) Regulations, 2017, for how long must the liquidator preserve the reports, registers and books of account?",
+      "expectedFacts": [
+        "at least eight years after the dissolution"
+      ],
+      "acceptableDocuments": [
+        "legal_006536e005faa621d001e35e",
+        "legal_0098046001c24b0d3f2a42b7",
+        "legal_42969c5237500343d5d21626",
+        "legal_66124ee763e4ff01bbff177b",
+        "legal_6a35fcd2842079eaa79c9f2c",
+        "legal_9ca4c24622a6041abf10aa1f",
+        "legal_cb6929a53fe5dc3ef0f14103",
+        "legal_e53bfe58fcf0b46f6d2e4c75"
+      ],
+      "note": "Sampled provision #125: IBBI (Voluntary Liquidation Process) Regulations, 2017 (Amended upto 15.01.2020), page 17.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_006536e005faa621d001e35e, page 17"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-126",
+      "family": "ho4-ibbi-126",
+      "type": "direct_lookup",
+      "question": "Under the IBBI (Liquidation Process) Regulations, 2016, within how many days of the public notice must the liquidator complete an auction?",
+      "expectedFacts": [
+        "within thirty-five days from the issue of public notice"
+      ],
+      "acceptableDocuments": [
+        "legal_1376c653136bd3c432798125",
+        "legal_266f1377b5655aa84b87622d",
+        "legal_6fd2f762a6d601b571a8ca16",
+        "legal_712324625977554ac3ea8336",
+        "legal_80a5782049f984f61d992548",
+        "legal_849fa7d51913dd8fd8a3ef4b",
+        "legal_c119af02510b2ab297c38611",
+        "legal_cbf9622da606dfece89f7aa4"
+      ],
+      "note": "Sampled provision #126: IBBI (Liquidation Process) Regulations, 2016 (Amended upto 20-05-2026), page 43.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_80a5782049f984f61d992548, page 43"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-ibbi-128",
+      "family": "ho4-ibbi-128",
+      "type": "direct_lookup",
+      "question": "How does the Insolvency and Bankruptcy Code, 2016 define a \"personal guarantor\"?",
+      "expectedFacts": [
+        "an individual who is the surety in a contract of guarantee to a corporate debtor"
+      ],
+      "acceptableDocuments": [
+        "legal_9947ee636a425f4468e6a8d5",
+        "legal_ad096739006d213252534b91",
+        "legal_e402ef3843e853c504c7dda1",
+        "legal_e6eb19b921aeecfd88e47e68",
+        "legal_f0ed6353d3ad61805b828418",
+        "legal_f99be52c9836c2e7fb46f63f",
+        "legal_fa46e849cd1da1118aeb43d8"
+      ],
+      "note": "Sampled provision #128: The Insolvency and Bankruptcy Code, 2016 (Upto 05.06.2020), page 9.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9947ee636a425f4468e6a8d5, page 9"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-135",
+      "family": "ho4-rbi-fema-135",
+      "type": "direct_lookup",
+      "question": "Under the FEMA (Overseas Investment) Regulations, 2022, when is reporting not required for a person resident in India holding equity in a foreign entity?",
+      "expectedFacts": [
+        "less than 10 per cent"
+      ],
+      "acceptableDocuments": [
+        "legal_bbec8ea1733de516408a0fe2",
+        "legal_f77d182ade92ece749e28fc4"
+      ],
+      "note": "Sampled provision #135: Foreign Exchange Management (Overseas Investment) Regulations, 2022, page 10.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_f77d182ade92ece749e28fc4, page 10"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-136",
+      "family": "ho4-rbi-fema-136",
+      "type": "direct_lookup",
+      "question": "When did the Foreign Exchange (Authentication of Documents) Rules, 2000 come into force?",
+      "expectedFacts": [
+        "1st day of June, 2000"
+      ],
+      "acceptableDocuments": [
+        "legal_4482ac9df573a8a404f718df"
+      ],
+      "note": "Sampled provision #136: Foreign Exchange (Authentication of Documents) Rules, 2000, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_4482ac9df573a8a404f718df, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-137",
+      "family": "ho4-rbi-fema-137",
+      "type": "direct_lookup",
+      "question": "Under the Foreign Exchange Management (Encashment of Draft, Cheque, Instrument and Payment of Interest) Rules, in what manner is a notice to an appellant served?",
+      "expectedFacts": [
+        "manner specified in rule 9"
+      ],
+      "acceptableDocuments": [
+        "legal_57046412979470e564428a07"
+      ],
+      "note": "Sampled provision #137: Foreign Exchange Management (Encashment of Draft, Cheque, Instrument and Payment of Interest) Rules, 2000, page 19.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_57046412979470e564428a07, page 19"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-138",
+      "family": "ho4-rbi-fema-138",
+      "type": "direct_lookup",
+      "question": "Within how many days must an LLP receiving consideration for capital contribution file Form LLP (I) under FEMA?",
+      "expectedFacts": [
+        "within 30 days from the date of receipt of the amount of consideration"
+      ],
+      "acceptableDocuments": [
+        "legal_98a14d6a3795514652bcfa42",
+        "legal_d4933d0d113b158fd227128b"
+      ],
+      "note": "Sampled provision #138: Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) Regulations, 2019, page 8.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_d4933d0d113b158fd227128b, page 8"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-139",
+      "family": "ho4-rbi-fema-139",
+      "type": "direct_lookup",
+      "question": "Under the FEMA (Manner of Receipt and Payment) Regulations, what meaning does \"Authorised Bank\" have?",
+      "expectedFacts": [
+        "Foreign Exchange Management (Deposit) Regulations, 2016"
+      ],
+      "acceptableDocuments": [
+        "legal_71c59a9507d381459fb792a7",
+        "legal_e4b7c5f8b54f20286e9eb280"
+      ],
+      "note": "Sampled provision #139: Foreign Exchange Management (Manner of Receipt and Payment) Regulations, 2023, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_e4b7c5f8b54f20286e9eb280, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-140",
+      "family": "ho4-rbi-fema-140",
+      "type": "direct_lookup",
+      "question": "Under the FEMA (Deposit) Regulations, 2016, what happens to such an NRO account once the account holder becomes a citizen of India?",
+      "expectedFacts": [
+        "converted to a resident account"
+      ],
+      "acceptableDocuments": [
+        "legal_5c22f27aa29a62ebc3781dec",
+        "legal_ef6e6e9591d03ff75c523fe7"
+      ],
+      "note": "Sampled provision #140: Foreign Exchange Management (Deposit) Regulations, 2016, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_5c22f27aa29a62ebc3781dec, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-141",
+      "family": "ho4-rbi-fema-141",
+      "type": "direct_lookup",
+      "question": "What is the short title of the FEMA regulations on the manner of receipt and payment issued in 2023?",
+      "expectedFacts": [
+        "Foreign Exchange Management (Manner of Receipt and Payment) Regulations, 2023"
+      ],
+      "acceptableDocuments": [
+        "legal_71c59a9507d381459fb792a7",
+        "legal_e4b7c5f8b54f20286e9eb280"
+      ],
+      "note": "Sampled provision #141: Foreign Exchange Management (Manner of Receipt and Payment) Regulations, 2023, page 3.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_71c59a9507d381459fb792a7, page 3"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-142",
+      "family": "ho4-rbi-fema-142",
+      "type": "direct_lookup",
+      "question": "Under the Foreign Exchange (Compounding Proceedings) Rules, 2024, when can a contravention not be compounded because a similar one was compounded earlier?",
+      "expectedFacts": [
+        "within a period of three years"
+      ],
+      "acceptableDocuments": [
+        "legal_8e79b24c9ce5cb91fdb9c6e0",
+        "legal_d4fcfb146ba9feb5b9f8e186"
+      ],
+      "note": "Sampled provision #142: Foreign Exchange (Compounding Proceedings) Rules, 2024, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_8e79b24c9ce5cb91fdb9c6e0, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-145",
+      "family": "ho4-rbi-fema-145",
+      "type": "direct_lookup",
+      "question": "Under the FEMA (Non-debt Instruments) Rules, 2019, which rules give the meaning of \"equity capital\"?",
+      "expectedFacts": [
+        "Foreign Exchange Management, (Overseas Investment) Rules, 2022"
+      ],
+      "acceptableDocuments": [
+        "legal_171e14971273fa7b6e746f39",
+        "legal_977b303c0eaa2554e3730b5a"
+      ],
+      "note": "Sampled provision #145: Foreign Exchange Management (Non-debt Instruments) Rules, 2019, page 6.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_977b303c0eaa2554e3730b5a, page 6"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-147",
+      "family": "ho4-rbi-fema-147",
+      "type": "direct_lookup",
+      "question": "Under the FEMA (Non-debt Instruments) Rules, 2019, within what time must an FPI notify the depositories and the company of a breach of investment limits?",
+      "expectedFacts": [
+        "seven trading days from the date of settlement"
+      ],
+      "acceptableDocuments": [
+        "legal_0abb3bc4163913463c71d89f",
+        "legal_171e14971273fa7b6e746f39",
+        "legal_9b55556808456b8e639a6a40"
+      ],
+      "note": "Sampled provision #147: Foreign Exchange Management (Non-debt Instruments) Rules, 2019, page 6.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9b55556808456b8e639a6a40, page 6"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-148",
+      "family": "ho4-rbi-fema-148",
+      "type": "direct_lookup",
+      "question": "By when must FFMCs submit their annual audited balance sheet to the Reserve Bank under the Master Direction on money changing activities?",
+      "expectedFacts": [
+        "October 31"
+      ],
+      "acceptableDocuments": [
+        "legal_9bfcb679701347fdd0f03ee7"
+      ],
+      "note": "Sampled provision #148: Master Direction - Money Changing Activities ( Updated as on June 24, 2026 ), page 27.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_9bfcb679701347fdd0f03ee7, page 27"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-149",
+      "family": "ho4-rbi-fema-149",
+      "type": "direct_lookup",
+      "question": "Under the FEMA (Authorised Persons) Regulations, 2026, what happens to pending applications if information sought by the Reserve Bank is not provided within thirty days?",
+      "expectedFacts": [
+        "deemed to have been rejected"
+      ],
+      "acceptableDocuments": [
+        "legal_48b41593dc2ff432869257ad",
+        "legal_6f3eb4a4612efcee5fe6c048"
+      ],
+      "note": "Sampled provision #149: Foreign Exchange Management (Authorised Persons) Regulations, 2026, page 10.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_6f3eb4a4612efcee5fe6c048, page 10"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-150",
+      "family": "ho4-rbi-fema-150",
+      "type": "direct_lookup",
+      "question": "How do the FEMA (Non-debt Instruments) Rules, 2019 define an \"Overseas Corporate Body\"?",
+      "expectedFacts": [
+        "an entity de-recognised"
+      ],
+      "acceptableDocuments": [
+        "legal_171e14971273fa7b6e746f39",
+        "legal_bbad4a0fcaa89698c32b15ea"
+      ],
+      "note": "Sampled provision #150: Foreign Exchange Management (Non-debt Instruments) Rules, 2019, page 63.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_bbad4a0fcaa89698c32b15ea, page 63"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-151",
+      "family": "ho4-rbi-fema-151",
+      "type": "direct_lookup",
+      "question": "Through whom must the full export value of goods exported be paid under the FEMA export regulations?",
+      "expectedFacts": [
+        "through an authorised dealer"
+      ],
+      "acceptableDocuments": [
+        "legal_18f1c0288e2959f46b846823"
+      ],
+      "note": "Sampled provision #151: Foreign Exchange Management (Export of Goods and Services) Regulations, 2015, page 5.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_18f1c0288e2959f46b846823, page 5"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-152",
+      "family": "ho4-rbi-fema-152",
+      "type": "direct_lookup",
+      "question": "When did the FEMA (Issue of Security in India by a branch, office or agency of a person resident outside India) Regulations, 2000 come into force?",
+      "expectedFacts": [
+        "1st day of June 2000"
+      ],
+      "acceptableDocuments": [
+        "legal_42a1a4ae5f0e5b144cc66c45"
+      ],
+      "note": "Sampled provision #152: Foreign Exchange Management (Issue of Security in India by a branch, office or agency of a person resident outside India) Regulations, 2000, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_42a1a4ae5f0e5b144cc66c45, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-155",
+      "family": "ho4-rbi-fema-155",
+      "type": "direct_lookup",
+      "question": "How do the FEMA (Permissible Capital Account Transactions) Regulations define a \"Derivative\"?",
+      "expectedFacts": [
+        "a financial contract, to be settled at a future date"
+      ],
+      "acceptableDocuments": [
+        "legal_57a6ee4a6cb3cca65312edca"
+      ],
+      "note": "Sampled provision #155: Foreign Exchange Management (Permissible Capital Account Transactions) Regulations, 2000, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_57a6ee4a6cb3cca65312edca, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-157",
+      "family": "ho4-rbi-fema-157",
+      "type": "direct_lookup",
+      "question": "Under the FEMA foreign currency accounts regulations, what meaning does the term \"relative\" have?",
+      "expectedFacts": [
+        "section 2(77) of the Companies Act, 2013"
+      ],
+      "acceptableDocuments": [
+        "legal_a678d46c32571c778e5c26af"
+      ],
+      "note": "Sampled provision #157: Foreign Exchange Management (Foreign Currency Accounts by a Person Resident in India) Regulations, 2015, page 2.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_a678d46c32571c778e5c26af, page 2"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-rbi-fema-160",
+      "family": "ho4-rbi-fema-160",
+      "type": "direct_lookup",
+      "question": "Within what time must authorised dealer banks submit the quarterly FEMA returns to the Reserve Bank, and through which system?",
+      "expectedFacts": [
+        "within thirty calendar days from the end of the respective quarter",
+        "Centralised Information Management System"
+      ],
+      "acceptableDocuments": [
+        "legal_7e44d9432e86c3d0ede3be79"
+      ],
+      "note": "Sampled provision #160: Reporting under Foreign Exchange Management Act, 1999 – Returns pertaining to Foreign Exchange Management (Guarantees) Regulations, 2026, page 1.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_7e44d9432e86c3d0ede3be79, page 1"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-income-tax-164",
+      "family": "ho4-income-tax-164",
+      "type": "direct_lookup",
+      "question": "How do the Income-tax Rules, 2026 define the \"Employees' State Insurance Fund\"?",
+      "expectedFacts": [
+        "Employees' State Insurance Act, 1948"
+      ],
+      "acceptableDocuments": [
+        "legal_35d24654acbbb489dcfaf24d"
+      ],
+      "note": "Sampled provision #164: Notification No. 22/2026 - Income-tax Rules, 2026, page 193.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_35d24654acbbb489dcfaf24d, page 193"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-income-tax-165",
+      "family": "ho4-income-tax-165",
+      "type": "direct_lookup",
+      "question": "Under the Income-tax Act, 2025, what does \"Board\" mean?",
+      "expectedFacts": [
+        "Central Board of Direct Taxes"
+      ],
+      "acceptableDocuments": [
+        "legal_d54a0ed6a91673d1a4fbcef9"
+      ],
+      "note": "Sampled provision #165: Income-tax Act, 2025 as amended by Finance Act, 2026, page 4.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_d54a0ed6a91673d1a4fbcef9, page 4"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": false,
+      "id": "ho4-income-tax-169",
+      "family": "ho4-income-tax-169",
+      "type": "direct_lookup",
+      "question": "Under the Income-tax Rules, 2026, within what time must the Board issue a notification under section 47(1)(a) on a complete application?",
+      "expectedFacts": [
+        "within two months from the end of the quarter"
+      ],
+      "acceptableDocuments": [
+        "legal_2f862294becce46f05c26661"
+      ],
+      "note": "Sampled provision #169: Income-tax Rules, 2026, page 44.",
+      "provenance": {
+        "source": "full-corpus-index",
+        "locators": [
+          "legal_2f862294becce46f05c26661, page 44"
+        ],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Provision chosen by seeded random sampling; question written for it; facts matched verbatim in the sampled page; accepted documents are every version of the same instrument containing the facts (computed mechanically).",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-murder-bns",
+      "family": "ho4-refusal-murder-bns",
+      "type": "insufficient_evidence",
+      "question": "What is the punishment for murder under the Bharatiya Nyaya Sanhita?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Criminal law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Criminal law is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-custody",
+      "family": "ho4-refusal-custody",
+      "type": "insufficient_evidence",
+      "question": "Who gets custody of a child after divorce in India?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Family law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Family law is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-pf-withdrawal",
+      "family": "ho4-refusal-pf-withdrawal",
+      "type": "insufficient_evidence",
+      "question": "How do I withdraw my provident fund balance online?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Provident fund procedure is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Provident fund procedure is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-gratuity",
+      "family": "ho4-refusal-gratuity",
+      "type": "insufficient_evidence",
+      "question": "How is gratuity calculated when an employee resigns?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Labour law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Labour law is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-property-mutation",
+      "family": "ho4-refusal-property-mutation",
+      "type": "insufficient_evidence",
+      "question": "How do I get property mutation done in Uttar Pradesh?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Land revenue law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Land revenue law is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-medical-negligence",
+      "family": "ho4-refusal-medical-negligence",
+      "type": "insufficient_evidence",
+      "question": "Can I sue a hospital for medical negligence?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Tort and consumer law are outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Tort and consumer law are outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-aadhaar-update",
+      "family": "ho4-refusal-aadhaar-update",
+      "type": "insufficient_evidence",
+      "question": "How do I update my address on Aadhaar?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Identity documents are outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Identity documents are outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-canada-pr",
+      "family": "ho4-refusal-canada-pr",
+      "type": "insufficient_evidence",
+      "question": "What are the requirements for permanent residence in Canada?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Foreign law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Foreign law is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-uae-vat",
+      "family": "ho4-refusal-uae-vat",
+      "type": "insufficient_evidence",
+      "question": "What is the VAT rate in the UAE?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Foreign law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Foreign law is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-australia-company",
+      "family": "ho4-refusal-australia-company",
+      "type": "insufficient_evidence",
+      "question": "How do I register a company in Australia?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Foreign law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Foreign law is outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-llp-act-555",
+      "family": "ho4-refusal-llp-act-555",
+      "type": "insufficient_evidence",
+      "question": "What does section 555 of the Limited Liability Partnership Act, 2008 provide?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "The section does not exist.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: The section does not exist.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-trade-marks-888",
+      "family": "ho4-refusal-trade-marks-888",
+      "type": "insufficient_evidence",
+      "question": "What does section 888 of the Trade Marks Act, 1999 say?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "The section does not exist.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: The section does not exist.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-defamation",
+      "family": "ho4-refusal-defamation",
+      "type": "insufficient_evidence",
+      "question": "Is posting a negative review online defamation in India?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Criminal and tort law are outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Criminal and tort law are outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-domestic-violence",
+      "family": "ho4-refusal-domestic-violence",
+      "type": "insufficient_evidence",
+      "question": "How do I file a domestic violence complaint?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Criminal and family law are outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Criminal and family law are outside the corpus.",
+        "ambiguity": null
+      }
+    },
+    {
+      "split": "heldout",
+      "legalCategory": "all",
+      "jurisdiction": "India",
+      "expectedSections": [],
+      "connectedSections": [],
+      "expectAbstention": true,
+      "id": "ho4-refusal-vehicle-registration",
+      "family": "ho4-refusal-vehicle-registration",
+      "type": "insufficient_evidence",
+      "question": "How do I transfer vehicle registration to another state?",
+      "expectedFacts": [],
+      "acceptableDocuments": [],
+      "note": "Motor vehicle law is outside the corpus.",
+      "provenance": {
+        "source": "none",
+        "locators": [],
+        "reviewStatus": "ai_source_verified",
+        "reviewMethod": "Refusal basis: Motor vehicle law is outside the corpus.",
+        "ambiguity": null
+      }
+    }
+  ]
+}

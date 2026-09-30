@@ -25,6 +25,7 @@ question
   → (as-of date)          swap in the historical text in force on that date, or decline
   → compose               extract composer (no model) or Azure OpenAI
   → verify                claim verifier; withhold if any claim is contradicted
+  → select                confidence below threshold: return sources instead of the answer
   → answer + citations + warnings
 ```
 
@@ -45,23 +46,25 @@ question
 ### Composition
 
 - `DeterministicExtractComposer` (in `rag-service.ts`): picks the evidence sentences that best match the question (IDF-weighted). Free and deterministic; used for tests, CI and the no-model benchmarks.
-- `AzureOpenAiComposer` (`generation/azure-openai.ts`): sends the question and the evidence as an untrusted JSON packet with a system prompt that forbids outside facts, requires exact quotations, and defines an abstain marker. Entra ID authentication, 30 s timeout, no automatic retries, token usage recorded.
+- `AzureOpenAiComposer` (`generation/azure-openai.ts`): sends the question and the evidence as an untrusted JSON packet with a system prompt that forbids outside facts, requires exact quotations, and defines an abstain marker. Entra ID authentication, a timeout equal to the answer deadline (60 s by default), no automatic retries, token usage recorded.
 
 ### Verification (`src/rag/verification/claim-verifier.ts`)
 
 The answer is split into claims (sentences and list items, with the lead-in of each list). Each claim is matched to the best-supporting span of the cited evidence, then checked for:
 
-| Check             | Example it catches                                                                                                      |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Check             | Example it catches                                                                                                                                               |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Citation binding  | "Under section 999 …" when section 999 was never retrieved; "Under section 5, <text of section 4>" when another retrieved section states the claim word for word |
-| Quotations        | quoted words that do not appear verbatim in the evidence                                                                |
-| Numbers and dates | "within 60 days" when the source says thirty; "1st April" and "1 April" compare equal                                   |
-| Polarity          | "shall not" vs "shall", compared clause by clause; numeric caps ("no person shall … more than twenty") equal "up to 20" |
-| Modality          | "may" vs "shall"                                                                                                        |
-| Verbatim edits    | a sentence copied word for word except for its negation or modal words ("shall have effect" for "shall not have effect") |
-| Denied exceptions | "without exception" when the source has a proviso                                                                       |
+| Quotations        | quoted words that do not appear verbatim in the evidence                                                                                                         |
+| Numbers and dates | "within 60 days" when the source says thirty; "1st April" and "1 April" compare equal                                                                            |
+| Polarity          | "shall not" vs "shall", compared clause by clause; numeric caps ("no person shall … more than twenty") equal "up to 20"                                          |
+| Modality          | "may" vs "shall"                                                                                                                                                 |
+| Verbatim edits    | a sentence copied word for word except for its negation or modal words ("shall have effect" for "shall not have effect")                                         |
+| Denied exceptions | "without exception" when the source has a proviso                                                                                                                |
 
 Policy (`rag-service.ts`): any contradicted claim, fabricated citation or fabricated quotation, or fewer than half the claims supported, and the answer is **withheld**. A warning is added when the cited text has provisos the answer does not mention.
+
+Selective answering (`answerConfidence` in `rag-service.ts`): a verified answer scores `supported-claim share × mean match score of supported claims`, halved if it hedges ("the evidence does not state ..."). Below `CONFIDENCE_THRESHOLD` (0.70 with the Azure composer, chosen on the dev set) the response keeps the citations but replaces the answer with a sources-only message. Every response carries `confidence`.
 
 ### Point-in-time answers (`src/rag/temporal/historical-provision-store.ts`)
 

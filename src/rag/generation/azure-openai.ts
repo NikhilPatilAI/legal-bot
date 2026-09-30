@@ -83,7 +83,10 @@ export function createAzureRagClients(config: AzureRagConfig) {
 // Generation-only client for offline evaluation over local retrieval. Uses the
 // same Entra ID credential chain, no SDK retries, and the same deadline.
 export function createAzureGenerationClient(
-  config: Pick<AzureRagConfig, 'openAiEndpoint' | 'generationDeployment' | 'openAiApiVersion'>,
+  config: Pick<AzureRagConfig, 'openAiEndpoint' | 'generationDeployment' | 'openAiApiVersion'> & {
+    /** Client timeout; should match the service's answer deadline. */
+    timeoutMs?: number;
+  },
 ): AzureOpenAI {
   const azureADTokenProvider = getBearerTokenProvider(
     new DefaultAzureCredential(),
@@ -101,7 +104,7 @@ export function createAzureGenerationClient(
     apiKey: '',
     azureADTokenProvider,
     maxRetries: 0,
-    timeout: 30_000,
+    timeout: config.timeoutMs ?? 60_000,
   });
 }
 

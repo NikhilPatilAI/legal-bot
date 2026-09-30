@@ -50,6 +50,7 @@ export async function createRagService(config: AppConfig): Promise<LegalRagServi
     verifier,
     0.5,
     history,
+    rag.confidenceThreshold,
   );
 }
 
@@ -109,6 +110,7 @@ function createComposer(config: AppConfig): RagComposer {
       openAiEndpoint: rag.azure.openAiEndpoint!,
       generationDeployment: rag.azure.generationDeployment!,
       openAiApiVersion: rag.azure.openAiApiVersion,
+      timeoutMs: rag.answerTimeoutMs,
     }),
     rag.azure.generationDeployment!,
   );
